@@ -106,8 +106,8 @@ CREATE TABLE employee_project (
       FOREIGN KEY (empID) REFERENCES employees(empID)
     );\n""")
 
-    start_date = date(2020, 1, 1)
-    end_date = date(2025, 12, 31)
+    start_date = date(2024, 1, 1)
+    end_date = date(2024, 12, 31)
     delta = timedelta(days=1)
 
     # Calculate total days
