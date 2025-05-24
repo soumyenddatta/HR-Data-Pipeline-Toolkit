@@ -15,7 +15,7 @@ asset_types = ['Laptop', 'Mobile', 'Access Card', 'Monitor', 'Keyboard', 'Mouse'
 asset_statuses = ['Issued', 'Returned', 'Lost']
 benefits = ['Health Insurance', 'Stock Options', 'Paid Vacation', 'Gym Membership', 'Transport Allowance']
 leave_statuses = ['Approved', 'Rejected', 'Pending']
-months = [datetime(2023, m, 1).strftime('%B %Y') for m in range(1, 13)]
+months = [datetime(2020, m, 1).strftime('%B %Y') for m in range(1, 13)]
 
 with open('company_database_full.sql', 'w') as f:
     f.write("CREATE DATABASE IF NOT EXISTS company_db;\nUSE company_db;\n\n")
@@ -106,8 +106,8 @@ CREATE TABLE employee_project (
       FOREIGN KEY (empID) REFERENCES employees(empID)
     );\n""")
 
-    start_date = date(2024, 1, 1)
-    end_date = date(2024, 12, 31)
+    start_date = date(2020, 1, 1)
+    end_date = date(2025, 12, 31)
     delta = timedelta(days=1)
 
     # Calculate total days
