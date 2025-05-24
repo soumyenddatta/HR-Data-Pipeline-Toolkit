@@ -205,7 +205,42 @@ pip install -r requirements.txt
 
 Setup MySQL and update credentials in the Python scripts as needed.
 
-### 1.6 Directory Structure and File Roles
+### 📦 What’s Inside `requirements.txt`?
+
+The `requirements.txt` file includes all the Python packages required to run every stage of the HR Data Pipeline:
+
+```commandline
+mysql-connector-python
+pymysql
+sqlalchemy
+pandas
+openpyxl
+tqdm
+faker
+colorama
+```
+
+Each library supports a critical part of the system:
+
+| Package                  | Used For                                   |
+| ------------------------ | ------------------------------------------ |
+| `mysql-connector-python` | Connecting to MySQL databases              |
+| `pymysql`                | SQLAlchemy's MySQL compatibility           |
+| `sqlalchemy`             | Running SQL queries using pandas           |
+| `pandas`                 | Reading/writing CSV and Excel files        |
+| `openpyxl`               | Exporting to `.xlsx` files with formatting |
+| `tqdm`                   | Progress bars in terminal                  |
+| `faker`                  | Generating fake HR data in `main.py`       |
+| `colorama`               | Adding color to terminal messages          |
+
+
+To install these, simply run:
+
+```commandline
+pip install -r requirements.txt
+```
+
+### 1.7 Directory Structure and File Roles
 
 ```
 hr-data-pipeline/

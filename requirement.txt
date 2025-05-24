@@ -1,2 +1,8 @@
 mysql-connector-python
-Faker
+pymysql
+sqlalchemy
+pandas
+openpyxl
+tqdm
+faker
+colorama
