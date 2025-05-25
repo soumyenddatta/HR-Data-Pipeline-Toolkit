@@ -329,3 +329,29 @@ Run started at 2025-05-26 04:46:08.596819
 2025-05-26 04:46:22,377 - Exporting table: training
 2025-05-26 04:46:22,415 - Wrote sheet: training with 1017 rows
 2025-05-26 04:46:35,551 - Export process complete.
+
+========================================
+Run started at 2025-05-26 04:59:03.662056
+2025-05-26 04:59:03,683 - Exporting table: assets
+2025-05-26 04:59:03,772 - Wrote sheet: assets with 1475 rows
+2025-05-26 04:59:03,778 - Exporting table: attendance
+2025-05-26 04:59:14,955 - Wrote sheet: attendance with 396000 rows
+2025-05-26 04:59:15,539 - Exporting table: bonuses
+2025-05-26 04:59:15,585 - Wrote sheet: bonuses with 1490 rows
+2025-05-26 04:59:15,585 - Exporting table: departments
+2025-05-26 04:59:15,601 - Wrote sheet: departments with 8 rows
+2025-05-26 04:59:15,601 - Exporting table: employee_benefits
+2025-05-26 04:59:15,635 - Wrote sheet: employee_benefits with 1537 rows
+2025-05-26 04:59:15,635 - Exporting table: employee_project
+2025-05-26 04:59:15,710 - Wrote sheet: employee_project with 2984 rows
+2025-05-26 04:59:15,726 - Exporting table: employees
+2025-05-26 04:59:15,806 - Wrote sheet: employees with 1000 rows
+2025-05-26 04:59:15,806 - Exporting table: leaves
+2025-05-26 04:59:15,899 - Wrote sheet: leaves with 1990 rows
+2025-05-26 04:59:15,907 - Exporting table: payroll
+2025-05-26 04:59:16,639 - Wrote sheet: payroll with 12000 rows
+2025-05-26 04:59:16,671 - Exporting table: projects
+2025-05-26 04:59:17,735 - Wrote sheet: projects with 25000 rows
+2025-05-26 04:59:17,804 - Exporting table: training
+2025-05-26 04:59:17,847 - Wrote sheet: training with 1011 rows
+2025-05-26 04:59:31,774 - Export process complete.
