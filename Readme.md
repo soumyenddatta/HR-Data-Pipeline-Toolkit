@@ -435,6 +435,10 @@ Let’s look at each table created by the script:
 | assets             | Issued hardware/assets          | 0–3 per employee   |
 | employee\_benefits | HR perks                        | 0–3 per employee   |
 
+> _This documentation data was based on initial data testing. The `main.py` has been changed now.
+> You can see the attendance count reduces to `1 year`. It contains about `4 - 5 Lacs` of entries only.
+> We have to do it because of memory restriction, but you can change and modify the data according to you_
+
 That’s millions of records simulated realistically.
 - 
 
