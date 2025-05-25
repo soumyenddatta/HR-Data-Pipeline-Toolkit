@@ -375,3 +375,9 @@ Run started at 2025-05-26 05:03:19.284320
 2025-05-26 05:03:32,106 - Exporting table: leaves
 2025-05-26 05:03:32,187 - Wrote sheet: leaves with 1990 rows
 2025-05-26 05:03:32,194 - Exporting table: payroll
+2025-05-26 05:03:33,391 - Wrote sheet: payroll with 12000 rows
+2025-05-26 05:03:33,427 - Exporting table: projects
+2025-05-26 05:03:34,586 - Wrote sheet: projects with 25000 rows
+2025-05-26 05:03:34,654 - Exporting table: training
+2025-05-26 05:03:34,698 - Wrote sheet: training with 1011 rows
+2025-05-26 05:03:50,038 - Export process complete.
