@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b6ec3d4-5159-4006-9830-3835fd77cd17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/attendance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bonuses.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/company_database_full.sql" beforeDir="false" afterPath="$PROJECT_DIR$/company_database_full.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departments.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_benefits.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee_project.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leaves.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/output.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payroll.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/process.log" beforeDir="false" afterPath="$PROJECT_DIR$/process.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/training.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
