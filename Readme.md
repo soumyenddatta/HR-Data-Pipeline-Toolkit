@@ -279,6 +279,7 @@ hr-data-pipeline/
 │ ├── *.csv # CSV exports per table
 │ ├── output.xlsx # Final Excel workbook
 │ ├── process.log # Logs from conversion scripts
+│ ├── hr_er_diagram.png
 
 ```
 
@@ -474,9 +475,8 @@ erDiagram
 
 ✅ ER Diagram Visual:
 
-```markdown
-![HR Database ER Diagram](dump/hr_er_diagram.png)
-```
+
+![HR Database ER Diagram](./dump/hr_er_diagram.png)
 
 
 ---
