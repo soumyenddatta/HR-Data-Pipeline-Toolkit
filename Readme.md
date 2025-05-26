@@ -473,10 +473,38 @@ erDiagram
 
 ---
 
-✅ ER Diagram Visual:
+### ✅ ER Diagram Visual representation:
 
 
 ![HR Database ER Diagram](./dump/hr_er_diagram.png)
+
+
+
+### 📊 ER Diagram (Visual Overview)
+This ER diagram illustrates the **HR Data Pipeline Toolkit's relational database schema**, showing how the tables are connected. It highlights the key relationships between entities like employees, departments, projects, and associated HR data such as attendance, payroll, bonuses, and training.
+
+Each table includes its primary and foreign keys, enabling you to understand the **one-to-many** and **many-to-many** relationships in the system.
+
+**For example:-**
+
+- `employees` is the central entity, connected to multiple tables like attendance, bonuses, and assets. 
+- `departments` has a one-to-many relationship with employees and projects. 
+- `employee_project` is a mapping table linking employees and projects in a many-to-many relationship.
+
+The diagram provides a visual representation of the database design, aiding both technical and non-technical users in understanding the data flow.
+
+
+> 📊 **Visualizing the Data Pipeline: The HR Database Schema**
+>
+> Understanding the relationships between tables is crucial for exploring and using the HR Data Pipeline Toolkit effectively.  
+> This ER diagram provides a clear, high-level overview of the core data model — illustrating how employees, departments, projects, and HR processes like payroll, bonuses, and training are interconnected.
+>
+> Use this visual guide to navigate the database, design SQL queries, and understand the data structure before diving into the scripts.
+
+
+![HR Database ER Diagram](./dump/hr_er_diagram_2.png)
+
+
 
 
 ---
