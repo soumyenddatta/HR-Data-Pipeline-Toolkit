@@ -188,16 +188,18 @@ Real HR data is sensitive and inaccessible for learning. Simulating it offers:
 * MySQL 8.0+
 * `pip install` packages: `faker`, `pandas`, `sqlalchemy`, `pymysql`, `tqdm`, `openpyxl`, `colorama`
 
+**Hardware**:
+
+* 4 GB RAM minimum
+* 1–2 GB free disk space
+
 ### 🔑 **MySQL Credentials**:
 
 > Ensure your MySQL username, password, and host in the scripts match your setup.  
 Edit the `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_HOST` variables in the scripts as needed.
 
+---
 
-**Hardware**:
-
-* 4 GB RAM minimum
-* 1–2 GB free disk space
 
 ### 1.5 Installation Guide
 
