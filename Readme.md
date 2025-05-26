@@ -259,6 +259,8 @@ hr-data-pipeline/
 * `*.csv`: One for each table
 * `process.log`: Log of Excel export process
 
+> _You Might not able to see the `* .CSV` files. It looks messy in this repository. However, we will find a way to share the details with you_
+
 ---
 
 # 🛠️ Chapter 2: Generating Realistic HR Data (`main.py`)

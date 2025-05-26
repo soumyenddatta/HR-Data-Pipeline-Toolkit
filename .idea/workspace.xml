@@ -7,7 +7,8 @@
     <list default="true" id="9b6ec3d4-5159-4006-9830-3835fd77cd17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company_database_full.sql" beforeDir="false" afterPath="$PROJECT_DIR$/company_database_full.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script_from_csv_to_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_from_csv_to_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script_to_CSV_from_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_to_CSV_from_sql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

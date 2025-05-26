@@ -2,6 +2,8 @@ import mysql.connector
 from sqlalchemy import create_engine
 import pandas as pd
 from tqdm import tqdm
+import os  # ← ADDED: To manage the dump directory
+import time  # ← ADDED: For timestamps in logging
 
 # Terminal colors
 GREEN = '\033[92m'
@@ -16,6 +18,15 @@ MYSQL_USER = 'root'
 MYSQL_PASSWORD = '17111998'
 MYSQL_HOST = 'localhost'
 MYSQL_DB = 'company_db'
+
+# Create dump directory if not exists
+DUMP_DIR = os.path.join('.', 'dump')  # ← ADDED
+os.makedirs(DUMP_DIR, exist_ok=True)
+
+LOG_FILE = os.path.join(DUMP_DIR, 'process.log')  # ← ADDED: Log file path
+with open(LOG_FILE, 'a', encoding='utf-8') as log:
+    log.write(f"___________________________________________________________________________________________"
+              f"\n [{time.strftime('%Y-%m-%d %H:%M:%S')}] || CSV Conversion Log || Database = '{MYSQL_DB}' \n")
 
 # Connect using mysql.connector
 conn = mysql.connector.connect(
@@ -47,9 +58,20 @@ print(f"\n{YELLOW}📁 Starting export to CSV files...{RESET}\n")
 for i, table in enumerate(tqdm(tables, desc="Exporting Tables", unit="table", colour="blue")):
     tqdm.write(f"{GREEN}📤 Exporting table {i+1}/{total_tables}: {table}{RESET}")
     df = pd.read_sql(f"SELECT * FROM `{table}`", engine)
-    df.to_csv(f"{table}.csv", index=False)
+
+    # Save CSV to dump folder
+    output_path = os.path.join(DUMP_DIR, f"{table}.csv")
+    df.to_csv(output_path, index=False)  # ← MODIFIED
+
+    # Log to process.log
+    with open(LOG_FILE, 'a', encoding='utf-8') as log:
+        log.write(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Exported '{table}' "
+                  f" with {len(df)} rows to '{output_path}'\n")  # ← ADDED
 
 cursor.close()
 conn.close()
+
+with open(LOG_FILE, 'a', encoding='utf-8') as log:
+    log.write(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] Exported to CSV form Database '{MYSQL_DB}' \n\n")
 
 print(f"\n{GREEN}✅ Export completed. All tables written to CSV.{RESET}")
