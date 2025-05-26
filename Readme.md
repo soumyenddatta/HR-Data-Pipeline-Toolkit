@@ -188,6 +188,12 @@ Real HR data is sensitive and inaccessible for learning. Simulating it offers:
 * MySQL 8.0+
 * `pip install` packages: `faker`, `pandas`, `sqlalchemy`, `pymysql`, `tqdm`, `openpyxl`, `colorama`
 
+### 🔑 **MySQL Credentials**:
+
+> Ensure your MySQL username, password, and host in the scripts match your setup.  
+Edit the `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_HOST` variables in the scripts as needed.
+
+
 **Hardware**:
 
 * 4 GB RAM minimum
@@ -266,8 +272,21 @@ hr-data-pipeline/
 ├── script_from_csv_to_excel.py
 ├── script_to_excel_from_sql.py
 ├── company_database_full.sql
-├── output.xlsx
-└── README.md
+├── README.md
+├── dump/
+│ ├── *.csv # CSV exports per table
+│ ├── output.xlsx # Final Excel workbook
+│ ├── process.log # Logs from conversion scripts
+
+```
+
+### ✅ Output Files & Formats Table — Add These Rows:
+
+```commandline
+| dump/*.csv                | Individual CSV exports per table |
+| dump/output.xlsx          | Final Excel workbook with sheets |
+| dump/process.log          | Logs for CSV/Excel conversion     |
+
 ```
 
 **Optional Outputs**:
@@ -275,7 +294,176 @@ hr-data-pipeline/
 * `*.csv`: One for each table
 * `process.log`: Log of Excel export process
 
-> _You Might not able to see the `* .CSV` files. It looks messy in this repository. However, we will find a way to share the details with you_
+---
+
+## 🗺️ ER Diagram: HR Database Schema Overview
+
+### 📊 ER Diagram Overview
+Here’s the high-level plan:
+
+#### 🎯 Main Entities:
+
+- departments 
+- employees 
+- projects 
+- employee_project (many-to-many mapping)
+- attendance 
+- bonuses 
+- payroll 
+- leaves 
+- training 
+- assets
+
+#### 🎯 Relationships:
+
+- employees ↔ departments (many-to-one)
+- employee_project ↔ employees (many-to-one)
+- employee_project ↔ projects (many-to-one)
+- Other tables (attendance, bonuses, payroll, leaves, training, assets) ↔ employees (many-to-one)
+
+### 📝 ER Diagram Textual Draft
+
+```commandline
++--------------------+        +-----------------+
+|    departments     | 1     ∞|    employees    |
+|--------------------|--------|-----------------|
+| department_id (PK) |        | empID (PK)      |
+| department_name    |        | name            |
+|                    |        | department_id (FK) ---> departments
++--------------------+        | ...             |
+                              +-----------------+
+                                      ∞
+                                      |
+                                      |
+                                      |1
+                              +------------------+
+                              |     projects     |
+                              |------------------|
+                              | project_id (PK)  |
+                              | department_id FK |
+                              | ...              |
+                              +------------------+
+
+         +-------------------+            +------------------+
+         | employee_project  |<---------->|    employees     |
+         |-------------------|            |------------------|
+         | empID (FK)        |            | empID (PK)       |
+         | project_id (FK)   |            | ...              |
+         | role_in_project   |            +------------------+
+         | assigned_date     |
+         +-------------------+
+                ∞
+                |
+                | 1
+         +---------------+
+         |   projects    |
+         +---------------+
+
+Other tables with FK to employees:
+----------------------------------
++-------------+      +-------------+      +--------------+
+|  attendance |      |   bonuses   |      |    payroll   |
+|-------------|      |-------------|      |--------------|
+| empID (FK)  |      | empID (FK)  |      | empID (FK)   |
+| ...         |      | ...         |      | ...          |
++-------------+      +-------------+      +--------------+
+
++-------------+      +--------------+     +-------------+
+|    leaves   |      |   training   |     |   assets    |
+|-------------|      |--------------|     |-------------|
+| empID (FK)  |      | empID (FK)   |     | empID (FK)  |
+| ...         |      | ...          |     | ...         |
++-------------+      +--------------+     +-------------+
+
+```
+### 📘 Exact Markdown Snippet to Insert:
+
+Understanding the relationships between tables is crucial for exploring and using the HR Data Pipeline. Here's the visual structure of the database:
+
+```commandline
+erDiagram
+    departments ||--o{ employees : has
+    departments ||--o{ projects : has
+    employees ||--o{ employee_project : assigned
+    projects ||--o{ employee_project : includes
+
+    employees ||--o{ attendance : logs
+    employees ||--o{ bonuses : receives
+    employees ||--o{ payroll : paid
+    employees ||--o{ leaves : applies
+    employees ||--o{ training : attends
+    employees ||--o{ assets : assigned
+
+    departments {
+        int department_id PK
+        varchar department_name
+    }
+
+    employees {
+        int empID PK
+        varchar employee_name
+        int department_id FK
+        ...
+    }
+
+    projects {
+        int project_id PK
+        int department_id FK
+        ...
+    }
+
+    employee_project {
+        int empID FK
+        int project_id FK
+        varchar role_in_project
+        date assigned_date
+    }
+
+    attendance {
+        int empID FK
+        date date
+        enum status
+    }
+
+    bonuses {
+        int empID FK
+        int hours_overtime
+        int bonus_amount
+        date bonus_date
+    }
+
+    payroll {
+        int empID FK
+        varchar month
+        int base_salary
+        ...
+    }
+
+    leaves {
+        int empID FK
+        enum leave_type
+        date start_date
+        date end_date
+        enum status
+    }
+
+    training {
+        int empID FK
+        varchar training_name
+        date start_date
+        date end_date
+        enum status
+    }
+
+    assets {
+        int empID FK
+        varchar asset_name
+        varchar asset_type
+        date purchase_date
+        enum status
+    }
+```
+
 
 ---
 
@@ -453,9 +641,9 @@ Let’s look at each table created by the script:
 | assets             | Issued hardware/assets          | 0–3 per employee   |
 | employee\_benefits | HR perks                        | 0–3 per employee   |
 
-> _This documentation data was based on initial data testing. The `main.py` has been changed now.
-> You can see the attendance count reduces to `1 year`. It contains about `4 - 5 Lacs` of entries only.
-> We have to do it because of memory restriction, but you can change and modify the data according to you_
+### ⚠️ Note: 
+> The script currently generates attendance data for 1 year by default (instead of 5 years) for performance reasons.  
+You can adjust this in `main.py` by modifying the `start_date` and `end_date` ranges.
 
 That’s millions of records simulated realistically.
 - 
@@ -756,6 +944,15 @@ No need to manually delete anything — this makes it clean and repeatable.
     - Lightweight and human-readable 
     - Excellent for backups, sharing, and reporting
   
+> 📂 All `CSV` files are saved in the `dump/` directory by default.  
+Ensure this directory exists (the script will create it automatically if missing).
+
+### 📝 Logging:
+- A `process.log` file is generated in the `dump/` directory.
+- Logs include `timestamps`, `table names`, `row counts`, and any `errors` during export.
+- Useful for troubleshooting and verifying successful runs.
+
+
   ### 🎯 Goal of This Script
    > To automatically extract each SQL table from company_db into its own CSV file, without needing to run any manual SQL queries.
 
@@ -960,6 +1157,11 @@ CSV files are plain-text and simple — great for data interchange, but:
 | Auto-size columns       | ✅                  |
 | Handle massive datasets | ✅                  |
 | Add progress bars       | ✅                  |
+
+📂 All input CSV files must be placed in the `dump/` directory, and the final Excel (`output.xlsx`) and `process.log` are also saved there.
+
+
+
 ---
 
 ## 📂 Subchapter 5.2 – Reading Multiple CSV Files Dynamically
@@ -1007,6 +1209,11 @@ If `attendance.csv` has **2.4 million rows, you’ll get:**
 | attendance\_part3 | Remaining |
 
 
+### ⚠️ Note: 
+
+If a `CSV` has more rows than Excel’s maximum (1,048,576), the script automatically splits it into multiple sheets (e.g., `attendance_part1`, `attendance_part2`).
+
+
 ### ✅ Code That Handles It
 ```commandline
 for i in trange(chunks):
@@ -1014,6 +1221,12 @@ for i in trange(chunks):
     chunk.to_excel(writer, sheet_name=sheet_name, index=False)
 ```
 So even massive tables are neatly handled!
+
+### 📝 Logging:
+- A `process.log` file is generated in the `dump/` directory.
+- Logs include timestamps, file names, sheet names, row counts, and processing times.
+
+
 
 ---
 ## 🧾 Subchapter 5.4 – Auto-Formatting Excel Sheets
@@ -1142,6 +1355,10 @@ Working with CSV files has drawbacks:
 - Automated reporting jobs 
 - Deliverables for external stakeholders
 
+
+>> 📂 All output files, including the final Excel (`output.xlsx`) and logs (`process.log`), are saved in the `dump/` directory.
+
+
 ---
 
 ## 🔌 Subchapter 6.2 – Excel Sheet Limits & Chunk Management
@@ -1168,6 +1385,11 @@ df.iloc[start:end]
 ```
 
 to generate each sheet.
+
+
+>> ⚠️ Large tables exceeding Excel’s row limit (1,048,576 rows) are automatically split into multiple sheets (e.g., `attendance_part1`, `attendance_part2`, etc.).
+
+
 ---
 
 ## 📋 Subchapter 6.3 – Auto-Fit Columns and Naming Conventions
@@ -1195,6 +1417,12 @@ worksheet.column_dimensions[get_column_letter(col_idx)].width = max_length + 2
 
 
 Automatically created — you don’t need to configure this manually.
+
+
+### 📝 Logging:
+- The script writes detailed logs to `dump/process.log`.
+- Logs include timestamps, table names, chunk info, and row counts.
+- Helps track progress and troubleshoot large exports.
 
 ---
 
