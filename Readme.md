@@ -296,6 +296,8 @@ hr-data-pipeline/
 * `*.csv`: One for each table
 * `process.log`: Log of Excel export process
 
+>> We are constantly updating and upgrading these files and its parameters. You will always see the changes in it
+
 ---
 
 ## 🗺️ ER Diagram: HR Database Schema Overview
