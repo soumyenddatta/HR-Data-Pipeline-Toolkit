@@ -296,7 +296,7 @@ hr-data-pipeline/
 * `*.csv`: One for each table
 * `process.log`: Log of Excel export process
 
->> We are constantly updating and upgrading these files and its parameters. You will always see the changes in it
+> We are constantly updating and upgrading these files and its parameters. You will always see the changes in it
 
 ---
 
@@ -466,6 +466,16 @@ erDiagram
         date purchase_date
         enum status
     }
+```
+
+
+
+---
+
+✅ ER Diagram Visual:
+
+```markdown
+![HR Database ER Diagram](dump/hr_er_diagram.png)
 ```
 
 
