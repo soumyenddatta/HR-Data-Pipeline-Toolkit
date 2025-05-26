@@ -26,6 +26,10 @@ MYSQL_DB = 'company_db'
 # Excel limits
 MAX_EXCEL_ROWS = 1048576
 
+# Ensure dump directory exists  ← ADDED
+DUMP_DIR = os.path.join('.', 'dump')  # ← ADDED
+os.makedirs(DUMP_DIR, exist_ok=True)  # ← ADDED
+
 # Connect to MySQL
 conn = mysql.connector.connect(
     host=MYSQL_HOST,
@@ -47,7 +51,7 @@ tables = [row[0] for row in cursor.fetchall()]
 print(f"\n{YELLOW}Total tables to export: {len(tables)}{RESET}\n")
 
 # Setup logging
-log_file = "process.log"
+log_file = os.path.join(DUMP_DIR, "process.log")  # ← MODIFIED: Log file in dump
 logging.basicConfig(filename=log_file, level=logging.INFO, format='%(asctime)s - %(message)s')
 if os.path.exists(log_file):
     with open(log_file, 'a') as f:
@@ -55,7 +59,8 @@ if os.path.exists(log_file):
 
 # Progress bar for exporting tables
 excel_writer_progress = tqdm(total=1, desc=GREEN + "📁 Opening ExcelWriter..." + RESET, colour='green')
-with pd.ExcelWriter('output.xlsx', engine='openpyxl') as writer:
+output_excel_path = os.path.join(DUMP_DIR, 'output.xlsx')  # ← ADDED: Excel file path in dump
+with pd.ExcelWriter(output_excel_path, engine='openpyxl') as writer:  # ← MODIFIED
     excel_writer_progress.update(1)
     excel_writer_progress.set_description_str(GREEN + "✅ ExcelWriter ready" + RESET)
     excel_writer_progress.close()
@@ -95,8 +100,6 @@ with pd.ExcelWriter('output.xlsx', engine='openpyxl') as writer:
                 logging.debug(f"Column {col} width set")
 
 print(f"{GREEN}🎉 Export complete!{RESET}")
-
 logging.info("Export process complete.")
-
 
 print(f"\n{GREEN}Export completed successfully!{RESET}")

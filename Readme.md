@@ -210,14 +210,14 @@ Setup MySQL and update credentials in the Python scripts as needed.
 The `requirements.txt` file includes all the Python packages required to run every stage of the HR Data Pipeline:
 
 ```commandline
-mysql-connector-python
-pymysql
-sqlalchemy
 pandas
+mysql-connector-python
+SQLAlchemy
+PyMySQL
 openpyxl
 tqdm
-faker
 colorama
+faker
 ```
 
 Each library supports a critical part of the system:
@@ -232,6 +232,22 @@ Each library supports a critical part of the system:
 | `tqdm`                   | Progress bars in terminal                  |
 | `faker`                  | Generating fake HR data in `main.py`       |
 | `colorama`               | Adding color to terminal messages          |
+
+
+### 📦 Explanation of Each Package:
+
+| Package                  | Used In                                           | Purpose                                             |
+| ------------------------ | ------------------------------------------------- | --------------------------------------------------- |
+| `pandas`                 | All scripts                                       | DataFrame manipulation and I/O (CSV/Excel/SQL)      |
+| `mysql-connector-python` | `script_for_sql_loading.py`, others               | Connecting to MySQL using `mysql.connector`         |
+| `SQLAlchemy`             | All SQL-Excel/CSV bridge scripts                  | ORM and engine for SQL interactions with `pandas`   |
+| `PyMySQL`                | All scripts using `create_engine()`               | SQLAlchemy requires this driver to connect to MySQL |
+| `openpyxl`               | Excel export scripts (`script_to_excel_from_sql`) | Writing Excel files with formatting                 |
+| `tqdm`                   | All scripts                                       | Progress bars                                       |
+| `colorama`               | All scripts with terminal colors                  | Terminal ANSI color styling                         |
+| `faker`                  | `main.py`                                         | Synthetic data generation for SQL seed file         |
+
+
 
 
 To install these, simply run:
