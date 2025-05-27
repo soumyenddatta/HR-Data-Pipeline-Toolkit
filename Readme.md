@@ -501,6 +501,7 @@ The diagram provides a visual representation of the database design, aiding both
 >
 > Use this visual guide to navigate the database, design SQL queries, and understand the data structure before diving into the scripts.
 
+---
 
 ![HR Database ER Diagram](./dump/hr_er_diagram_2.png)
 
