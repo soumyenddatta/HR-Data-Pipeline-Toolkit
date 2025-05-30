@@ -64,7 +64,7 @@ This chapter stays lean — only **vision, mission, and goals.**
 - What problems it solves 
 - Benefits of using the toolkit
 
-## 📦 Chapter 2: [Toolkit Structure & Setup](#-chapter-2-toolkit-structure--setup)
+## 📦 [Chapter 2: Toolkit Structure & Setup](#-chapter-2-toolkit-structure--setup)
 Move technical details here — everything users need to set up the project.
 
 This becomes the **technical preface** for the toolkit.
