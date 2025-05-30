@@ -54,16 +54,30 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * Common mistakes & solutions.
 * Exercises and DIY guidance.
 
-## Chapter 1: Introduction to the HR Data Pipeline
+## 📂 Chapter 1: Toolkit Overview & Vision
+Focus on the *why* of the project.
 
-* What is a Data Pipeline?
-* Why Simulate HR Data?
-* Key Components in This Toolkit
-* System Requirements & Prerequisites
-* Installation Guide (Windows/Linux/macOS)
-* Directory Structure and File Roles
+This chapter stays lean — only **vision, mission, and goals.**
 
-## 🛠️ Chapter 2: Generating Realistic HR Data (`main.py`)
+- **Project Vision & Mission** (from your current README)
+- Who is it for? (HR teams, developers, educators, etc.)
+- What problems it solves 
+- Benefits of using the toolkit
+
+## 📦 Chapter 2: Toolkit Structure & Setup
+Move technical details here — everything users need to set up the project.
+
+This becomes the **technical preface** for the toolkit.
+
+- System Requirements & Prerequisites 
+- Directory Structure & File Roles 
+- Output Files & Formats 
+- Installation Guide 
+- MySQL credentials note (from your earlier update)
+- How to run scripts manually
+- ER Diagram for SQL 
+
+## 🛠️ Chapter 3: Generating Realistic HR Data (`main.py`)
 
 * Purpose of SQL Data Generation
 * Overview of Faker, Randomization, and Schema Design
@@ -72,7 +86,7 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * Output Walkthrough: `company_database_full.sql`
 * Customizing Data Parameters (employees, departments, bonuses)
 
-## 🏗️ Chapter 3: Loading the SQL into MySQL (`script_for_sql_loading.py`)
+## 🏗️ Chapter 4: Loading the SQL into MySQL (`script_for_sql_loading.py`)
 
 * Purpose of SQL Loading Script
 * MySQL Connection: Setup & Configuration
@@ -81,7 +95,7 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * Output Verification: Was Everything Created?
 * Error Handling and Recovery
 
-## 💾 Chapter 4: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)
+## 💾 Chapter 5: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)
 
 * Introduction to SQL → CSV Conversion
 * Establishing Connection with SQLAlchemy & Pandas
@@ -90,7 +104,7 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * Validating CSVs for Accuracy
 * Common Export Errors & Fixes
 
-## 📤 Chapter 5: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)
+## 📤 Chapter 6: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)
 
 * Why Convert CSV to Excel?
 * Reading Multiple CSV Files Dynamically
@@ -99,7 +113,7 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * Output Sample: `output.xlsx` Explained
 * Troubleshooting: Encoding & Data Issues
 
-## 📊 Chapter 6: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)
+## 📊 Chapter 7: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)
 
 * SQL → Excel: When and Why to Use Direct Export
 * Excel Sheet Limits & Chunk Management
@@ -108,7 +122,7 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * Comparison: SQL → Excel vs CSV → Excel
 * Export Case Study: How a Table Is Converted End-to-End
 
-## 🧪 Chapter 7: Use Cases and Extensions
+## 🧪 Chapter 8: Use Cases and Extensions
 
 * HR Department Use Cases
 * Developer and QA Testing
@@ -117,7 +131,7 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * How to Add New Tables and Scripts
 * Planning for Scaling and Automation
 
-## 🧠 Chapter 8: Beginner’s Guide to Making It Yours
+## 🧠 Chapter 9: Beginner’s Guide to Making It Yours
 
 * Understanding the Code Without Coding Skills
 * Editing SQL Fields and Scripts with a Text Editor
@@ -144,6 +158,13 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 | `*.csv`                     | Per-table CSV exports                               |
 | `process.log`               | Logs from export runs                               |
 | Scripts                     | Python files for each ETL stage                     |
+
+
+> Focus on the **why** of the project.
+> 
+> This chapter stays lean — only **vision, mission, and goals**.
+
+
 
 ### 1.1 What Is a Data Pipeline?
 
@@ -180,7 +201,49 @@ Real HR data is sensitive and inaccessible for learning. Simulating it offers:
 | `script_from_csv_to_excel.py` | Merges CSVs into a single Excel workbook    |
 | `script_to_excel_from_sql.py` | Direct SQL to Excel export                  |
 
-### 1.4 System Requirements & Prerequisites
+
+
+
+### 1.4 Project Vision & Mission
+
+* **Vision**: Bridge the gap between raw data and meaningful understanding by offering a scalable, educational HR data pipeline.
+* **Mission**: Democratize data engineering by enabling anyone to simulate, explore, and learn from realistic HR data.
+
+### 1.5 Who Is This Toolkit For?
+
+* HR teams
+* Developers & QA engineers
+* Data analysts & BI specialists
+* Educators & students
+
+### 1.6 What Problems Does It Solve?
+
+* Lack of accessible, realistic HR data for testing and learning
+* Manual setup headaches for developers, educators, and analysts
+* Need for a self-contained, reproducible data environment
+
+### 1.7 Benefits of Using the Toolkit
+
+* Generate realistic HR data at scale
+* Learn SQL, Excel, and data workflows hands-on
+* Build and test projects without risking sensitive data
+
+---
+
+
+
+
+# 📦 Chapter 2: Toolkit Structure & Setup
+
+> Move **technical details** here — everything users need to **set up** the project.
+> 
+> This becomes the **technical preface** for the toolkit.
+
+
+## 2.1 System Requirements & Prerequisites
+
+
+
 
 **Tools**:
 
@@ -193,15 +256,9 @@ Real HR data is sensitive and inaccessible for learning. Simulating it offers:
 * 4 GB RAM minimum
 * 1–2 GB free disk space
 
-### 🔑 **MySQL Credentials**:
-
-> Ensure your MySQL username, password, and host in the scripts match your setup.  
-Edit the `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_HOST` variables in the scripts as needed.
-
 ---
 
-
-### 1.5 Installation Guide
+## 2.2 Installation Guide
 
 ```bash
 git clone https://github.com/yourusername/hr-data-pipeline.git
@@ -213,7 +270,19 @@ pip install -r requirements.txt
 
 Setup MySQL and update credentials in the Python scripts as needed.
 
-### 📦 What’s Inside `requirements.txt`?
+## 2.3 MySQL Configuration Notes
+
+* Update MySQL credentials (`MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOST`) in scripts.
+* Ensure MySQL is running before using SQL-loading scripts.
+
+
+### 🔑 **MySQL Credentials**:
+
+> Ensure your MySQL username, password, and host in the scripts match your setup.  
+Edit the `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_HOST` variables in the scripts as needed.
+
+
+## 2.4 📦 What’s Inside `requirements.txt`?
 
 The `requirements.txt` file includes all the Python packages required to run every stage of the HR Data Pipeline:
 
@@ -264,7 +333,7 @@ To install these, simply run:
 pip install -r requirements.txt
 ```
 
-### 1.7 Directory Structure and File Roles
+## 2.5 Directory Structure and File Roles
 
 ```
 hr-data-pipeline/
@@ -301,7 +370,7 @@ hr-data-pipeline/
 
 ---
 
-## 🗺️ ER Diagram: HR Database Schema Overview
+## 2.6 🗺️ ER Diagram: HR Database Schema Overview
 
 ### 📊 ER Diagram Overview
 Here’s the high-level plan:
@@ -510,7 +579,7 @@ The diagram provides a visual representation of the database design, aiding both
 
 ---
 
-# 🛠️ Chapter 2: Generating Realistic HR Data (`main.py`)
+# 🛠️ Chapter 3: Generating Realistic HR Data (`main.py`)
 
 In this chapter, we will unpack the heart of your data pipeline: the data generator script, `main.py`. This single file creates a fully-featured mock company database in SQL, including 1,000 employees, 25,000 projects, attendance for multiple years, payroll, assets, training, benefits, and more.
 
@@ -518,7 +587,7 @@ Each of the following subchapters is written for non-technical users, with detai
 
 ---
 
-## 📑 Subchapter 2.1 – Purpose of SQL Data Generation
+## 📑 Subchapter 3.1 – Purpose of SQL Data Generation
 
 **Why simulate SQL data in the first place? Why not just work with an empty database?**
 
@@ -557,7 +626,7 @@ Generating a SQL file:
 
 ---
 
-## ⚙️ Subchapter 2.2 – Overview of Faker, Randomization, and Schema Design
+## ⚙️ Subchapter 3.2 – Overview of Faker, Randomization, and Schema Design
 
 ### 🤖 What is Faker?
 
@@ -609,7 +678,7 @@ Data types like `VARCHAR`, `INT`, and `DATE` are used for flexibility.
 
 ---
 
-## 🛠️ Subchapter 2.3 – How main.py Works: Step-by-Step
+## 🛠️ Subchapter 3.3 – How main.py Works: Step-by-Step
 Let’s break the script into logical blocks.
 
 ## 1. Imports & Setup
@@ -665,7 +734,7 @@ f.write(f"INSERT INTO employees (...) VALUES ('{name}', ..., {salary}, ...);\n")
 - Dates are computed to ensure realistic ranges (e.g., join date after birth date).
 
 
-## 🧮 Subchapter 2.4 – Deep Dive into Tables Created
+## 🧮 Subchapter 3.4 – Deep Dive into Tables Created
 
 Let’s look at each table created by the script:
 -
@@ -698,7 +767,7 @@ That’s millions of records simulated realistically.
 - Foreign key dependencies managed cleanly
 
 
-## 📄 Subchapter 2.5 – Output Walkthrough: company_database_full.sql
+## 📄 Subchapter 3.5 – Output Walkthrough: company_database_full.sql
 Let’s look at a sample from the generated SQL file:
 -
 
@@ -734,7 +803,7 @@ INSERT INTO projects (
 
 You can copy-paste these SQL snippets directly into MySQL Workbench or mysql CLI.
 
-## 🧑‍💻 Subchapter 2.6 – Customizing Data Parameters
+## 🧑‍💻 Subchapter 3.6 – Customizing Data Parameters
 One of the strengths of this toolkit is its editability.
 
 ### 💬 Want More Employees?
@@ -767,7 +836,7 @@ Add any value you like — just remember to keep them in `'quotes'`.
 ### 🛑 Caution with Output Size
 With too many employees or years of attendance, the SQL file can become several gigabytes. Ensure your machine can handle it or filter certain tables out.
 
-### ✅ Chapter 2 Summary
+### ✅ Chapter 3 Summary
 
 - `main.py` is your HR data engine.
 - It uses Faker, random, and loops to generate full company simulation.
@@ -780,11 +849,11 @@ With too many employees or years of attendance, the SQL file can become several 
 
 ---
 
-# 🏗️ Chapter 3: Loading the SQL into MySQL (`script_for_sql_loading.py`)
+# 🏗️ Chapter 4: Loading the SQL into MySQL (`script_for_sql_loading.py`)
 
  > This chapter walks you through how to execute a massive, auto-generated SQL file and safely populate a MySQL database with realistic HR data using a smart, visual, and error-tolerant Python script.
 
-### ⚙️ Subchapter 3.1 – Purpose of SQL Loading Script
+### ⚙️ Subchapter 4.1 – Purpose of SQL Loading Script
 Why do we need a separate script to load the SQL?
 
 ### ✅ Problem It Solves
@@ -812,7 +881,7 @@ Why do we need a separate script to load the SQL?
 This script is your best friend.
 
 
-## 🔍 Subchapter 3.2 – MySQL Connection: Setup & Configuration
+## 🔍 Subchapter 4.2 – MySQL Connection: Setup & Configuration
 The script uses Python’s `mysql.connector` to connect to your MySQL server.
 
 ## 🔧 Default Configuration (edit if needed)
@@ -854,7 +923,7 @@ services.msc → find "MySQL80" and ensure it's "Running"
 
 ```
 
-## 📜 Subchapter 3.3 – Reading & Parsing SQL with Progress Bars
+## 📜 Subchapter 4.3 – Reading & Parsing SQL with Progress Bars
 The script doesn’t just read the file — it does it in buffered chunks to avoid memory overload.
 
 ### ✅ Key Feature
@@ -880,7 +949,7 @@ This lets you monitor exactly how much of the SQL file has been read.
 
 ---
 
-## ⚙️ Subchapter 3.4 – Executing Complex Scripts Safely
+## ⚙️ Subchapter 4.4 – Executing Complex Scripts Safely
 Once the file is read into memory, it’s split into statements:
 ```commandline
 
@@ -907,7 +976,7 @@ except mysql.connector.Error as err:
 - Execution continues (non-blocking).
 
 
-## 🧪 Subchapter 3.5 – Output Verification: Was Everything Created?
+## 🧪 Subchapter 4.5 – Output Verification: Was Everything Created?
 At the end of the script, you should see:
 
 ```commandline
@@ -942,7 +1011,7 @@ You’ll see:
 
 All 12+ tables should be listed.
 
-## 🛠️ Subchapter 3.6 – Error Handling and Recovery
+## 🛠️ Subchapter 4.6 – Error Handling and Recovery
 What happens if something goes wrong?
 
 ### ❌ Syntax or FK Error?
@@ -966,7 +1035,7 @@ cursor.execute(f"DROP DATABASE IF EXISTS `{database_name}`;")
 
 No need to manually delete anything — this makes it clean and repeatable.
 
-## ✅ Chapter 3 Summary
+## ✅ Chapter 4 Summary
 - `script_for_sql_loading.py` takes your giant SQL file and loads it safely into MySQL.
 - It shows progress bars, handles errors, and auto-detects the database name.
 - The script works on large files (500MB+) without crashing or timing out.
@@ -975,12 +1044,14 @@ No need to manually delete anything — this makes it clean and repeatable.
 
 ---
 
-# 💾 Chapter 4: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)
+# 💾 Chapter 5: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)
 
 > Once your SQL database is populated, the next logical step is often to extract the data into more portable and widely-used formats — like CSV. This script does that for every table, fully automated, with progress tracking and error handling.
 
-## 📑 Subchapter 4.1 – Introduction to SQL → CSV Conversion
+## 📑 Subchapter 5.1 – Introduction to SQL → CSV Conversion
+
   ### ❓ Why Export to CSV?
+
   - CSV (Comma-Separated Values) files are:
     - Universally supported across software
     - Easy to open in Excel, Google Sheets, Python, R, etc.
@@ -1011,7 +1082,7 @@ Ensure this directory exists (the script will create it automatically if missing
 
 
 
-## ⚙️ Subchapter 4.2 – Establishing Connection with SQLAlchemy & Pandas
+## ⚙️ Subchapter 5.2 – Establishing Connection with SQLAlchemy & Pandas
 This script uses two database connectors:
 
 ### 1. `mysql.connector`
@@ -1039,7 +1110,7 @@ df = pd.read_sql("SELECT * FROM table_name", engine)
 ```
 - Pandas reads the data into a dataframe, then writes it to a CSV.
 
-## 📋 Subchapter 4.3 – Exporting Each Table with Progress
+## 📋 Subchapter 5.3 – Exporting Each Table with Progress
 The script loops through every discovered table:
 ```commandline
 cursor.execute("SHOW TABLES")
@@ -1059,6 +1130,7 @@ for i, table in enumerate(tqdm(tables, desc="Exporting Tables")):
 - Supports any schema structure
 
 ### 🖼️ Visual Output
+
 ```commandline
 📊 Total tables found in database: 12
 📋 Table names:
@@ -1077,7 +1149,7 @@ for i, table in enumerate(tqdm(tables, desc="Exporting Tables")):
 ```
 ---
 
-## 🧪 Subchapter 4.4 – Customizing Output File Names and Format
+## 🧪 Subchapter 5.4 – Customizing Output File Names and Format
 Want to change the output?
 
 ### 📁 Change File Names:
@@ -1113,13 +1185,18 @@ df.to_csv(..., encoding='utf-8-sig')
 ```
 
 
-## 🧮 Subchapter 4.5 – Validating CSVs for Accuracy
+## 🧮 Subchapter 5.5 – Validating CSVs for Accuracy
+
 ### ✅ Checking File Counts
+
 If you had 12 tables, you should now have:
+
 ```commandline
 ls *.csv
 ```
+
 Output:
+
 ```commandline
 departments.csv
 employees.csv
@@ -1128,16 +1205,20 @@ projects.csv
 ```
 
 ### ✅ Manual Check in Excel or Sheets
+
 Open one of the CSV files (e.g., employees.csv) and verify:
+
 ```commandline
 | empID | employee\_name | age | gender | ... |
 | ----- | -------------- | --- | ------ | --- |
 | 1     | Maria Hanks    | 29  | Female | ... |
 
 ```
+
 Looks great? ✅ You’re good.
 
 ### 🧪 Validation Script (Optional)
+
 Write a small Python script to ensure each CSV is non-empty:
 
 ```commandline
@@ -1150,7 +1231,7 @@ for file in os.listdir():
 
 ```
 
-## ⚠️ Subchapter 4.6 – Common Export Errors & Fixes
+## ⚠️ Subchapter 5.6 – Common Export Errors & Fixes
 
 | Error Message                   | Likely Cause             | Fix                                                   |
 | ------------------------------- | ------------------------ | ----------------------------------------------------- |
@@ -1162,7 +1243,7 @@ for file in os.listdir():
 
 ---
 
-## ✅ Chapter 4 Summary
+## ✅ Chapter 5 Summary
 - `script_to_CSV_from_sql.py` exports every MySQL table into a separate CSV. 
 - Uses `pandas`, `SQLAlchemy`, and `tqdm` for automation, conversion, and feedback. 
 - Great for analysis, sharing, backups, or feeding into Excel/BI tools. 
@@ -1171,11 +1252,11 @@ for file in os.listdir():
 
 ---
 
-# 📤 Chapter 5: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)
+# 📤 Chapter 6: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)
 
 > This chapter guides you through converting multiple CSV files into a unified Excel workbook with individual sheets, using a script that handles large datasets, formatting, and structure with ease — perfect for reports, presentations, or analysis.
 
-## 📑 Subchapter 5.1 – Why Convert CSV to Excel?
+## 📑 Subchapter 6.1 – Why Convert CSV to Excel?
 ### 🧠 The Challenge
 CSV files are plain-text and simple — great for data interchange, but:
 
@@ -1207,7 +1288,8 @@ CSV files are plain-text and simple — great for data interchange, but:
 
 ---
 
-## 📂 Subchapter 5.2 – Reading Multiple CSV Files Dynamically
+## 📂 Subchapter 6.2 – Reading Multiple CSV Files Dynamically
+
 ### 🔍 File Discovery
 
 ```commandline
@@ -1218,6 +1300,7 @@ csv_files = [f for f in os.listdir(INPUT_DIR) if f.lower().endswith('.csv')]
 - You can change it to `'csv_exports/'` if needed
 
 ### 📦 Output File
+
 ```commandline
 OUTPUT_FILE = 'output.xlsx'
 ```
@@ -1234,7 +1317,7 @@ All CSVs will be merged into this single Excel workbook.
 
 ---
 
-## 🧮 Subchapter 5.3 – Chunking Large Data for Excel Constraints
+## 🧮 Subchapter 6.3 – Chunking Large Data for Excel Constraints
 Excel has a row limit:
 ```commandline
 MAX_EXCEL_ROWS = 1048576
@@ -1258,6 +1341,7 @@ If a `CSV` has more rows than Excel’s maximum (1,048,576), the script automati
 
 
 ### ✅ Code That Handles It
+
 ```commandline
 for i in trange(chunks):
     sheet_name = f"{base_name}_part{i+1}" if chunks > 1 else base_name
@@ -1272,7 +1356,7 @@ So even massive tables are neatly handled!
 
 
 ---
-## 🧾 Subchapter 5.4 – Auto-Formatting Excel Sheets
+## 🧾 Subchapter 6.4 – Auto-Formatting Excel Sheets
 One feature that makes this script stand out is the **column auto-sizing:**
 
 ```commandline
@@ -1296,7 +1380,7 @@ This improves **readability** dramatically.
 
 ---
 
-## ⏳ Subchapter 5.5 – Output Sample: `output.xlsx` Explained
+## ⏳ Subchapter 6.5 – Output Sample: `output.xlsx` Explained
 Let’s say you had the following CSVs:
 
 ```commandline
@@ -1335,7 +1419,7 @@ You can now:
 - Share with non-tech users
 
 
-## ⚠️ Subchapter 5.6 – Troubleshooting: Encoding & Data Issues
+## ⚠️ Subchapter 6.6 – Troubleshooting: Encoding & Data Issues
 
 | Problem              | Cause                       | Fix                                               |
 | -------------------- | --------------------------- | ------------------------------------------------- |
@@ -1357,7 +1441,7 @@ This helps you verify chunking is working correctly.
 
 ---
 
-## ✅ Chapter 5 Summary
+## ✅ Chapter 6 Summary
 - `script_from_csv_to_excel.py` reads multiple CSVs and combines them into one clean, formatted Excel workbook. 
 - It splits oversized files, auto-fits columns, and names sheets intuitively. 
 - You get a fully-readable, presentation-ready Excel file in seconds. 
@@ -1368,11 +1452,11 @@ This helps you verify chunking is working correctly.
 
 ---
 
-# 📊 Chapter 6: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)
+# 📊 Chapter 7: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)
 
 > This script takes the fully populated MySQL database and exports every table into a multi-sheet Excel workbook, all in one go — intelligently chunking large tables and auto-formatting for clarity and readability.
 
-## 📑 Subchapter 6.1 – SQL → Excel: When and Why to Use Direct Export
+## 📑 Subchapter 7.1 – SQL → Excel: When and Why to Use Direct Export
 
 ### 🧠 Why Bypass CSV?
 
@@ -1404,7 +1488,8 @@ Working with CSV files has drawbacks:
 
 ---
 
-## 🔌 Subchapter 6.2 – Excel Sheet Limits & Chunk Management
+## 🔌 Subchapter 7.2 – Excel Sheet Limits & Chunk Management
+
 Just like the CSV→Excel script, this one honors Excel’s maximum row limit:
 
 ```commandline
@@ -1435,7 +1520,7 @@ to generate each sheet.
 
 ---
 
-## 📋 Subchapter 6.3 – Auto-Fit Columns and Naming Conventions
+## 📋 Subchapter 7.3 – Auto-Fit Columns and Naming Conventions
 
 ### 🧠 Auto-Fit Logic
 
@@ -1470,7 +1555,7 @@ Automatically created — you don’t need to configure this manually.
 ---
 
 
-## 🧾 Subchapter 6.4 – Logging and Monitoring with `process.log`
+## 🧾 Subchapter 7.4 – Logging and Monitoring with `process.log`
 This script goes a step further — it logs everything to a file:
 
 ```commandline
@@ -1496,7 +1581,7 @@ Sample entries:
 ---
 
 
-## ⚙️ Subchapter 6.5 – Comparison: SQL → Excel vs CSV → Excel
+## ⚙️ Subchapter 7.5 – Comparison: SQL → Excel vs CSV → Excel
 
 | Feature             | CSV → Excel | SQL → Excel |
 | ------------------- | ----------- | ----------- |
@@ -1515,7 +1600,7 @@ Sample entries:
 
 ---
 
-## 📦 Subchapter 6.6 – Export Case Study: How a Table Is Converted End-to-End
+## 📦 Subchapter 7.6 – Export Case Study: How a Table Is Converted End-to-End
 Let’s walk through the export of a real table step-by-step.
 
 ### 1. Load Table into Pandas
@@ -1563,7 +1648,7 @@ Every record, neatly packaged and formatted.
 
 ---
 
-## ✅ Chapter 6 Summary
+## ✅ Chapter 7 Summary
 
 - `script_to_excel_from_sql.py` is the most streamlined and robust export tool in this toolkit. 
 - Exports each table as an Excel sheet, splitting large tables automatically. 
@@ -1574,11 +1659,11 @@ Every record, neatly packaged and formatted.
 ---
 
 
-# 🧪 Chapter 7: Use Cases and Extensions
+# 🧪 Chapter 8: Use Cases and Extensions
 
 > This chapter explores how the pipeline can be applied in real-life situations — from HR departments and QA teams to academic learning, startups, and scalable automation. It also shows how to extend and customize the scripts to meet new goals.
 
-## 🎯 Subchapter 7.1 – HR Department Use Cases
+## 🎯 Subchapter 8.1 – HR Department Use Cases
 Even though this toolkit is designed for simulation, its structure matches that of many real-world HR systems.
 
 ### ✅ What HR Teams Can Do with It:
@@ -1600,7 +1685,7 @@ Even though this toolkit is designed for simulation, its structure matches that 
 
 ---
 
-## 🔧 Subchapter 7.2 – Developer and QA Testing
+## 🔧 Subchapter 8.2 – Developer and QA Testing
 
 Software developers often need data for:
 
@@ -1628,7 +1713,7 @@ Software developers often need data for:
 
 ---
 
-## 🎓 Subchapter 7.3 – Teaching SQL/Excel in Academics
+## 🎓 Subchapter 8.3 – Teaching SQL/Excel in Academics
 This toolkit is ideal for **college professors, tutors, and bootcamp instructors.**
 
 ### 🏫 Why It’s Valuable:
@@ -1652,7 +1737,7 @@ This toolkit is ideal for **college professors, tutors, and bootcamp instructors
 
 ---
 
-## 🚀 Subchapter 7.4 – Demos & Prototypes for Startups
+## 🚀 Subchapter 8.4 – Demos & Prototypes for Startups
 
 Many startups build HR tools but lack access to enterprise-scale datasets.
 
@@ -1679,7 +1764,7 @@ Many startups build HR tools but lack access to enterprise-scale datasets.
 ---
 
 
-## 🧰 Subchapter 7.5 – How to Add New Tables and Scripts
+## 🧰 Subchapter 8.5 – How to Add New Tables and Scripts
 You can extend the schema easily.
 
 ### 📌 Example: Add "Performance Reviews"
@@ -1717,7 +1802,7 @@ python script_for_sql_loading.py
 
 ---
 
-## 📈 Subchapter 7.6 – Planning for Scaling and Automation
+## 📈 Subchapter 8.6 – Planning for Scaling and Automation
 
 Want to turn this into a mini product? Here's how.
 
@@ -1755,7 +1840,7 @@ Yes! You can deploy:
 
 ---
 
-## ✅ Chapter 7 Summary
+## ✅ Chapter 8 Summary
 
 - The toolkit is useful for HR staff, QA teams, developers, teachers, and startups. 
 - You can simulate real-world scenarios with zero risk. 
@@ -1767,12 +1852,12 @@ Yes! You can deploy:
 
 ---
 
-# 🧠 Chapter 8: Beginner’s Guide to Making It Yours
+# 🧠 Chapter 9: Beginner’s Guide to Making It Yours
 
 > Whether you’re in HR, operations, training, or just curious, this chapter is your manual for confidently taking control of the data pipeline — without needing to become a software developer.
 
 ---
-## 🧩 Subchapter 8.1 – Understanding the Code Without Coding Skills
+## 🧩 Subchapter 9.1 – Understanding the Code Without Coding Skills
 
 Many people feel intimidated when they see lines of Python or SQL. Here's a comforting truth:
 
@@ -1798,7 +1883,7 @@ Like changing labels or formulas in Excel, but with Python.
 ---
 
 
-## 🛠️ Subchapter 8.2 – Editing SQL Fields and Scripts with a Text Editor
+## 🛠️ Subchapter 9.2 – Editing SQL Fields and Scripts with a Text Editor
 
 You can customize the data schema using free tools:
 
@@ -1837,7 +1922,7 @@ Run the script again — and you now have a company with a different pay structu
 
 ---
 
-## 📊 Subchapter 8.3 – Using Excel to Analyze Generated Data
+## 📊 Subchapter 9.3 – Using Excel to Analyze Generated Data
 
 You can do **a lot** with just Excel — no code required.
 
@@ -1861,7 +1946,7 @@ Explore:
 
 ---
 
-## 🔁 Subchapter 8.4 – Swapping Faker with Real Datasets
+## 🔁 Subchapter 9.4 – Swapping Faker with Real Datasets
 
 While Faker is great for simulation, you can replace it with real data sources.
 
@@ -1889,7 +1974,7 @@ Never include real employee data unless you have permission and properly anonymi
 
 ---
 
-## 🖥️ Subchapter 8.5 – Packaging This as a CLI Tool
+## 🖥️ Subchapter 9.5 – Packaging This as a CLI Tool
 
 You can convert this from a script into a command-line tool:
 
@@ -1924,7 +2009,7 @@ python run_pipeline.py --employees 5000 --projects 10000
 
 ---
 
-## 🌍 Subchapter 8.6 – Community Contributions & GitHub Guide
+## 🌍 Subchapter 9.6 – Community Contributions & GitHub Guide
 
 If you're using this on `GitHub`, you can:
 
@@ -1958,7 +2043,7 @@ Allow users to:
 ---
 
 
-## ✅ Chapter 8 Summary
+## ✅ Chapter 9 Summary
 
 - Even non-coders can **understand, run, and modify** this pipeline. 
 - You can adjust text, numbers, and limits just like in a spreadsheet. 
