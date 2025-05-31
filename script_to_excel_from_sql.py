@@ -59,7 +59,7 @@ if os.path.exists(log_file):
 
 # Progress bar for exporting tables
 excel_writer_progress = tqdm(total=1, desc=GREEN + "📁 Opening ExcelWriter..." + RESET, colour='green')
-output_excel_path = os.path.join(DUMP_DIR, 'output.xlsx')  # ← ADDED: Excel file path in dump
+output_excel_path = os.path.join(DUMP_DIR, 'output_sql_excel.xlsx')  # ← ADDED: Excel file path in dump
 with pd.ExcelWriter(output_excel_path, engine='openpyxl') as writer:  # ← MODIFIED
     excel_writer_progress.update(1)
     excel_writer_progress.set_description_str(GREEN + "✅ ExcelWriter ready" + RESET)

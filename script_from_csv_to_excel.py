@@ -12,7 +12,7 @@ DUMP_DIR = os.path.join('.', 'dump')  # ← ADDED: Define dump directory path
 os.makedirs(DUMP_DIR, exist_ok=True)  # ← ADDED: Ensure the dump directory exists
 
 INPUT_DIR = DUMP_DIR  # ← MODIFIED: Now reading CSVs from the 'dump' directory
-OUTPUT_FILE = os.path.join(DUMP_DIR, 'output.xlsx')  # ← Already saving in 'dump'
+OUTPUT_FILE = os.path.join(DUMP_DIR, 'output_csv_to_excel.xlsx')  # ← Already saving in 'dump'
 LOG_FILE = os.path.join(DUMP_DIR, 'process.log')  # ← Already logging in 'dump'
 
 MAX_EXCEL_ROWS = 1048576
