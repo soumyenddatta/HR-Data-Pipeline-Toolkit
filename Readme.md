@@ -95,7 +95,7 @@ This becomes the **technical preface** for the toolkit.
 * Output Verification: Was Everything Created?
 * Error Handling and Recovery
 
-## 💾 Chapter 5: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)
+## 💾 [Chapter 5: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)](#-Chapter-5-Exporting-SQL-Tables-to-CSV-script_to_CSV_from_sqlpy)
 
 * Introduction to SQL → CSV Conversion
 * Establishing Connection with SQLAlchemy & Pandas
@@ -104,7 +104,7 @@ This becomes the **technical preface** for the toolkit.
 * Validating CSVs for Accuracy
 * Common Export Errors & Fixes
 
-## 📤 Chapter 6: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)
+## 📤 [Chapter 6: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)](#-Chapter-6-Merging-CSV-Files-into-Excel-script_from_csv_to_excelpy)
 
 * Why Convert CSV to Excel?
 * Reading Multiple CSV Files Dynamically
@@ -113,7 +113,7 @@ This becomes the **technical preface** for the toolkit.
 * Output Sample: `output.xlsx` Explained
 * Troubleshooting: Encoding & Data Issues
 
-## 📊 Chapter 7: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)
+## 📊 [Chapter 7: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)](#-Chapter-7-Exporting-SQL-Tables-Directly-to-Excel-script_to_excel_from_sqlpy)
 
 * SQL → Excel: When and Why to Use Direct Export
 * Excel Sheet Limits & Chunk Management
@@ -122,7 +122,7 @@ This becomes the **technical preface** for the toolkit.
 * Comparison: SQL → Excel vs CSV → Excel
 * Export Case Study: How a Table Is Converted End-to-End
 
-## 🧪 Chapter 8: Use Cases and Extensions
+## 🧪 [Chapter 8: Use Cases and Extensions](#-Chapter-8-Use-Cases-and-Extensions)
 
 * HR Department Use Cases
 * Developer and QA Testing
@@ -131,7 +131,7 @@ This becomes the **technical preface** for the toolkit.
 * How to Add New Tables and Scripts
 * Planning for Scaling and Automation
 
-## 🧠 Chapter 9: Beginner’s Guide to Making It Yours
+## 🧠 [Chapter 9: Beginner’s Guide to Making It Yours](#-Chapter-9-Beginner’s-Guide-to-Making-It-Yours)
 
 * Understanding the Code Without Coding Skills
 * Editing SQL Fields and Scripts with a Text Editor
@@ -141,7 +141,7 @@ This becomes the **technical preface** for the toolkit.
 * Community Contributions & GitHub Guide
 
 
-## 📊 Chapter 10: Understanding the Data Pipeline Flow
+## 📊 [Chapter 10: Understanding the Data Pipeline Flow](#-Chapter-10-Understanding-the-Data-Pipeline-Flow)
 
 **Purpose:** Provide a high-level view of how all scripts interact and the overall workflow.
 
@@ -158,7 +158,7 @@ This becomes the **technical preface** for the toolkit.
 * 💡 **Tips for running the full pipeline smoothly**
 
 
-## 🛠️ Chapter 11: Troubleshooting & FAQs
+## 🛠️ [Chapter 11: Troubleshooting & FAQs](#-Chapter-11-Troubleshooting--FAQs)
 
 **Purpose:** Help users fix common issues and answer frequently asked questions.
 
@@ -182,7 +182,7 @@ This becomes the **technical preface** for the toolkit.
 * 🛠️ **Contact for Help** (optional)
 
 
-## 🚀 Chapter 12: Performance Optimization Tips
+## 🚀 [Chapter 12: Performance Optimization Tips](#-Chapter-12-Performance-Optimization-Tips)
 
 **Purpose:** Help users handle larger datasets and improve script performance.
 
@@ -206,7 +206,7 @@ This becomes the **technical preface** for the toolkit.
   * CPU suggestions
 
 
-## 🧪 Chapter 13: Data Quality & Validation Checks
+## 🧪 [Chapter 13: Data Quality & Validation Checks](#-Chapter-13-Data-Quality--Validation-Checks)
 
 **Purpose:** Teach users how to ensure data integrity and catch issues early.
 
@@ -228,7 +228,7 @@ This becomes the **technical preface** for the toolkit.
 * 📝 **Add Validation Steps to Your Workflow**
 
 
-## 📚 Chapter 14: Resources & Learning Links
+## 📚 [Chapter 14: Resources & Learning Links](#-Chapter-14-Resources--Learning-Links)
 
 **Purpose:** Curate helpful resources for learning SQL, databases, and data pipelines.
 
@@ -349,7 +349,7 @@ Real HR data is sensitive and inaccessible for learning. Simulating it offers:
 
 
 
-# 📦 Chapter 2: Toolkit Structure & Setup
+# 📦 [Chapter 2: Toolkit Structure & Setup](#-Chapter-2-Toolkit-Structure--Setup)
 
 > Move **technical details** here — everything users need to **set up** the project.
 > 
@@ -695,7 +695,7 @@ The diagram provides a visual representation of the database design, aiding both
 
 ---
 
-# 🛠️ Chapter 3: Generating Realistic HR Data (`main.py`)
+# 🛠️ [Chapter 3: Generating Realistic HR Data (`main.py`)](#-Chapter-3-Generating-Realistic-HR-Data-mainpy)
 
 In this chapter, we will unpack the heart of your data pipeline: the data generator script, `main.py`. This single file creates a fully-featured mock company database in SQL, including 1,000 employees, 25,000 projects, attendance for multiple years, payroll, assets, training, benefits, and more.
 
@@ -966,7 +966,7 @@ With too many employees or years of attendance, the SQL file can become several 
 
 ---
 
-# 🏗️ Chapter 4: Loading the SQL into MySQL (`script_for_sql_loading.py`)
+# 🏗️ [Chapter 4: Loading the SQL into MySQL (`script_for_sql_loading.py`)](#-Chapter-4-Loading-the-SQL-into-MySQL-script_for_sql_loadingpy)
 
  > This chapter walks you through how to execute a massive, auto-generated SQL file and safely populate a MySQL database with realistic HR data using a smart, visual, and error-tolerant Python script.
 
@@ -1153,7 +1153,7 @@ No need to manually delete anything — this makes it clean and repeatable.
 
 ---
 
-# 💾 Chapter 5: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)
+# 💾 [Chapter 5: Exporting SQL Tables to CSV (`script_to_CSV_from_sql.py`)](#-Chapter-5-Exporting-SQL-Tables-to-CSV-script_to_CSV_from_sqlpy)
 
 > Once your SQL database is populated, the next logical step is often to extract the data into more portable and widely-used formats — like CSV. This script does that for every table, fully automated, with progress tracking and error handling.
 
@@ -1360,7 +1360,7 @@ for file in os.listdir():
 
 ---
 
-# 📤 Chapter 6: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)
+# 📤 [Chapter 6: Merging CSV Files into Excel (`script_from_csv_to_excel.py`)](#-Chapter-6-Merging-CSV-Files-into-Excel-script_from_csv_to_excelpy)
 
 > This chapter guides you through converting multiple CSV files into a unified Excel workbook with individual sheets, using a script that handles large datasets, formatting, and structure with ease — perfect for reports, presentations, or analysis.
 
@@ -1558,7 +1558,7 @@ This helps you verify chunking is working correctly.
 
 ---
 
-# 📊 Chapter 7: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)
+# 📊 [Chapter 7: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)](#-Chapter-7-Exporting-SQL-Tables-Directly-to-Excel-script_to_excel_from_sqlpy)
 
 > This script takes the fully populated MySQL database and exports every table into a multi-sheet Excel workbook, all in one go — intelligently chunking large tables and auto-formatting for clarity and readability.
 
@@ -1804,7 +1804,7 @@ After execution, you’ll get:
 ---
 
 
-# 🧪 Chapter 8: Use Cases and Extensions
+# 🧪 [Chapter 8: Use Cases and Extensions](#-Chapter-8-Use-Cases-and-Extensions)
 
 > This chapter explores how the pipeline can be applied in real-life situations — from HR departments and QA teams to academic learning, startups, and scalable automation. It also shows how to extend and customize the scripts to meet new goals.
 
@@ -2064,7 +2064,7 @@ This makes the toolkit usable as a standalone command-line utility.
 
 ---
 
-# 🧠 Chapter 9: Beginner’s Guide to Making It Yours
+# 🧠 [Chapter 9: Beginner’s Guide to Making It Yours](#-Chapter-9-Beginner’s-Guide-to-Making-It-Yours)
 
 > Whether you’re in HR, operations, training, or just curious, this chapter is your manual for confidently taking control of the data pipeline — without needing to become a software developer.
 
@@ -2276,7 +2276,7 @@ Allow users to:
 
 ---
 
-# 📊 Chapter 10: Understanding the Data Pipeline Flow
+# 📊 [Chapter 10: Understanding the Data Pipeline Flow](#-Chapter-10-Understanding-the-Data-Pipeline-Flow)
 
 > This chapter shows how every part of your toolkit fits together — from data generation to database loading, export, and final analysis. Whether you're troubleshooting or teaching, this high-level view brings clarity to the full data journey.
 
@@ -2411,7 +2411,7 @@ python script_to_excel_from_sql.py
 
 ---
 
-# 🛠️ Chapter 11: Troubleshooting & FAQs
+# 🛠️ [Chapter 11: Troubleshooting & FAQs](#-Chapter-11-Troubleshooting--FAQs)
 
 > No matter how polished your pipeline is, users will occasionally hit roadblocks. This chapter equips them to diagnose, fix, and prevent common issues across every stage of the HR Data Pipeline Toolkit.
 
@@ -2554,7 +2554,7 @@ If this is a public project:
 
 ---
 
-# 🚀 Chapter 12: Performance Optimization Tips
+# 🚀 [Chapter 12: Performance Optimization Tips](#-Chapter-12-Performance-Optimization-Tips)
 
 > This chapter helps you tune the HR Data Pipeline for **large-scale usage** — whether you’re generating millions of rows, exporting giant Excel files, or benchmarking MySQL performance.
 
@@ -2721,7 +2721,7 @@ Instead of `SELECT *` — reduces export file size.
 ---
 
 
-# 🧪 Chapter 13: Data Quality & Validation Checks
+# 🧪 [Chapter 13: Data Quality & Validation Checks](#-Chapter-13-Data Quality--Validation-Checks)
 
 > The value of your HR Data Pipeline doesn’t just come from the quantity of data — it comes from **its realism and consistency**. This chapter shows how to validate your tables, enforce integrity, and catch mistakes before they derail analysis.
 
@@ -2855,7 +2855,7 @@ Include this in your GitHub repo or as output from your validation script.
 
 ---
 
-# 📚 Chapter 14: Resources & Learning Links
+# 📚 [Chapter 14: Resources & Learning Links](#-Chapter-14-Resources--Learning-Links)
 
 > This chapter is a curated list of valuable resources that will help you expand your understanding of SQL, databases, data engineering, and pipeline automation — whether you’re a complete beginner or a data pro.
 
@@ -2912,7 +2912,7 @@ Include this in your GitHub repo or as output from your validation script.
 
 ---
 
-# 🧾 Chapter 15: Final Conclusion & Reflection of Chapter 1 - 14
+# 🧾 [Chapter 15: Final Conclusion & Reflection of Chapter 1 - 14](#-Chapter-15-Final-Conclusion--Reflection-of-Chapter-1-14)
 
 > You've just built, tested, and documented a complete, scalable HR data simulation pipeline — an educational, practical, and extensible solution for learners and professionals alike.
 
@@ -3035,7 +3035,7 @@ If data is the new oil, you just built a very realistic oil refinery.
 
 ---
 
-# 🧾 Final Conclusion
+# 🧾 [Final Conclusion](#-Final-Conclusion)
 
 ## 🧩 The Puzzle: Why This Project Matters
 
