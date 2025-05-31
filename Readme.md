@@ -23,7 +23,7 @@ This toolkit envisions a future where:
 
 ---
 
-# 🧩 Chapter 1: Introduction to the HR Data Pipeline
+# 🧩 [Chapter 1: Introduction to the HR Data Pipeline](#-Chapter-1-Introduction-to-the-HR-Data-Pipeline)
 
 ## 📘 README.md – HR Data Pipeline Toolkit
 
@@ -54,7 +54,7 @@ Each chapter will contain 6–8 subchapters, and each subchapter will include:
 * Common mistakes & solutions.
 * Exercises and DIY guidance.
 
-## 📂 Chapter 1: Toolkit Overview & Vision
+## 📂 [Chapter 1: Toolkit Overview & Vision](#-chapter-1-toolkit-overview--vision)
 Focus on the *why* of the project.
 
 This chapter stays lean — only **vision, mission, and goals.**
@@ -77,7 +77,7 @@ This becomes the **technical preface** for the toolkit.
 - How to run scripts manually
 - ER Diagram for SQL 
 
-## 🛠️ Chapter 3: Generating Realistic HR Data (`main.py`)
+## 🛠️ [Chapter 3: Generating Realistic HR Data (`main.py`)](#-Chapter-3-Generating-Realistic-HR-Data-mainpy)
 
 * Purpose of SQL Data Generation
 * Overview of Faker, Randomization, and Schema Design
@@ -86,7 +86,7 @@ This becomes the **technical preface** for the toolkit.
 * Output Walkthrough: `company_database_full.sql`
 * Customizing Data Parameters (employees, departments, bonuses)
 
-## 🏗️ Chapter 4: Loading the SQL into MySQL (`script_for_sql_loading.py`)
+## 🏗️ [Chapter 4: Loading the SQL into MySQL (`script_for_sql_loading.py`)](#-Chapter-4-Loading-the-SQL-into-MySQL-script_for_sql_loadingpy)
 
 * Purpose of SQL Loading Script
 * MySQL Connection: Setup & Configuration
