@@ -742,3 +742,79 @@ Run started at 2025-05-31 18:30:32.517283
 [2025-05-31 18:32:11] Converted 'training.csv' → Sheet: 'training', Rows: 1013, Time: 0.09s
 [2025-05-31 18:32:41] Data Extraction Completed || Log Closed Here... 
 
+[2025-06-02 16:43:08] 
+========================================
+[2025-06-02 16:43:08] Pipeline started at 2025-06-02 16:43:08
+[2025-06-02 16:43:08] Started: main.py
+[2025-06-02 16:43:18] Success: main.py
+[2025-06-02 16:43:18] Started: script_for_sql_loading.py
+[2025-06-02 16:43:19] Failure: script_for_sql_loading.py
+Traceback (most recent call last):
+  File "D:\Practice and programs\Datta Analytics Study\Data Analyst BootCamp\Py test\script_for_sql_loading.py", line 107, in <module>
+    main()
+  File "D:\Practice and programs\Datta Analytics Study\Data Analyst BootCamp\Py test\script_for_sql_loading.py", line 89, in main
+    print(f"{GREEN}\u2705 Dropped database '{YELLOW}{database_name}{GREEN}' (if it existed).{RESET}")
+  File "C:\Users\soumy\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 5: character maps to <undefined>
+
+[2025-06-02 16:43:19] Pipeline terminated with errors.
+
+___________________________________________________________________________________________
+ [2025-06-02 16:47:50] || CSV Conversion Log || Database = 'company_db' 
+[2025-06-02 16:47:50] Exported 'assets'  with 1503 rows to '.\dump\assets.csv'
+[2025-06-02 16:47:53] Exported 'attendance'  with 365000 rows to '.\dump\attendance.csv'
+[2025-06-02 16:47:53] Exported 'bonuses'  with 1509 rows to '.\dump\bonuses.csv'
+[2025-06-02 16:47:53] Exported 'departments'  with 8 rows to '.\dump\departments.csv'
+[2025-06-02 16:47:53] Exported 'employee_benefits'  with 1518 rows to '.\dump\employee_benefits.csv'
+[2025-06-02 16:47:53] Exported 'employee_project'  with 3031 rows to '.\dump\employee_project.csv'
+[2025-06-02 16:47:53] Exported 'employees'  with 1000 rows to '.\dump\employees.csv'
+[2025-06-02 16:47:53] Exported 'leaves'  with 2009 rows to '.\dump\leaves.csv'
+[2025-06-02 16:47:53] Exported 'payroll'  with 12000 rows to '.\dump\payroll.csv'
+[2025-06-02 16:47:54] Exported 'projects'  with 25000 rows to '.\dump\projects.csv'
+[2025-06-02 16:47:54] Exported 'training'  with 983 rows to '.\dump\training.csv'
+
+[2025-06-02 16:47:54] Exported to CSV form Database 'company_db' 
+
+
+========================================
+Run started at 2025-06-02 16:48:05.268314
+2025-06-02 16:48:05,280 - Exporting table: assets
+2025-06-02 16:48:05,349 - Wrote sheet: assets with 1503 rows
+2025-06-02 16:48:05,364 - Exporting table: attendance
+2025-06-02 16:48:15,973 - Wrote sheet: attendance with 365000 rows
+2025-06-02 16:48:16,543 - Exporting table: bonuses
+2025-06-02 16:48:16,598 - Wrote sheet: bonuses with 1509 rows
+2025-06-02 16:48:16,603 - Exporting table: departments
+2025-06-02 16:48:16,606 - Wrote sheet: departments with 8 rows
+2025-06-02 16:48:16,607 - Exporting table: employee_benefits
+2025-06-02 16:48:16,644 - Wrote sheet: employee_benefits with 1518 rows
+2025-06-02 16:48:16,648 - Exporting table: employee_project
+2025-06-02 16:48:16,732 - Wrote sheet: employee_project with 3031 rows
+2025-06-02 16:48:16,741 - Exporting table: employees
+2025-06-02 16:48:16,807 - Wrote sheet: employees with 1000 rows
+2025-06-02 16:48:16,823 - Exporting table: leaves
+2025-06-02 16:48:16,907 - Wrote sheet: leaves with 2009 rows
+2025-06-02 16:48:16,916 - Exporting table: payroll
+2025-06-02 16:48:17,666 - Wrote sheet: payroll with 12000 rows
+2025-06-02 16:48:17,696 - Exporting table: projects
+2025-06-02 16:48:18,779 - Wrote sheet: projects with 25000 rows
+2025-06-02 16:48:18,846 - Exporting table: training
+2025-06-02 16:48:18,888 - Wrote sheet: training with 983 rows
+2025-06-02 16:48:32,232 - Export process complete.
+
+[2025-06-02 16:48:46] CSV to Excel Process Log... 
+[2025-06-02 16:48:46] Converted 'assets.csv' → Sheet: 'assets', Rows: 1503, Time: 0.06s
+[2025-06-02 16:48:53] Converted 'attendance.csv' → Sheet: 'attendance', Rows: 365000, Time: 7.13s
+[2025-06-02 16:48:53] Converted 'bonuses.csv' → Sheet: 'bonuses', Rows: 1509, Time: 0.04s
+[2025-06-02 16:48:53] Converted 'departments.csv' → Sheet: 'departments', Rows: 8, Time: 0.02s
+[2025-06-02 16:48:53] Converted 'employees.csv' → Sheet: 'employees', Rows: 1000, Time: 0.07s
+[2025-06-02 16:48:53] Converted 'employee_benefits.csv' → Sheet: 'employee_benefits', Rows: 1518, Time: 0.04s
+[2025-06-02 16:48:53] Converted 'employee_project.csv' → Sheet: 'employee_project', Rows: 3031, Time: 0.07s
+[2025-06-02 16:48:53] Converted 'leaves.csv' → Sheet: 'leaves', Rows: 2009, Time: 0.07s
+[2025-06-02 16:48:54] Converted 'payroll.csv' → Sheet: 'payroll', Rows: 12000, Time: 0.39s
+[2025-06-02 16:48:54] Converted 'projects.csv' → Sheet: 'projects', Rows: 25000, Time: 0.77s
+[2025-06-02 16:48:55] Converted 'training.csv' → Sheet: 'training', Rows: 983, Time: 0.04s
+[2025-06-02 16:49:07] Data Extraction Completed || Log Closed Here... 
+
