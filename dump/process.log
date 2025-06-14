@@ -875,3 +875,60 @@ Run started at 2025-06-04 17:02:12.237565
 [2025-06-04 17:03:09] Converted 'training.csv' → Sheet: 'training', Rows: 970, Time: 0.02s
 [2025-06-04 17:03:21] Data Extraction Completed || Log Closed Here... 
 
+___________________________________________________________________________________________
+ [2025-06-14 07:52:27] || CSV Conversion Log || Database = 'company_db' 
+[2025-06-14 07:52:27] Exported 'assets'  with 1414 rows to '.\dump\assets.csv'
+[2025-06-14 07:52:30] Exported 'attendance'  with 365000 rows to '.\dump\attendance.csv'
+[2025-06-14 07:52:31] Exported 'bonuses'  with 1460 rows to '.\dump\bonuses.csv'
+[2025-06-14 07:52:31] Exported 'departments'  with 8 rows to '.\dump\departments.csv'
+[2025-06-14 07:52:31] Exported 'employee_benefits'  with 1530 rows to '.\dump\employee_benefits.csv'
+[2025-06-14 07:52:31] Exported 'employee_project'  with 3027 rows to '.\dump\employee_project.csv'
+[2025-06-14 07:52:31] Exported 'employees'  with 1000 rows to '.\dump\employees.csv'
+[2025-06-14 07:52:31] Exported 'leaves'  with 1989 rows to '.\dump\leaves.csv'
+[2025-06-14 07:52:31] Exported 'payroll'  with 12000 rows to '.\dump\payroll.csv'
+[2025-06-14 07:52:31] Exported 'projects'  with 25000 rows to '.\dump\projects.csv'
+[2025-06-14 07:52:31] Exported 'training'  with 1003 rows to '.\dump\training.csv'
+
+[2025-06-14 07:52:31] Exported to CSV form Database 'company_db' 
+
+
+========================================
+Run started at 2025-06-14 07:52:53.875550
+2025-06-14 07:52:53,887 - Exporting table: assets
+2025-06-14 07:52:53,974 - Wrote sheet: assets with 1414 rows
+2025-06-14 07:52:53,981 - Exporting table: attendance
+2025-06-14 07:53:04,663 - Wrote sheet: attendance with 365000 rows
+2025-06-14 07:53:05,212 - Exporting table: bonuses
+2025-06-14 07:53:05,263 - Wrote sheet: bonuses with 1460 rows
+2025-06-14 07:53:05,269 - Exporting table: departments
+2025-06-14 07:53:05,272 - Wrote sheet: departments with 8 rows
+2025-06-14 07:53:05,274 - Exporting table: employee_benefits
+2025-06-14 07:53:05,310 - Wrote sheet: employee_benefits with 1530 rows
+2025-06-14 07:53:05,314 - Exporting table: employee_project
+2025-06-14 07:53:05,394 - Wrote sheet: employee_project with 3027 rows
+2025-06-14 07:53:05,400 - Exporting table: employees
+2025-06-14 07:53:05,478 - Wrote sheet: employees with 1000 rows
+2025-06-14 07:53:05,486 - Exporting table: leaves
+2025-06-14 07:53:05,568 - Wrote sheet: leaves with 1989 rows
+2025-06-14 07:53:05,576 - Exporting table: payroll
+2025-06-14 07:53:06,327 - Wrote sheet: payroll with 12000 rows
+2025-06-14 07:53:06,361 - Exporting table: projects
+2025-06-14 07:53:07,433 - Wrote sheet: projects with 25000 rows
+2025-06-14 07:53:07,500 - Exporting table: training
+2025-06-14 07:53:07,544 - Wrote sheet: training with 1003 rows
+2025-06-14 07:53:20,738 - Export process complete.
+
+[2025-06-14 07:53:37] CSV to Excel Process Log... 
+[2025-06-14 07:53:37] Converted 'assets.csv' → Sheet: 'assets', Rows: 1414, Time: 0.06s
+[2025-06-14 07:53:44] Converted 'attendance.csv' → Sheet: 'attendance', Rows: 365000, Time: 7.44s
+[2025-06-14 07:53:44] Converted 'bonuses.csv' → Sheet: 'bonuses', Rows: 1460, Time: 0.04s
+[2025-06-14 07:53:44] Converted 'departments.csv' → Sheet: 'departments', Rows: 8, Time: 0.01s
+[2025-06-14 07:53:44] Converted 'employees.csv' → Sheet: 'employees', Rows: 1000, Time: 0.07s
+[2025-06-14 07:53:45] Converted 'employee_benefits.csv' → Sheet: 'employee_benefits', Rows: 1530, Time: 0.04s
+[2025-06-14 07:53:45] Converted 'employee_project.csv' → Sheet: 'employee_project', Rows: 3027, Time: 0.07s
+[2025-06-14 07:53:45] Converted 'leaves.csv' → Sheet: 'leaves', Rows: 1989, Time: 0.07s
+[2025-06-14 07:53:45] Converted 'payroll.csv' → Sheet: 'payroll', Rows: 12000, Time: 0.40s
+[2025-06-14 07:53:46] Converted 'projects.csv' → Sheet: 'projects', Rows: 25000, Time: 0.79s
+[2025-06-14 07:53:46] Converted 'training.csv' → Sheet: 'training', Rows: 1003, Time: 0.04s
+[2025-06-14 07:54:01] Data Extraction Completed || Log Closed Here... 
+
