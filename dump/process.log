@@ -989,3 +989,60 @@ ________________________________________________________________________________
 [2026-01-03 21:23:29] Converted 'training.csv' → Sheet: 'training', Rows: 964, Time: 0.09s
 [2026-01-03 21:24:03] Data Extraction Completed || Log Closed Here... 
 
+___________________________________________________________________________________________
+ [2026-01-03 21:35:30] || CSV Conversion Log || Database = 'company_db' 
+[2026-01-03 21:35:30] Exported 'assets'  with 1543 rows to '.\dump\assets.csv'
+[2026-01-03 21:35:37] Exported 'attendance'  with 365000 rows to '.\dump\attendance.csv'
+[2026-01-03 21:35:37] Exported 'bonuses'  with 1510 rows to '.\dump\bonuses.csv'
+[2026-01-03 21:35:37] Exported 'departments'  with 8 rows to '.\dump\departments.csv'
+[2026-01-03 21:35:37] Exported 'employee_benefits'  with 1463 rows to '.\dump\employee_benefits.csv'
+[2026-01-03 21:35:37] Exported 'employee_project'  with 2959 rows to '.\dump\employee_project.csv'
+[2026-01-03 21:35:37] Exported 'employees'  with 1000 rows to '.\dump\employees.csv'
+[2026-01-03 21:35:37] Exported 'leaves'  with 1985 rows to '.\dump\leaves.csv'
+[2026-01-03 21:35:38] Exported 'payroll'  with 12000 rows to '.\dump\payroll.csv'
+[2026-01-03 21:35:39] Exported 'projects'  with 25000 rows to '.\dump\projects.csv'
+[2026-01-03 21:35:39] Exported 'training'  with 1001 rows to '.\dump\training.csv'
+
+[2026-01-03 21:35:39] Exported to CSV form Database 'company_db' 
+
+
+========================================
+Run started at 2026-01-03 21:36:49.570030
+2026-01-03 21:36:49,591 - Exporting table: assets
+2026-01-03 21:36:49,776 - Wrote sheet: assets with 1543 rows
+2026-01-03 21:36:49,790 - Exporting table: attendance
+2026-01-03 21:37:13,504 - Wrote sheet: attendance with 365000 rows
+2026-01-03 21:37:14,848 - Exporting table: bonuses
+2026-01-03 21:37:15,315 - Wrote sheet: bonuses with 1510 rows
+2026-01-03 21:37:15,329 - Exporting table: departments
+2026-01-03 21:37:15,336 - Wrote sheet: departments with 8 rows
+2026-01-03 21:37:15,341 - Exporting table: employee_benefits
+2026-01-03 21:37:15,419 - Wrote sheet: employee_benefits with 1463 rows
+2026-01-03 21:37:15,428 - Exporting table: employee_project
+2026-01-03 21:37:15,608 - Wrote sheet: employee_project with 2959 rows
+2026-01-03 21:37:15,627 - Exporting table: employees
+2026-01-03 21:37:15,829 - Wrote sheet: employees with 1000 rows
+2026-01-03 21:37:15,849 - Exporting table: leaves
+2026-01-03 21:37:16,029 - Wrote sheet: leaves with 1985 rows
+2026-01-03 21:37:16,046 - Exporting table: payroll
+2026-01-03 21:37:17,177 - Wrote sheet: payroll with 12000 rows
+2026-01-03 21:37:17,260 - Exporting table: projects
+2026-01-03 21:37:19,845 - Wrote sheet: projects with 25000 rows
+2026-01-03 21:37:20,004 - Exporting table: training
+2026-01-03 21:37:20,105 - Wrote sheet: training with 1001 rows
+2026-01-03 21:37:52,112 - Export process complete.
+
+[2026-01-03 21:38:10] CSV to Excel Process Log... 
+[2026-01-03 21:38:10] Converted 'assets.csv' → Sheet: 'assets', Rows: 1543, Time: 0.12s
+[2026-01-03 21:38:28] Converted 'attendance.csv' → Sheet: 'attendance', Rows: 365000, Time: 17.89s
+[2026-01-03 21:38:28] Converted 'bonuses.csv' → Sheet: 'bonuses', Rows: 1510, Time: 0.09s
+[2026-01-03 21:38:28] Converted 'departments.csv' → Sheet: 'departments', Rows: 8, Time: 0.01s
+[2026-01-03 21:38:28] Converted 'employees.csv' → Sheet: 'employees', Rows: 1000, Time: 0.16s
+[2026-01-03 21:38:28] Converted 'employee_benefits.csv' → Sheet: 'employee_benefits', Rows: 1463, Time: 0.08s
+[2026-01-03 21:38:28] Converted 'employee_project.csv' → Sheet: 'employee_project', Rows: 2959, Time: 0.15s
+[2026-01-03 21:38:28] Converted 'leaves.csv' → Sheet: 'leaves', Rows: 1985, Time: 0.15s
+[2026-01-03 21:38:30] Converted 'payroll.csv' → Sheet: 'payroll', Rows: 12000, Time: 1.22s
+[2026-01-03 21:38:32] Converted 'projects.csv' → Sheet: 'projects', Rows: 25000, Time: 2.58s
+[2026-01-03 21:38:32] Converted 'training.csv' → Sheet: 'training', Rows: 1001, Time: 0.09s
+[2026-01-03 21:39:10] Data Extraction Completed || Log Closed Here... 
+

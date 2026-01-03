@@ -1,965 +1,1002 @@
 training_id,empID,training_name,start_date,end_date,status
-1,1,Python Basics,2025-03-15,2025-03-28,Completed
-2,2,Communication Skills,2025-04-05,2025-05-05,Ongoing
-3,2,Project Management,2025-08-30,2025-09-04,Not Started
-4,6,Python Basics,2025-01-26,2025-02-24,Not Started
-5,9,Data Analysis,2025-10-23,2025-11-08,Not Started
-6,10,Python Basics,2025-10-30,2025-11-15,Ongoing
-7,13,Communication Skills,2024-12-22,2024-12-27,Ongoing
-8,14,Project Management,2024-08-06,2024-08-21,Completed
-9,16,Leadership,2024-04-29,2024-05-24,Not Started
-10,17,Data Analysis,2025-04-25,2025-05-23,Completed
-11,17,Project Management,2025-11-14,2025-11-27,Not Started
-12,18,Data Analysis,2024-04-07,2024-04-20,Completed
-13,19,Data Analysis,2024-10-03,2024-10-10,Not Started
-14,19,Data Analysis,2024-12-23,2025-01-07,Not Started
-15,20,Data Analysis,2024-03-20,2024-04-13,Not Started
-16,23,Project Management,2024-09-09,2024-10-07,Not Started
-17,23,Communication Skills,2025-06-03,2025-06-20,Ongoing
-18,25,Communication Skills,2024-07-13,2024-08-08,Completed
-19,26,Communication Skills,2025-09-13,2025-09-29,Ongoing
-20,26,Communication Skills,2025-07-23,2025-08-18,Completed
-21,28,Project Management,2025-06-19,2025-07-07,Ongoing
-22,28,Project Management,2025-07-09,2025-07-25,Completed
-23,30,Python Basics,2024-01-15,2024-01-25,Completed
-24,30,Project Management,2024-08-30,2024-09-29,Completed
-25,32,Communication Skills,2024-06-26,2024-07-09,Completed
-26,33,Communication Skills,2025-06-09,2025-06-17,Not Started
-27,33,Python Basics,2024-01-26,2024-01-31,Not Started
-28,36,Python Basics,2024-10-01,2024-10-26,Not Started
-29,38,Data Analysis,2024-01-15,2024-01-30,Not Started
-30,38,Data Analysis,2024-12-26,2025-01-14,Ongoing
-31,42,Communication Skills,2024-01-17,2024-02-01,Ongoing
-32,43,Communication Skills,2024-09-12,2024-09-17,Not Started
-33,44,Project Management,2024-08-11,2024-09-03,Not Started
-34,44,Python Basics,2025-08-15,2025-09-09,Ongoing
-35,45,Project Management,2024-03-25,2024-04-20,Ongoing
-36,47,Communication Skills,2024-08-20,2024-09-06,Ongoing
-37,48,Project Management,2024-03-25,2024-04-16,Not Started
-38,48,Communication Skills,2025-10-22,2025-11-13,Not Started
-39,49,Communication Skills,2025-07-20,2025-08-09,Ongoing
-40,50,Project Management,2024-11-14,2024-11-30,Not Started
-41,52,Communication Skills,2024-07-15,2024-08-05,Ongoing
-42,53,Communication Skills,2024-09-07,2024-10-05,Ongoing
-43,53,Data Analysis,2024-02-06,2024-03-02,Completed
-44,56,Communication Skills,2024-04-19,2024-04-28,Not Started
-45,57,Communication Skills,2025-07-23,2025-08-21,Not Started
-46,57,Python Basics,2024-05-18,2024-05-30,Completed
-47,59,Communication Skills,2024-01-13,2024-01-21,Ongoing
-48,59,Leadership,2025-11-08,2025-11-23,Not Started
-49,60,Python Basics,2024-07-12,2024-08-09,Completed
-50,60,Python Basics,2025-04-12,2025-05-12,Ongoing
-51,64,Python Basics,2025-02-01,2025-02-07,Ongoing
-52,64,Python Basics,2024-02-17,2024-02-22,Completed
-53,65,Communication Skills,2025-08-05,2025-08-19,Completed
-54,65,Communication Skills,2024-10-15,2024-11-13,Not Started
-55,66,Data Analysis,2025-01-04,2025-01-20,Completed
-56,66,Data Analysis,2024-12-15,2025-01-03,Ongoing
-57,67,Python Basics,2025-05-08,2025-05-30,Ongoing
-58,69,Python Basics,2024-11-12,2024-11-24,Completed
-59,70,Communication Skills,2025-12-21,2025-12-30,Not Started
-60,71,Leadership,2024-12-15,2024-12-23,Not Started
-61,71,Leadership,2024-02-28,2024-03-27,Not Started
-62,72,Communication Skills,2025-11-18,2025-12-05,Ongoing
-63,75,Data Analysis,2025-06-16,2025-06-30,Ongoing
-64,76,Communication Skills,2024-07-06,2024-08-02,Not Started
-65,76,Leadership,2025-09-03,2025-09-09,Not Started
-66,77,Data Analysis,2024-04-30,2024-05-27,Ongoing
-67,77,Communication Skills,2025-01-24,2025-01-31,Not Started
-68,78,Leadership,2024-10-31,2024-11-17,Ongoing
-69,79,Project Management,2024-05-21,2024-05-29,Completed
-70,80,Leadership,2024-02-24,2024-03-19,Ongoing
-71,81,Communication Skills,2025-07-02,2025-07-08,Completed
-72,81,Python Basics,2024-04-02,2024-04-17,Completed
-73,83,Project Management,2025-09-14,2025-09-23,Not Started
-74,83,Leadership,2024-11-19,2024-12-09,Not Started
-75,84,Communication Skills,2025-06-22,2025-07-04,Completed
-76,86,Python Basics,2024-06-16,2024-06-24,Completed
-77,87,Data Analysis,2024-01-07,2024-01-22,Completed
-78,88,Project Management,2024-09-01,2024-09-24,Completed
-79,88,Project Management,2024-08-29,2024-09-28,Completed
-80,89,Project Management,2025-10-19,2025-11-10,Completed
-81,89,Communication Skills,2025-03-09,2025-03-14,Not Started
-82,90,Python Basics,2025-03-23,2025-04-18,Not Started
-83,90,Communication Skills,2024-06-09,2024-06-24,Completed
-84,92,Python Basics,2024-05-09,2024-05-28,Ongoing
-85,95,Communication Skills,2024-11-06,2024-11-20,Not Started
-86,95,Data Analysis,2025-04-27,2025-05-20,Completed
-87,96,Data Analysis,2025-03-19,2025-04-14,Completed
-88,97,Data Analysis,2024-03-02,2024-03-15,Not Started
-89,97,Data Analysis,2025-12-26,2026-01-22,Not Started
-90,98,Leadership,2025-06-01,2025-06-25,Completed
-91,98,Project Management,2024-05-12,2024-06-09,Completed
-92,99,Project Management,2024-12-19,2025-01-05,Ongoing
-93,101,Python Basics,2025-12-20,2026-01-15,Not Started
-94,105,Project Management,2025-04-29,2025-05-07,Ongoing
-95,105,Data Analysis,2024-03-20,2024-04-06,Completed
-96,106,Communication Skills,2024-02-16,2024-02-25,Completed
-97,108,Project Management,2024-09-16,2024-10-14,Completed
-98,110,Data Analysis,2025-10-13,2025-10-30,Completed
-99,113,Python Basics,2024-01-05,2024-01-20,Completed
-100,114,Data Analysis,2025-03-26,2025-04-05,Ongoing
-101,114,Data Analysis,2025-12-15,2026-01-01,Ongoing
-102,119,Data Analysis,2024-01-15,2024-01-29,Completed
-103,119,Data Analysis,2024-05-09,2024-06-08,Completed
-104,120,Project Management,2024-12-16,2024-12-27,Ongoing
-105,120,Python Basics,2024-02-15,2024-02-26,Completed
-106,121,Leadership,2025-08-25,2025-09-08,Completed
-107,121,Project Management,2025-02-14,2025-03-02,Completed
-108,122,Communication Skills,2024-03-11,2024-03-18,Not Started
-109,123,Communication Skills,2025-08-27,2025-09-13,Completed
-110,123,Data Analysis,2024-10-02,2024-10-19,Completed
-111,124,Data Analysis,2024-11-27,2024-12-23,Completed
-112,125,Leadership,2024-04-30,2024-05-21,Completed
-113,126,Data Analysis,2024-02-06,2024-02-26,Not Started
-114,126,Communication Skills,2024-06-21,2024-07-16,Not Started
-115,127,Project Management,2025-12-17,2025-12-31,Completed
-116,128,Data Analysis,2024-04-26,2024-05-14,Completed
-117,129,Communication Skills,2025-08-04,2025-09-03,Completed
-118,129,Communication Skills,2024-10-26,2024-11-14,Completed
-119,130,Communication Skills,2024-10-17,2024-11-03,Not Started
-120,131,Data Analysis,2024-07-03,2024-07-31,Not Started
-121,135,Project Management,2025-07-09,2025-08-02,Completed
-122,137,Project Management,2025-03-16,2025-04-01,Completed
-123,137,Communication Skills,2025-03-07,2025-03-23,Completed
-124,140,Python Basics,2024-06-28,2024-07-23,Ongoing
-125,140,Communication Skills,2024-11-07,2024-11-16,Completed
-126,141,Data Analysis,2024-12-02,2024-12-14,Not Started
-127,141,Data Analysis,2025-01-14,2025-02-07,Ongoing
-128,144,Project Management,2024-07-29,2024-08-25,Not Started
-129,149,Communication Skills,2025-06-21,2025-06-27,Completed
-130,150,Leadership,2024-06-10,2024-06-17,Completed
-131,151,Leadership,2025-10-30,2025-11-17,Not Started
-132,152,Data Analysis,2025-08-22,2025-09-15,Not Started
-133,152,Communication Skills,2024-04-06,2024-04-22,Ongoing
-134,154,Data Analysis,2025-07-12,2025-07-26,Not Started
-135,156,Data Analysis,2024-05-07,2024-05-20,Ongoing
-136,156,Project Management,2024-12-05,2024-12-10,Completed
-137,159,Communication Skills,2025-12-13,2025-12-18,Ongoing
-138,161,Project Management,2024-06-05,2024-06-15,Not Started
-139,161,Python Basics,2024-02-29,2024-03-21,Ongoing
-140,162,Project Management,2024-06-24,2024-07-08,Not Started
-141,162,Leadership,2024-05-31,2024-06-17,Ongoing
-142,163,Leadership,2024-01-21,2024-01-29,Not Started
-143,163,Communication Skills,2025-10-24,2025-11-23,Completed
-144,164,Python Basics,2025-04-19,2025-05-07,Completed
-145,164,Leadership,2025-08-30,2025-09-25,Completed
-146,165,Project Management,2024-09-09,2024-10-01,Completed
-147,166,Data Analysis,2025-03-25,2025-04-02,Completed
-148,166,Communication Skills,2025-08-30,2025-09-23,Completed
-149,167,Leadership,2024-04-06,2024-04-13,Not Started
-150,168,Leadership,2024-09-13,2024-10-07,Ongoing
-151,169,Project Management,2025-04-25,2025-05-02,Completed
-152,169,Leadership,2025-10-15,2025-11-10,Ongoing
-153,171,Communication Skills,2025-08-15,2025-09-12,Not Started
-154,171,Python Basics,2025-01-26,2025-02-09,Completed
-155,172,Communication Skills,2024-08-02,2024-08-13,Ongoing
-156,172,Python Basics,2025-08-13,2025-08-19,Not Started
-157,173,Python Basics,2025-01-13,2025-01-31,Not Started
-158,174,Leadership,2025-10-10,2025-10-27,Completed
-159,174,Project Management,2024-02-26,2024-03-27,Not Started
-160,175,Data Analysis,2025-07-31,2025-08-19,Completed
-161,175,Data Analysis,2025-09-15,2025-10-12,Completed
-162,176,Leadership,2025-03-21,2025-03-27,Not Started
-163,177,Leadership,2024-01-07,2024-01-26,Completed
-164,177,Project Management,2024-02-05,2024-02-14,Not Started
-165,179,Data Analysis,2025-12-02,2025-12-26,Not Started
-166,180,Leadership,2024-03-05,2024-03-21,Completed
-167,180,Leadership,2025-09-12,2025-09-29,Completed
-168,181,Python Basics,2024-02-01,2024-02-20,Completed
-169,183,Leadership,2024-01-14,2024-01-19,Not Started
-170,183,Data Analysis,2025-09-07,2025-10-01,Not Started
-171,184,Leadership,2024-11-21,2024-12-15,Completed
-172,184,Project Management,2024-02-10,2024-03-09,Completed
-173,186,Data Analysis,2024-12-25,2025-01-04,Completed
-174,186,Leadership,2025-03-06,2025-03-19,Ongoing
-175,187,Leadership,2025-10-11,2025-11-09,Ongoing
-176,187,Data Analysis,2024-07-31,2024-08-09,Completed
-177,189,Communication Skills,2024-11-17,2024-12-01,Ongoing
-178,189,Communication Skills,2024-11-28,2024-12-15,Ongoing
-179,190,Project Management,2025-06-09,2025-06-22,Not Started
-180,190,Project Management,2025-11-02,2025-11-18,Ongoing
-181,191,Communication Skills,2025-10-07,2025-10-23,Completed
-182,191,Python Basics,2025-10-03,2025-10-12,Completed
-183,192,Leadership,2025-11-10,2025-11-17,Ongoing
-184,194,Communication Skills,2024-11-21,2024-12-01,Ongoing
-185,194,Python Basics,2024-12-13,2024-12-20,Completed
-186,195,Python Basics,2024-12-18,2025-01-04,Not Started
-187,195,Communication Skills,2024-12-06,2024-12-20,Completed
-188,198,Python Basics,2025-08-22,2025-09-19,Not Started
-189,198,Leadership,2025-06-16,2025-07-01,Completed
-190,199,Leadership,2024-08-10,2024-08-19,Completed
-191,200,Python Basics,2025-12-18,2026-01-14,Not Started
-192,201,Python Basics,2024-04-03,2024-04-26,Ongoing
-193,202,Leadership,2024-03-25,2024-04-08,Completed
-194,202,Project Management,2024-05-05,2024-05-30,Not Started
-195,204,Data Analysis,2025-10-04,2025-11-01,Completed
-196,204,Python Basics,2024-07-18,2024-07-31,Not Started
-197,205,Data Analysis,2024-11-05,2024-12-01,Completed
-198,207,Communication Skills,2025-08-27,2025-09-10,Ongoing
-199,208,Data Analysis,2024-12-30,2025-01-29,Ongoing
-200,209,Leadership,2024-06-23,2024-07-10,Completed
-201,210,Leadership,2024-01-04,2024-01-19,Not Started
-202,211,Data Analysis,2024-02-12,2024-02-19,Not Started
-203,211,Python Basics,2025-04-21,2025-05-18,Completed
-204,214,Project Management,2024-12-06,2024-12-18,Completed
-205,214,Communication Skills,2025-01-07,2025-01-21,Ongoing
-206,216,Python Basics,2024-01-07,2024-01-17,Not Started
-207,216,Communication Skills,2024-12-13,2024-12-23,Ongoing
-208,217,Data Analysis,2025-01-04,2025-01-11,Ongoing
-209,217,Communication Skills,2024-01-27,2024-02-17,Not Started
-210,218,Python Basics,2024-12-31,2025-01-25,Completed
-211,218,Project Management,2024-10-06,2024-10-28,Completed
-212,219,Communication Skills,2024-11-12,2024-12-07,Completed
-213,219,Data Analysis,2024-01-06,2024-02-04,Ongoing
-214,222,Python Basics,2025-12-31,2026-01-06,Not Started
-215,222,Communication Skills,2024-10-15,2024-11-08,Ongoing
-216,224,Data Analysis,2024-02-28,2024-03-10,Ongoing
-217,225,Project Management,2025-01-18,2025-02-07,Completed
-218,227,Data Analysis,2025-03-16,2025-03-30,Not Started
-219,228,Communication Skills,2024-03-27,2024-04-26,Completed
-220,229,Communication Skills,2024-06-09,2024-07-06,Completed
-221,230,Data Analysis,2024-10-07,2024-10-30,Completed
-222,230,Project Management,2024-05-29,2024-06-21,Not Started
-223,231,Project Management,2024-01-19,2024-02-17,Not Started
-224,233,Project Management,2024-10-13,2024-11-04,Completed
-225,234,Data Analysis,2025-12-07,2026-01-05,Completed
-226,235,Leadership,2025-09-08,2025-09-28,Completed
-227,236,Python Basics,2025-07-24,2025-08-03,Completed
-228,236,Project Management,2024-03-30,2024-04-06,Not Started
-229,239,Data Analysis,2025-02-09,2025-02-19,Completed
-230,239,Python Basics,2024-07-23,2024-08-05,Ongoing
-231,243,Project Management,2025-06-04,2025-06-11,Not Started
-232,243,Python Basics,2025-08-24,2025-09-11,Not Started
-233,244,Project Management,2025-11-23,2025-12-17,Completed
-234,244,Leadership,2024-06-21,2024-07-02,Not Started
-235,245,Python Basics,2024-03-04,2024-03-31,Completed
-236,245,Project Management,2025-01-04,2025-01-12,Ongoing
-237,247,Data Analysis,2025-05-13,2025-05-22,Completed
-238,248,Project Management,2025-09-28,2025-10-28,Completed
-239,248,Python Basics,2024-02-15,2024-03-04,Not Started
-240,250,Leadership,2025-01-28,2025-02-11,Completed
-241,251,Communication Skills,2024-03-28,2024-04-24,Ongoing
-242,252,Communication Skills,2025-08-07,2025-08-28,Completed
-243,253,Leadership,2024-04-28,2024-05-19,Ongoing
-244,254,Project Management,2025-12-17,2026-01-04,Ongoing
-245,256,Project Management,2024-03-30,2024-04-24,Completed
-246,256,Python Basics,2024-05-04,2024-05-29,Completed
-247,257,Leadership,2025-01-21,2025-02-04,Ongoing
-248,258,Python Basics,2025-08-04,2025-08-23,Ongoing
-249,259,Communication Skills,2024-11-09,2024-12-03,Not Started
-250,259,Data Analysis,2024-04-03,2024-04-15,Not Started
-251,260,Project Management,2024-01-29,2024-02-12,Ongoing
-252,262,Communication Skills,2024-05-01,2024-05-25,Not Started
-253,262,Communication Skills,2024-09-20,2024-10-06,Completed
-254,266,Leadership,2025-05-18,2025-06-04,Completed
-255,266,Python Basics,2025-08-16,2025-09-02,Completed
-256,268,Python Basics,2025-11-20,2025-12-11,Completed
-257,268,Project Management,2024-05-31,2024-06-30,Ongoing
-258,269,Leadership,2024-03-30,2024-04-17,Not Started
-259,271,Communication Skills,2025-07-03,2025-07-24,Completed
-260,274,Data Analysis,2024-08-05,2024-08-21,Not Started
-261,274,Communication Skills,2025-06-08,2025-06-17,Ongoing
-262,277,Project Management,2024-12-07,2025-01-05,Ongoing
-263,278,Data Analysis,2025-12-05,2025-12-13,Not Started
-264,279,Leadership,2025-05-27,2025-06-12,Not Started
-265,280,Communication Skills,2025-11-17,2025-12-10,Ongoing
-266,282,Project Management,2025-09-25,2025-10-04,Ongoing
-267,282,Leadership,2025-09-13,2025-09-22,Ongoing
-268,283,Leadership,2025-02-07,2025-02-22,Not Started
-269,283,Data Analysis,2024-07-13,2024-08-12,Not Started
-270,284,Leadership,2024-09-17,2024-10-07,Not Started
-271,284,Project Management,2025-03-11,2025-03-26,Ongoing
-272,285,Leadership,2024-10-24,2024-11-11,Ongoing
-273,286,Python Basics,2025-09-11,2025-09-27,Completed
-274,286,Data Analysis,2025-01-27,2025-02-11,Not Started
-275,289,Leadership,2025-10-20,2025-11-04,Ongoing
-276,290,Communication Skills,2024-09-03,2024-09-19,Completed
-277,291,Python Basics,2024-09-17,2024-10-05,Completed
-278,291,Leadership,2024-04-03,2024-04-09,Completed
-279,292,Communication Skills,2025-09-13,2025-10-10,Not Started
-280,293,Communication Skills,2025-10-22,2025-11-16,Not Started
-281,295,Data Analysis,2024-07-03,2024-07-22,Ongoing
-282,295,Data Analysis,2024-03-29,2024-04-07,Not Started
-283,296,Communication Skills,2024-07-24,2024-08-18,Completed
-284,296,Leadership,2024-11-05,2024-12-05,Ongoing
-285,298,Project Management,2025-08-11,2025-09-04,Ongoing
-286,299,Communication Skills,2024-08-14,2024-09-04,Not Started
-287,299,Python Basics,2025-10-24,2025-11-22,Not Started
-288,300,Project Management,2025-03-22,2025-03-30,Not Started
-289,301,Data Analysis,2024-02-14,2024-02-26,Ongoing
-290,301,Python Basics,2024-01-14,2024-01-30,Completed
-291,302,Project Management,2025-07-18,2025-08-13,Not Started
-292,302,Python Basics,2025-06-11,2025-06-20,Completed
-293,306,Data Analysis,2024-12-10,2024-12-22,Not Started
-294,306,Communication Skills,2024-05-31,2024-06-05,Ongoing
-295,307,Communication Skills,2024-06-25,2024-07-12,Completed
-296,307,Project Management,2024-12-30,2025-01-23,Not Started
-297,308,Python Basics,2025-07-02,2025-07-27,Not Started
-298,309,Leadership,2024-11-12,2024-11-22,Completed
-299,309,Leadership,2025-01-04,2025-01-14,Completed
-300,310,Communication Skills,2025-04-29,2025-05-13,Not Started
-301,311,Python Basics,2024-01-15,2024-02-02,Not Started
-302,312,Data Analysis,2024-05-13,2024-05-24,Completed
-303,312,Communication Skills,2024-10-11,2024-11-05,Completed
-304,313,Project Management,2025-10-02,2025-10-18,Completed
-305,314,Data Analysis,2024-10-11,2024-10-17,Completed
-306,314,Data Analysis,2025-10-03,2025-10-16,Completed
-307,315,Data Analysis,2025-02-12,2025-02-22,Not Started
-308,316,Project Management,2025-11-22,2025-11-30,Not Started
-309,316,Data Analysis,2025-04-02,2025-04-14,Not Started
-310,317,Leadership,2025-01-16,2025-02-15,Not Started
-311,317,Python Basics,2025-03-27,2025-04-18,Not Started
-312,318,Data Analysis,2024-07-16,2024-08-11,Completed
-313,319,Data Analysis,2025-02-24,2025-03-19,Not Started
-314,322,Python Basics,2024-02-16,2024-03-13,Ongoing
-315,324,Data Analysis,2025-02-15,2025-03-16,Not Started
-316,326,Leadership,2024-01-05,2024-01-27,Completed
-317,326,Leadership,2025-11-29,2025-12-05,Ongoing
-318,327,Communication Skills,2025-07-18,2025-08-08,Completed
-319,328,Project Management,2024-07-08,2024-08-05,Ongoing
-320,328,Leadership,2025-01-26,2025-02-01,Completed
-321,329,Leadership,2024-05-24,2024-06-22,Completed
-322,331,Leadership,2024-03-04,2024-03-29,Ongoing
-323,332,Python Basics,2025-10-23,2025-11-16,Not Started
-324,333,Python Basics,2024-03-15,2024-04-12,Ongoing
-325,333,Communication Skills,2024-04-09,2024-04-27,Ongoing
-326,334,Communication Skills,2024-08-30,2024-09-23,Completed
-327,334,Python Basics,2025-08-14,2025-08-31,Completed
-328,335,Leadership,2025-09-15,2025-09-20,Not Started
-329,336,Project Management,2025-04-15,2025-05-10,Ongoing
-330,336,Leadership,2025-06-25,2025-07-04,Not Started
-331,337,Python Basics,2024-11-17,2024-11-23,Not Started
-332,338,Project Management,2025-04-06,2025-05-02,Ongoing
-333,338,Leadership,2024-10-02,2024-10-19,Completed
-334,340,Communication Skills,2025-07-19,2025-08-03,Ongoing
-335,344,Project Management,2025-12-17,2025-12-27,Ongoing
-336,345,Communication Skills,2025-12-17,2026-01-01,Completed
-337,346,Communication Skills,2024-12-19,2025-01-15,Completed
-338,347,Communication Skills,2024-07-23,2024-08-02,Ongoing
-339,347,Leadership,2024-05-13,2024-06-12,Completed
-340,350,Project Management,2025-01-20,2025-01-26,Not Started
-341,350,Leadership,2025-09-02,2025-10-02,Ongoing
-342,352,Python Basics,2025-11-17,2025-12-01,Completed
-343,353,Data Analysis,2024-10-15,2024-11-07,Not Started
-344,356,Data Analysis,2024-04-25,2024-05-11,Ongoing
-345,356,Data Analysis,2025-11-09,2025-11-20,Completed
-346,358,Project Management,2024-03-26,2024-04-19,Not Started
-347,360,Leadership,2025-10-16,2025-11-14,Not Started
-348,361,Project Management,2025-12-25,2026-01-09,Ongoing
-349,361,Project Management,2024-05-15,2024-06-12,Ongoing
-350,363,Python Basics,2025-06-03,2025-06-10,Not Started
-351,363,Project Management,2025-04-05,2025-04-23,Not Started
-352,365,Communication Skills,2024-10-14,2024-10-26,Not Started
-353,368,Communication Skills,2025-08-05,2025-08-11,Ongoing
-354,370,Data Analysis,2025-12-18,2026-01-03,Ongoing
-355,371,Data Analysis,2025-11-22,2025-12-15,Completed
-356,373,Project Management,2025-04-14,2025-05-09,Not Started
-357,374,Project Management,2024-04-26,2024-05-24,Not Started
-358,374,Python Basics,2024-03-01,2024-03-08,Ongoing
-359,375,Python Basics,2025-09-20,2025-09-26,Ongoing
-360,376,Communication Skills,2025-04-30,2025-05-13,Completed
-361,377,Communication Skills,2024-08-22,2024-09-07,Ongoing
-362,382,Python Basics,2024-03-08,2024-03-13,Ongoing
-363,382,Leadership,2025-04-25,2025-05-03,Ongoing
-364,385,Project Management,2024-12-13,2025-01-01,Ongoing
-365,385,Python Basics,2025-12-19,2026-01-06,Ongoing
-366,387,Project Management,2024-04-10,2024-04-19,Not Started
-367,387,Python Basics,2024-07-14,2024-08-06,Not Started
-368,388,Project Management,2025-01-20,2025-02-15,Not Started
-369,388,Python Basics,2024-04-13,2024-05-05,Completed
-370,389,Data Analysis,2024-06-02,2024-06-24,Ongoing
-371,389,Communication Skills,2025-05-19,2025-06-13,Completed
-372,390,Data Analysis,2024-01-19,2024-01-26,Not Started
-373,392,Python Basics,2024-07-01,2024-07-17,Completed
-374,392,Project Management,2025-08-12,2025-08-19,Not Started
-375,393,Leadership,2024-11-02,2024-11-07,Completed
-376,396,Data Analysis,2024-12-31,2025-01-08,Completed
-377,398,Project Management,2025-01-07,2025-01-20,Ongoing
-378,399,Python Basics,2024-03-25,2024-04-09,Completed
-379,399,Communication Skills,2025-08-14,2025-09-11,Not Started
-380,400,Project Management,2025-03-29,2025-04-23,Ongoing
-381,401,Leadership,2025-10-30,2025-11-09,Ongoing
-382,402,Communication Skills,2024-02-13,2024-02-20,Completed
-383,402,Python Basics,2025-11-18,2025-12-07,Ongoing
-384,404,Project Management,2025-03-02,2025-04-01,Completed
-385,407,Project Management,2025-06-22,2025-06-30,Completed
-386,407,Leadership,2025-12-20,2026-01-09,Ongoing
-387,409,Project Management,2025-06-30,2025-07-27,Ongoing
-388,411,Communication Skills,2024-03-22,2024-04-08,Completed
-389,411,Python Basics,2024-05-12,2024-05-28,Not Started
-390,412,Leadership,2024-10-14,2024-11-07,Not Started
-391,412,Leadership,2025-07-14,2025-08-02,Ongoing
-392,413,Python Basics,2025-08-10,2025-09-02,Ongoing
-393,414,Communication Skills,2025-02-05,2025-03-05,Completed
-394,414,Project Management,2025-06-17,2025-07-05,Ongoing
-395,415,Data Analysis,2024-04-09,2024-05-06,Not Started
-396,416,Project Management,2024-08-03,2024-08-24,Completed
-397,418,Communication Skills,2025-10-11,2025-11-07,Not Started
-398,418,Project Management,2024-08-22,2024-08-28,Not Started
-399,419,Data Analysis,2024-08-22,2024-08-28,Ongoing
-400,419,Communication Skills,2025-08-25,2025-09-06,Completed
-401,420,Communication Skills,2024-09-13,2024-09-27,Ongoing
-402,421,Project Management,2024-06-17,2024-07-06,Completed
-403,421,Communication Skills,2025-03-04,2025-03-26,Ongoing
-404,422,Leadership,2025-10-25,2025-11-21,Completed
-405,422,Data Analysis,2025-12-30,2026-01-26,Completed
-406,423,Leadership,2025-12-13,2026-01-01,Not Started
-407,424,Data Analysis,2024-05-30,2024-06-23,Ongoing
-408,424,Project Management,2025-05-29,2025-06-24,Not Started
-409,425,Python Basics,2024-11-07,2024-11-27,Ongoing
-410,426,Project Management,2024-09-15,2024-09-26,Completed
-411,426,Leadership,2025-06-09,2025-07-04,Completed
-412,428,Project Management,2024-10-23,2024-11-09,Not Started
-413,428,Data Analysis,2025-03-01,2025-03-21,Completed
-414,430,Python Basics,2024-08-18,2024-08-31,Completed
-415,431,Leadership,2024-10-07,2024-10-17,Ongoing
-416,431,Leadership,2025-04-22,2025-05-18,Completed
-417,432,Data Analysis,2025-09-08,2025-09-23,Not Started
-418,432,Data Analysis,2025-12-30,2026-01-20,Ongoing
-419,435,Project Management,2025-03-19,2025-04-08,Completed
-420,435,Project Management,2025-09-13,2025-09-30,Not Started
-421,437,Communication Skills,2025-01-15,2025-01-20,Ongoing
-422,438,Python Basics,2024-06-06,2024-07-06,Not Started
-423,438,Communication Skills,2024-08-21,2024-09-17,Ongoing
-424,441,Data Analysis,2025-04-01,2025-04-12,Ongoing
-425,442,Data Analysis,2024-02-25,2024-03-24,Ongoing
-426,442,Project Management,2024-04-05,2024-04-23,Completed
-427,443,Project Management,2024-01-11,2024-01-25,Not Started
-428,443,Leadership,2024-07-03,2024-07-31,Completed
-429,444,Project Management,2024-12-27,2025-01-02,Completed
-430,445,Data Analysis,2024-04-08,2024-04-13,Ongoing
-431,446,Python Basics,2024-11-24,2024-12-15,Ongoing
-432,446,Data Analysis,2025-12-10,2025-12-28,Completed
-433,448,Project Management,2025-09-15,2025-09-26,Not Started
-434,450,Communication Skills,2025-03-23,2025-04-14,Ongoing
-435,451,Leadership,2024-12-31,2025-01-23,Completed
-436,451,Communication Skills,2025-01-12,2025-01-24,Completed
-437,452,Data Analysis,2024-02-01,2024-02-12,Not Started
-438,453,Leadership,2025-02-10,2025-02-25,Not Started
-439,454,Leadership,2024-02-20,2024-03-15,Not Started
-440,454,Project Management,2024-07-09,2024-07-28,Not Started
-441,457,Python Basics,2025-03-10,2025-03-27,Not Started
-442,457,Data Analysis,2024-09-29,2024-10-21,Ongoing
-443,459,Python Basics,2024-11-23,2024-11-30,Completed
-444,459,Python Basics,2025-02-28,2025-03-16,Completed
-445,460,Leadership,2025-05-23,2025-06-08,Completed
-446,461,Python Basics,2024-10-17,2024-11-04,Not Started
-447,461,Communication Skills,2025-07-26,2025-08-13,Ongoing
-448,462,Leadership,2024-09-16,2024-09-22,Completed
-449,463,Data Analysis,2024-09-08,2024-09-13,Completed
-450,463,Data Analysis,2025-09-15,2025-10-13,Not Started
-451,466,Python Basics,2025-07-16,2025-08-01,Not Started
-452,467,Python Basics,2024-09-01,2024-09-14,Completed
-453,467,Leadership,2024-06-25,2024-06-30,Completed
-454,468,Leadership,2025-09-26,2025-10-24,Not Started
-455,473,Data Analysis,2025-09-16,2025-10-14,Not Started
-456,474,Project Management,2025-09-23,2025-10-05,Completed
-457,476,Communication Skills,2024-05-04,2024-05-12,Completed
-458,476,Data Analysis,2025-07-23,2025-08-14,Completed
-459,477,Data Analysis,2025-03-27,2025-04-19,Ongoing
-460,479,Communication Skills,2025-07-25,2025-08-07,Ongoing
-461,479,Communication Skills,2024-11-22,2024-12-22,Ongoing
-462,480,Data Analysis,2025-08-12,2025-09-03,Completed
-463,481,Communication Skills,2024-07-05,2024-07-21,Ongoing
-464,482,Python Basics,2024-12-27,2025-01-17,Completed
-465,482,Python Basics,2025-10-27,2025-11-08,Ongoing
-466,483,Project Management,2025-10-13,2025-10-18,Not Started
-467,483,Project Management,2024-11-05,2024-11-23,Completed
-468,484,Communication Skills,2024-05-18,2024-06-01,Ongoing
-469,484,Python Basics,2024-11-29,2024-12-07,Ongoing
-470,485,Communication Skills,2025-08-04,2025-08-19,Ongoing
-471,485,Python Basics,2024-04-03,2024-04-09,Completed
-472,487,Python Basics,2025-02-14,2025-02-19,Completed
-473,487,Project Management,2025-08-25,2025-09-04,Completed
-474,488,Leadership,2024-06-13,2024-06-19,Ongoing
-475,488,Data Analysis,2024-01-30,2024-02-10,Completed
-476,489,Communication Skills,2025-04-19,2025-04-26,Ongoing
-477,495,Python Basics,2024-06-26,2024-07-16,Completed
-478,496,Data Analysis,2024-08-19,2024-09-16,Not Started
-479,497,Communication Skills,2025-10-24,2025-10-30,Not Started
-480,498,Leadership,2025-03-19,2025-03-28,Not Started
-481,498,Data Analysis,2025-05-15,2025-06-10,Ongoing
-482,500,Project Management,2025-07-03,2025-07-12,Completed
-483,501,Project Management,2025-06-07,2025-06-12,Ongoing
-484,504,Project Management,2024-12-24,2024-12-30,Completed
-485,505,Project Management,2024-12-14,2025-01-04,Not Started
-486,506,Project Management,2024-08-19,2024-08-27,Completed
-487,506,Data Analysis,2025-12-25,2026-01-24,Ongoing
-488,507,Python Basics,2025-03-16,2025-04-14,Completed
-489,507,Python Basics,2024-06-12,2024-06-28,Not Started
-490,509,Data Analysis,2024-05-07,2024-05-20,Ongoing
-491,511,Communication Skills,2025-01-04,2025-02-02,Completed
-492,511,Project Management,2025-05-07,2025-05-20,Not Started
-493,513,Leadership,2025-10-03,2025-10-30,Completed
-494,515,Leadership,2025-10-19,2025-10-27,Completed
-495,515,Leadership,2024-05-04,2024-05-10,Ongoing
-496,519,Data Analysis,2025-07-08,2025-08-01,Ongoing
-497,519,Leadership,2025-05-02,2025-05-13,Completed
-498,521,Leadership,2025-12-07,2026-01-06,Not Started
-499,523,Communication Skills,2025-07-03,2025-07-13,Completed
-500,523,Communication Skills,2024-09-25,2024-10-25,Not Started
-501,525,Leadership,2025-10-07,2025-11-06,Not Started
-502,527,Data Analysis,2024-12-09,2024-12-14,Completed
-503,530,Communication Skills,2024-06-21,2024-07-07,Ongoing
-504,530,Data Analysis,2025-05-16,2025-05-25,Not Started
-505,531,Data Analysis,2025-08-26,2025-09-01,Ongoing
-506,531,Data Analysis,2024-12-03,2024-12-25,Not Started
-507,532,Communication Skills,2025-08-01,2025-08-22,Not Started
-508,533,Project Management,2025-01-30,2025-03-01,Not Started
-509,533,Leadership,2025-12-13,2025-12-29,Not Started
-510,534,Leadership,2024-07-30,2024-08-13,Completed
-511,534,Leadership,2025-05-02,2025-05-28,Completed
-512,535,Data Analysis,2025-06-22,2025-07-11,Completed
-513,536,Communication Skills,2025-08-26,2025-09-13,Completed
-514,537,Leadership,2024-03-05,2024-03-12,Completed
-515,540,Project Management,2025-03-03,2025-03-14,Ongoing
-516,540,Communication Skills,2024-09-17,2024-10-14,Completed
-517,541,Communication Skills,2024-09-06,2024-10-05,Not Started
-518,541,Communication Skills,2025-06-09,2025-06-14,Completed
-519,542,Leadership,2024-04-18,2024-05-09,Not Started
-520,542,Communication Skills,2025-11-05,2025-11-17,Not Started
-521,544,Python Basics,2025-11-29,2025-12-24,Ongoing
-522,545,Leadership,2025-12-13,2026-01-03,Ongoing
-523,546,Project Management,2025-07-20,2025-08-10,Ongoing
-524,547,Data Analysis,2025-11-26,2025-12-15,Completed
-525,547,Data Analysis,2024-01-28,2024-02-22,Not Started
-526,548,Project Management,2025-04-10,2025-05-09,Ongoing
-527,549,Communication Skills,2025-11-18,2025-12-08,Completed
-528,549,Data Analysis,2025-09-24,2025-10-21,Not Started
-529,550,Data Analysis,2024-05-09,2024-05-22,Ongoing
-530,550,Communication Skills,2024-04-26,2024-05-03,Not Started
-531,551,Python Basics,2024-08-08,2024-09-03,Ongoing
-532,552,Project Management,2024-05-15,2024-05-29,Ongoing
-533,553,Leadership,2024-10-25,2024-11-07,Not Started
-534,554,Project Management,2024-04-04,2024-05-03,Not Started
-535,557,Communication Skills,2025-09-30,2025-10-13,Not Started
-536,557,Data Analysis,2024-01-26,2024-02-01,Ongoing
-537,558,Data Analysis,2024-08-12,2024-08-19,Completed
-538,559,Python Basics,2025-12-19,2025-12-30,Ongoing
-539,561,Leadership,2025-02-06,2025-02-11,Not Started
-540,561,Data Analysis,2024-08-17,2024-08-31,Completed
-541,564,Leadership,2025-02-07,2025-02-22,Completed
-542,564,Leadership,2025-01-22,2025-02-07,Ongoing
-543,565,Communication Skills,2024-06-14,2024-06-24,Ongoing
-544,566,Python Basics,2024-08-14,2024-08-19,Not Started
-545,567,Python Basics,2025-10-25,2025-11-15,Ongoing
-546,568,Leadership,2024-11-07,2024-12-02,Ongoing
-547,568,Leadership,2025-07-07,2025-07-22,Ongoing
-548,569,Python Basics,2025-09-13,2025-10-08,Not Started
-549,571,Communication Skills,2024-03-31,2024-04-22,Completed
-550,571,Project Management,2025-12-30,2026-01-18,Completed
-551,572,Project Management,2024-03-25,2024-04-23,Not Started
-552,574,Project Management,2024-05-03,2024-05-27,Completed
-553,574,Leadership,2024-05-07,2024-05-24,Ongoing
-554,575,Python Basics,2024-11-13,2024-11-26,Ongoing
-555,575,Python Basics,2024-08-11,2024-09-07,Not Started
-556,578,Communication Skills,2024-06-03,2024-06-16,Completed
-557,578,Project Management,2025-03-21,2025-04-01,Completed
-558,579,Leadership,2024-12-10,2025-01-03,Ongoing
-559,579,Leadership,2024-02-08,2024-02-27,Ongoing
-560,582,Python Basics,2025-09-27,2025-10-20,Not Started
-561,582,Communication Skills,2025-04-26,2025-05-24,Ongoing
-562,584,Communication Skills,2025-07-12,2025-07-26,Completed
-563,584,Leadership,2025-07-05,2025-07-12,Not Started
-564,585,Python Basics,2025-11-14,2025-11-26,Completed
-565,587,Data Analysis,2024-08-01,2024-08-30,Completed
-566,589,Data Analysis,2024-06-12,2024-06-21,Not Started
-567,589,Communication Skills,2025-02-01,2025-02-22,Ongoing
-568,590,Python Basics,2025-04-12,2025-05-10,Ongoing
-569,590,Leadership,2025-01-17,2025-01-30,Ongoing
-570,592,Python Basics,2024-06-15,2024-06-20,Ongoing
-571,592,Python Basics,2024-02-10,2024-02-17,Completed
-572,595,Python Basics,2025-04-14,2025-04-28,Not Started
-573,595,Communication Skills,2025-04-14,2025-04-23,Not Started
-574,596,Leadership,2024-10-22,2024-11-02,Not Started
-575,598,Communication Skills,2024-09-14,2024-10-10,Ongoing
-576,598,Python Basics,2024-04-18,2024-05-09,Not Started
-577,600,Python Basics,2025-07-24,2025-08-19,Completed
-578,600,Python Basics,2025-10-08,2025-10-26,Ongoing
-579,604,Python Basics,2025-09-03,2025-09-20,Not Started
-580,604,Project Management,2024-07-19,2024-07-31,Completed
-581,605,Leadership,2025-08-01,2025-08-16,Not Started
-582,606,Data Analysis,2024-04-24,2024-05-10,Completed
-583,606,Leadership,2024-06-14,2024-06-30,Ongoing
-584,607,Project Management,2024-10-24,2024-11-03,Ongoing
-585,608,Data Analysis,2025-01-01,2025-01-06,Ongoing
-586,608,Project Management,2024-02-16,2024-03-11,Ongoing
-587,609,Data Analysis,2025-08-26,2025-09-23,Ongoing
-588,609,Leadership,2024-08-12,2024-09-03,Ongoing
-589,610,Project Management,2025-11-26,2025-12-17,Completed
-590,610,Leadership,2024-05-24,2024-06-12,Completed
-591,611,Communication Skills,2024-09-19,2024-10-18,Ongoing
-592,612,Communication Skills,2025-12-04,2025-12-30,Ongoing
-593,613,Communication Skills,2025-04-22,2025-05-09,Ongoing
-594,613,Data Analysis,2025-05-04,2025-05-20,Ongoing
-595,614,Leadership,2025-06-21,2025-07-20,Not Started
-596,615,Data Analysis,2025-06-01,2025-06-07,Ongoing
-597,616,Data Analysis,2024-06-17,2024-06-29,Completed
-598,616,Project Management,2024-10-31,2024-11-26,Not Started
-599,618,Project Management,2024-12-06,2024-12-17,Completed
-600,619,Data Analysis,2024-08-30,2024-09-19,Completed
-601,620,Leadership,2025-07-17,2025-07-29,Ongoing
-602,620,Project Management,2024-03-09,2024-04-07,Ongoing
-603,622,Data Analysis,2025-09-16,2025-10-01,Ongoing
-604,622,Leadership,2024-07-24,2024-08-21,Ongoing
-605,623,Data Analysis,2025-08-19,2025-09-01,Not Started
-606,624,Communication Skills,2025-01-22,2025-02-06,Ongoing
-607,624,Python Basics,2024-06-20,2024-07-16,Not Started
-608,626,Leadership,2025-04-22,2025-05-16,Not Started
-609,627,Leadership,2025-11-18,2025-11-29,Not Started
-610,627,Communication Skills,2024-09-05,2024-10-02,Ongoing
-611,628,Leadership,2024-10-15,2024-11-09,Not Started
-612,628,Python Basics,2025-02-01,2025-02-09,Ongoing
-613,629,Data Analysis,2025-10-24,2025-11-03,Not Started
-614,629,Python Basics,2024-08-25,2024-09-10,Ongoing
-615,630,Data Analysis,2024-04-17,2024-05-02,Not Started
-616,632,Data Analysis,2024-04-01,2024-04-19,Ongoing
-617,632,Python Basics,2024-08-30,2024-09-18,Completed
-618,635,Communication Skills,2025-09-12,2025-10-10,Ongoing
-619,635,Communication Skills,2025-05-21,2025-06-05,Not Started
-620,636,Python Basics,2024-12-25,2025-01-16,Not Started
-621,636,Leadership,2024-04-21,2024-05-10,Not Started
-622,637,Communication Skills,2024-12-24,2025-01-22,Ongoing
-623,639,Communication Skills,2025-08-20,2025-09-01,Completed
-624,640,Project Management,2025-06-07,2025-06-12,Completed
-625,640,Communication Skills,2024-12-14,2025-01-07,Ongoing
-626,641,Project Management,2024-06-18,2024-07-10,Completed
-627,642,Data Analysis,2024-10-26,2024-11-04,Ongoing
-628,643,Python Basics,2024-06-03,2024-06-24,Ongoing
-629,644,Data Analysis,2024-07-23,2024-07-29,Ongoing
-630,645,Project Management,2025-11-05,2025-11-13,Ongoing
-631,645,Leadership,2024-05-01,2024-05-07,Not Started
-632,646,Data Analysis,2025-06-18,2025-06-26,Not Started
-633,646,Project Management,2025-05-09,2025-05-25,Not Started
-634,648,Communication Skills,2025-04-23,2025-05-16,Ongoing
-635,649,Project Management,2025-02-01,2025-02-25,Ongoing
-636,649,Communication Skills,2025-08-14,2025-08-26,Ongoing
-637,650,Data Analysis,2024-07-12,2024-07-28,Not Started
-638,653,Project Management,2024-08-30,2024-09-21,Not Started
-639,654,Python Basics,2024-08-19,2024-09-06,Not Started
-640,657,Project Management,2025-12-13,2026-01-02,Not Started
-641,658,Data Analysis,2025-01-15,2025-02-06,Not Started
-642,658,Leadership,2025-04-30,2025-05-15,Ongoing
-643,659,Python Basics,2024-04-30,2024-05-28,Ongoing
-644,660,Leadership,2024-11-05,2024-11-11,Completed
-645,660,Communication Skills,2025-12-31,2026-01-22,Not Started
-646,661,Project Management,2025-08-21,2025-09-18,Completed
-647,661,Python Basics,2025-11-06,2025-11-22,Completed
-648,662,Project Management,2024-04-10,2024-04-15,Not Started
-649,662,Python Basics,2025-06-12,2025-06-19,Ongoing
-650,664,Leadership,2024-12-04,2024-12-18,Not Started
-651,666,Leadership,2025-02-04,2025-02-26,Not Started
-652,667,Project Management,2025-11-22,2025-12-08,Completed
-653,667,Python Basics,2025-11-10,2025-11-29,Completed
-654,668,Data Analysis,2024-07-29,2024-08-21,Not Started
-655,668,Communication Skills,2024-10-15,2024-10-30,Completed
-656,670,Python Basics,2024-08-29,2024-09-17,Completed
-657,670,Python Basics,2025-12-28,2026-01-05,Completed
-658,671,Python Basics,2025-07-30,2025-08-21,Ongoing
-659,672,Communication Skills,2024-10-07,2024-10-25,Ongoing
-660,672,Python Basics,2025-03-11,2025-04-06,Not Started
-661,674,Data Analysis,2024-04-04,2024-04-20,Not Started
-662,676,Leadership,2024-11-03,2024-11-13,Not Started
-663,678,Leadership,2025-01-20,2025-02-12,Completed
-664,679,Project Management,2025-10-29,2025-11-17,Ongoing
-665,680,Data Analysis,2025-11-25,2025-12-16,Not Started
-666,681,Python Basics,2025-03-09,2025-03-28,Ongoing
-667,681,Data Analysis,2024-02-26,2024-03-05,Ongoing
-668,682,Project Management,2024-07-28,2024-08-25,Ongoing
-669,683,Python Basics,2025-04-23,2025-05-09,Ongoing
-670,683,Communication Skills,2024-02-22,2024-03-20,Completed
-671,684,Python Basics,2025-09-01,2025-09-26,Not Started
-672,687,Project Management,2024-06-03,2024-07-02,Not Started
-673,687,Data Analysis,2024-09-26,2024-10-21,Not Started
-674,688,Communication Skills,2025-11-28,2025-12-27,Completed
-675,689,Python Basics,2025-11-30,2025-12-30,Not Started
-676,689,Leadership,2024-12-15,2024-12-29,Completed
-677,690,Leadership,2024-06-23,2024-07-18,Not Started
-678,690,Communication Skills,2024-07-12,2024-07-28,Not Started
-679,691,Communication Skills,2024-02-23,2024-03-08,Completed
-680,692,Communication Skills,2025-05-26,2025-06-08,Completed
-681,692,Python Basics,2024-02-19,2024-03-17,Ongoing
-682,695,Leadership,2025-01-19,2025-02-18,Ongoing
-683,695,Communication Skills,2024-02-21,2024-03-11,Not Started
-684,697,Data Analysis,2025-10-25,2025-11-15,Not Started
-685,700,Project Management,2024-08-01,2024-08-14,Not Started
-686,700,Communication Skills,2024-07-10,2024-08-01,Not Started
-687,702,Communication Skills,2025-06-07,2025-06-21,Not Started
-688,704,Communication Skills,2025-08-06,2025-08-31,Ongoing
-689,704,Python Basics,2025-10-22,2025-11-18,Completed
-690,705,Communication Skills,2025-11-11,2025-11-21,Ongoing
-691,705,Communication Skills,2024-03-10,2024-03-20,Ongoing
-692,706,Communication Skills,2024-09-24,2024-10-05,Not Started
-693,706,Communication Skills,2024-08-05,2024-09-01,Ongoing
-694,707,Communication Skills,2025-02-06,2025-03-08,Ongoing
-695,707,Python Basics,2025-04-17,2025-05-01,Not Started
-696,708,Leadership,2024-07-31,2024-08-30,Completed
-697,710,Python Basics,2024-09-16,2024-09-22,Completed
-698,710,Communication Skills,2025-07-31,2025-08-30,Ongoing
-699,713,Leadership,2025-06-14,2025-07-12,Not Started
-700,714,Data Analysis,2024-12-22,2025-01-11,Not Started
-701,714,Communication Skills,2024-03-13,2024-04-09,Not Started
-702,715,Leadership,2024-09-26,2024-10-26,Completed
-703,715,Data Analysis,2024-07-26,2024-08-20,Ongoing
-704,718,Leadership,2024-06-26,2024-07-16,Ongoing
-705,719,Data Analysis,2024-06-28,2024-07-12,Not Started
-706,720,Leadership,2025-06-10,2025-06-15,Ongoing
-707,721,Python Basics,2025-06-26,2025-07-23,Ongoing
-708,723,Data Analysis,2024-12-09,2024-12-18,Not Started
-709,723,Data Analysis,2025-06-16,2025-07-10,Completed
-710,726,Communication Skills,2024-04-24,2024-05-22,Not Started
-711,726,Project Management,2025-08-28,2025-09-05,Ongoing
-712,727,Data Analysis,2024-11-23,2024-12-02,Completed
-713,727,Data Analysis,2024-10-11,2024-10-28,Ongoing
-714,728,Communication Skills,2025-11-27,2025-12-25,Not Started
-715,728,Python Basics,2024-06-26,2024-07-15,Not Started
-716,729,Python Basics,2024-09-05,2024-09-13,Completed
-717,733,Leadership,2025-07-02,2025-07-23,Not Started
-718,733,Data Analysis,2024-09-29,2024-10-13,Not Started
-719,734,Python Basics,2024-03-01,2024-03-31,Ongoing
-720,735,Leadership,2025-09-17,2025-10-17,Not Started
-721,736,Project Management,2024-02-09,2024-02-15,Not Started
-722,737,Data Analysis,2025-05-22,2025-06-03,Not Started
-723,739,Leadership,2025-01-30,2025-02-09,Not Started
-724,741,Project Management,2024-05-27,2024-06-18,Ongoing
-725,741,Python Basics,2025-09-13,2025-09-29,Ongoing
-726,743,Communication Skills,2024-07-10,2024-08-07,Completed
-727,745,Leadership,2024-07-12,2024-07-26,Not Started
-728,745,Data Analysis,2025-10-23,2025-11-10,Completed
-729,747,Python Basics,2025-03-08,2025-03-17,Ongoing
-730,748,Leadership,2025-06-02,2025-06-07,Not Started
-731,751,Leadership,2024-10-24,2024-11-10,Ongoing
-732,752,Communication Skills,2025-07-23,2025-08-15,Completed
-733,752,Leadership,2024-11-09,2024-11-23,Ongoing
-734,753,Python Basics,2024-12-23,2025-01-17,Not Started
-735,754,Project Management,2025-04-05,2025-04-30,Not Started
-736,754,Data Analysis,2025-09-11,2025-09-17,Completed
-737,755,Python Basics,2024-07-19,2024-08-12,Ongoing
-738,755,Leadership,2024-12-02,2024-12-21,Completed
-739,756,Communication Skills,2024-02-17,2024-03-12,Completed
-740,756,Python Basics,2024-02-12,2024-03-04,Ongoing
-741,757,Leadership,2024-03-23,2024-03-29,Ongoing
-742,758,Leadership,2025-03-02,2025-03-30,Ongoing
-743,759,Communication Skills,2025-03-18,2025-04-17,Ongoing
-744,761,Project Management,2025-02-17,2025-02-27,Not Started
-745,762,Data Analysis,2025-01-11,2025-01-26,Not Started
-746,762,Data Analysis,2024-09-10,2024-09-23,Completed
-747,765,Python Basics,2025-06-01,2025-06-17,Not Started
-748,766,Data Analysis,2024-04-03,2024-04-14,Not Started
-749,766,Data Analysis,2024-06-13,2024-07-04,Ongoing
-750,767,Data Analysis,2024-05-22,2024-06-10,Not Started
-751,767,Leadership,2024-01-05,2024-01-19,Completed
-752,768,Project Management,2024-04-05,2024-05-02,Ongoing
-753,769,Data Analysis,2024-06-03,2024-06-11,Not Started
-754,769,Leadership,2025-05-08,2025-05-26,Not Started
-755,770,Python Basics,2025-08-12,2025-08-20,Completed
-756,770,Leadership,2025-03-25,2025-04-18,Ongoing
-757,772,Project Management,2025-01-30,2025-02-07,Completed
-758,772,Project Management,2024-10-24,2024-11-05,Completed
-759,773,Data Analysis,2025-09-18,2025-10-03,Not Started
-760,773,Data Analysis,2025-12-06,2025-12-29,Not Started
-761,777,Project Management,2024-05-18,2024-06-05,Ongoing
-762,778,Python Basics,2024-02-14,2024-03-06,Ongoing
-763,778,Leadership,2024-01-11,2024-01-20,Completed
-764,780,Data Analysis,2024-08-29,2024-09-15,Not Started
-765,780,Python Basics,2024-05-31,2024-06-26,Completed
-766,783,Data Analysis,2024-09-23,2024-10-22,Not Started
-767,784,Leadership,2025-10-25,2025-11-22,Ongoing
-768,785,Data Analysis,2024-01-21,2024-02-11,Not Started
-769,785,Project Management,2024-06-24,2024-07-20,Not Started
-770,787,Project Management,2025-02-01,2025-02-20,Not Started
-771,788,Data Analysis,2025-10-06,2025-10-24,Ongoing
-772,788,Data Analysis,2025-07-27,2025-08-04,Ongoing
-773,790,Leadership,2024-11-26,2024-12-18,Completed
-774,790,Communication Skills,2024-12-31,2025-01-15,Completed
-775,793,Data Analysis,2025-03-28,2025-04-02,Completed
-776,793,Data Analysis,2025-01-21,2025-01-31,Completed
-777,794,Communication Skills,2025-08-25,2025-09-24,Completed
-778,794,Communication Skills,2025-11-01,2025-11-07,Not Started
-779,795,Leadership,2024-03-26,2024-04-21,Completed
-780,795,Leadership,2024-02-13,2024-03-12,Completed
-781,797,Communication Skills,2025-06-12,2025-06-28,Completed
-782,799,Project Management,2025-07-01,2025-07-27,Ongoing
-783,800,Project Management,2024-04-17,2024-04-27,Ongoing
-784,801,Leadership,2025-10-30,2025-11-13,Completed
-785,801,Project Management,2024-08-29,2024-09-08,Not Started
-786,802,Python Basics,2025-05-24,2025-06-01,Completed
-787,804,Communication Skills,2024-01-11,2024-02-09,Ongoing
-788,804,Project Management,2025-03-25,2025-04-05,Not Started
-789,807,Project Management,2024-11-07,2024-11-29,Ongoing
-790,807,Leadership,2025-05-19,2025-06-15,Ongoing
-791,808,Python Basics,2025-01-14,2025-02-07,Completed
-792,809,Leadership,2024-07-11,2024-07-30,Ongoing
-793,809,Communication Skills,2024-02-25,2024-03-25,Ongoing
-794,810,Data Analysis,2025-07-18,2025-08-08,Completed
-795,811,Python Basics,2025-04-12,2025-05-08,Ongoing
-796,813,Project Management,2025-04-13,2025-05-01,Completed
-797,813,Leadership,2024-05-11,2024-05-31,Completed
-798,815,Python Basics,2024-06-22,2024-07-22,Not Started
-799,817,Data Analysis,2025-05-05,2025-05-10,Completed
-800,817,Communication Skills,2024-11-30,2024-12-14,Ongoing
-801,818,Project Management,2024-04-21,2024-05-05,Not Started
-802,820,Communication Skills,2025-05-30,2025-06-17,Ongoing
-803,820,Data Analysis,2024-11-22,2024-12-04,Ongoing
-804,821,Project Management,2024-11-15,2024-11-20,Ongoing
-805,821,Data Analysis,2024-07-02,2024-07-07,Ongoing
-806,822,Leadership,2024-03-05,2024-04-02,Ongoing
-807,822,Leadership,2025-03-26,2025-04-15,Ongoing
-808,823,Project Management,2025-01-31,2025-02-16,Completed
-809,823,Communication Skills,2025-11-25,2025-12-04,Completed
-810,824,Project Management,2024-02-09,2024-02-21,Completed
-811,825,Leadership,2025-10-19,2025-10-27,Ongoing
-812,826,Data Analysis,2025-05-30,2025-06-11,Not Started
-813,826,Project Management,2025-08-26,2025-09-07,Ongoing
-814,827,Leadership,2025-01-27,2025-02-17,Ongoing
-815,827,Leadership,2024-11-10,2024-11-22,Ongoing
-816,829,Communication Skills,2024-05-12,2024-06-04,Completed
-817,829,Leadership,2025-01-17,2025-02-13,Not Started
-818,832,Data Analysis,2025-02-11,2025-02-27,Not Started
-819,832,Communication Skills,2025-11-22,2025-12-02,Not Started
-820,836,Data Analysis,2025-06-15,2025-06-28,Ongoing
-821,837,Python Basics,2025-11-20,2025-11-26,Ongoing
-822,837,Data Analysis,2025-08-11,2025-09-05,Not Started
-823,838,Communication Skills,2025-06-25,2025-07-10,Not Started
-824,839,Communication Skills,2025-02-18,2025-03-14,Ongoing
-825,842,Project Management,2024-09-19,2024-10-14,Completed
-826,842,Project Management,2025-10-30,2025-11-09,Not Started
-827,843,Python Basics,2025-01-14,2025-02-10,Ongoing
-828,844,Project Management,2025-06-15,2025-07-12,Not Started
-829,848,Python Basics,2024-04-16,2024-05-03,Completed
-830,850,Python Basics,2025-02-11,2025-03-01,Completed
-831,850,Communication Skills,2025-04-30,2025-05-24,Not Started
-832,851,Leadership,2025-05-04,2025-05-14,Not Started
-833,851,Project Management,2024-06-23,2024-07-01,Completed
-834,853,Communication Skills,2024-10-12,2024-10-30,Completed
-835,856,Data Analysis,2025-10-12,2025-10-20,Ongoing
-836,856,Python Basics,2024-03-20,2024-04-19,Not Started
-837,860,Data Analysis,2024-10-08,2024-11-04,Completed
-838,860,Data Analysis,2024-02-06,2024-02-27,Ongoing
-839,862,Project Management,2024-09-14,2024-09-23,Ongoing
-840,863,Data Analysis,2024-07-08,2024-07-31,Ongoing
-841,864,Communication Skills,2025-02-16,2025-02-22,Ongoing
-842,864,Data Analysis,2025-05-02,2025-05-11,Completed
-843,866,Python Basics,2025-11-04,2025-11-24,Completed
-844,867,Leadership,2025-05-05,2025-05-31,Completed
-845,867,Communication Skills,2025-03-13,2025-04-06,Completed
-846,869,Leadership,2025-12-05,2025-12-14,Completed
-847,871,Leadership,2025-01-21,2025-01-29,Ongoing
-848,871,Project Management,2024-01-30,2024-02-28,Ongoing
-849,873,Python Basics,2024-01-16,2024-02-14,Completed
-850,873,Communication Skills,2025-09-11,2025-09-20,Completed
-851,874,Python Basics,2024-10-13,2024-11-08,Completed
-852,874,Project Management,2024-07-31,2024-08-27,Ongoing
-853,876,Project Management,2025-03-16,2025-04-15,Not Started
-854,877,Communication Skills,2024-12-16,2025-01-03,Completed
-855,877,Project Management,2024-02-05,2024-02-18,Not Started
-856,880,Python Basics,2025-07-25,2025-08-09,Completed
-857,880,Python Basics,2024-09-27,2024-10-12,Not Started
-858,881,Python Basics,2025-06-02,2025-06-22,Ongoing
-859,882,Leadership,2024-06-08,2024-06-21,Not Started
-860,882,Leadership,2024-06-01,2024-06-12,Completed
-861,884,Python Basics,2024-02-19,2024-03-07,Not Started
-862,884,Project Management,2024-02-29,2024-03-11,Not Started
-863,886,Leadership,2024-11-01,2024-11-28,Completed
-864,886,Leadership,2024-02-01,2024-02-08,Ongoing
-865,889,Leadership,2024-12-19,2025-01-18,Completed
-866,891,Project Management,2024-09-30,2024-10-18,Completed
-867,891,Python Basics,2025-09-15,2025-10-11,Ongoing
-868,893,Leadership,2025-05-03,2025-05-11,Completed
-869,895,Data Analysis,2025-01-20,2025-02-12,Completed
-870,896,Communication Skills,2025-12-21,2026-01-09,Completed
-871,896,Data Analysis,2025-03-19,2025-03-26,Ongoing
-872,897,Leadership,2024-03-16,2024-04-12,Completed
-873,898,Data Analysis,2025-11-01,2025-11-28,Not Started
-874,898,Communication Skills,2025-01-12,2025-01-30,Completed
-875,900,Python Basics,2024-09-16,2024-10-04,Completed
-876,905,Leadership,2024-02-09,2024-02-20,Not Started
-877,906,Project Management,2024-08-17,2024-09-15,Completed
-878,907,Data Analysis,2024-08-22,2024-09-18,Ongoing
-879,908,Project Management,2024-02-03,2024-02-09,Not Started
-880,908,Project Management,2024-01-10,2024-02-03,Completed
-881,909,Data Analysis,2024-08-31,2024-09-18,Ongoing
-882,909,Data Analysis,2024-07-15,2024-07-24,Completed
-883,911,Python Basics,2025-04-18,2025-04-28,Ongoing
-884,911,Leadership,2024-03-09,2024-03-22,Not Started
-885,915,Communication Skills,2024-06-02,2024-06-12,Completed
-886,915,Project Management,2024-10-25,2024-11-21,Not Started
-887,916,Data Analysis,2024-05-15,2024-05-28,Ongoing
-888,917,Data Analysis,2025-01-14,2025-02-10,Ongoing
-889,917,Communication Skills,2025-04-04,2025-04-17,Not Started
-890,919,Leadership,2024-03-25,2024-03-30,Completed
-891,919,Leadership,2024-09-27,2024-10-18,Ongoing
-892,920,Data Analysis,2024-01-31,2024-02-20,Not Started
-893,920,Project Management,2025-01-02,2025-01-27,Completed
-894,925,Leadership,2025-05-12,2025-05-19,Ongoing
-895,926,Leadership,2024-09-07,2024-09-17,Not Started
-896,926,Communication Skills,2025-10-22,2025-11-01,Not Started
-897,929,Leadership,2025-06-04,2025-06-17,Not Started
-898,932,Communication Skills,2024-10-10,2024-10-26,Completed
-899,932,Communication Skills,2025-04-26,2025-05-10,Not Started
-900,933,Data Analysis,2025-08-23,2025-09-06,Completed
-901,934,Leadership,2025-02-19,2025-03-02,Completed
-902,935,Leadership,2024-03-25,2024-03-30,Not Started
-903,937,Data Analysis,2024-03-09,2024-03-25,Completed
-904,937,Leadership,2024-01-31,2024-02-18,Ongoing
-905,938,Python Basics,2025-05-19,2025-05-24,Not Started
-906,938,Data Analysis,2025-04-30,2025-05-09,Completed
-907,939,Leadership,2025-09-19,2025-09-29,Not Started
-908,939,Project Management,2024-10-18,2024-10-24,Completed
-909,941,Leadership,2025-11-07,2025-12-01,Completed
-910,941,Data Analysis,2024-10-11,2024-11-07,Completed
-911,942,Leadership,2024-10-20,2024-11-06,Ongoing
-912,943,Python Basics,2024-03-30,2024-04-07,Not Started
-913,946,Communication Skills,2024-08-09,2024-08-25,Ongoing
-914,946,Leadership,2024-10-19,2024-11-18,Ongoing
-915,950,Data Analysis,2025-10-29,2025-11-15,Ongoing
-916,951,Data Analysis,2024-11-09,2024-11-26,Ongoing
-917,951,Leadership,2025-06-13,2025-07-10,Not Started
-918,954,Data Analysis,2025-03-15,2025-04-07,Ongoing
-919,955,Data Analysis,2025-11-06,2025-11-19,Not Started
-920,955,Communication Skills,2025-11-24,2025-12-05,Completed
-921,958,Project Management,2025-07-05,2025-07-27,Completed
-922,960,Project Management,2024-07-31,2024-08-13,Completed
-923,961,Communication Skills,2024-02-25,2024-03-12,Not Started
-924,961,Data Analysis,2024-05-16,2024-05-27,Completed
-925,962,Leadership,2025-10-11,2025-10-16,Completed
-926,965,Project Management,2025-01-14,2025-01-29,Not Started
-927,965,Project Management,2025-04-28,2025-05-09,Completed
-928,966,Data Analysis,2024-03-26,2024-04-08,Not Started
-929,967,Python Basics,2024-08-03,2024-08-17,Not Started
-930,968,Project Management,2025-11-24,2025-12-24,Ongoing
-931,969,Python Basics,2025-04-25,2025-05-24,Completed
-932,970,Communication Skills,2025-09-16,2025-09-21,Completed
-933,970,Project Management,2024-01-18,2024-01-31,Not Started
-934,972,Project Management,2024-04-27,2024-05-25,Not Started
-935,972,Leadership,2024-02-09,2024-03-04,Ongoing
-936,973,Leadership,2024-05-20,2024-05-31,Ongoing
-937,973,Python Basics,2025-02-13,2025-03-05,Ongoing
-938,975,Python Basics,2025-11-03,2025-11-21,Ongoing
-939,977,Data Analysis,2025-06-13,2025-07-10,Not Started
-940,978,Data Analysis,2025-04-12,2025-04-24,Completed
-941,979,Leadership,2024-08-30,2024-09-28,Not Started
-942,980,Data Analysis,2025-04-28,2025-05-28,Not Started
-943,983,Data Analysis,2024-02-06,2024-03-03,Ongoing
-944,983,Leadership,2025-06-10,2025-07-08,Ongoing
-945,984,Project Management,2024-08-22,2024-09-19,Completed
-946,984,Python Basics,2024-01-04,2024-01-16,Completed
-947,985,Data Analysis,2025-04-14,2025-05-07,Ongoing
-948,985,Project Management,2025-09-26,2025-10-03,Completed
-949,987,Leadership,2025-02-20,2025-03-06,Completed
-950,987,Python Basics,2025-08-27,2025-09-16,Completed
-951,989,Project Management,2024-07-27,2024-08-14,Not Started
-952,991,Data Analysis,2025-01-26,2025-02-24,Not Started
-953,991,Project Management,2025-11-06,2025-11-17,Completed
-954,992,Data Analysis,2025-02-17,2025-03-07,Not Started
-955,992,Communication Skills,2024-01-09,2024-01-23,Not Started
-956,993,Communication Skills,2025-10-01,2025-10-14,Not Started
-957,993,Python Basics,2025-09-18,2025-09-28,Ongoing
-958,995,Leadership,2024-11-09,2024-11-20,Completed
-959,996,Leadership,2025-03-21,2025-04-16,Not Started
-960,997,Communication Skills,2025-04-02,2025-04-24,Completed
-961,999,Leadership,2024-05-04,2024-05-23,Ongoing
-962,999,Data Analysis,2025-08-05,2025-09-01,Completed
-963,1000,Data Analysis,2025-08-04,2025-08-29,Completed
-964,1000,Communication Skills,2024-07-05,2024-07-27,Ongoing
+1,2,Data Analysis,2025-03-05,2025-03-21,Not Started
+2,3,Data Analysis,2025-12-13,2026-01-11,Ongoing
+3,3,Communication Skills,2024-09-11,2024-10-10,Not Started
+4,7,Data Analysis,2024-11-28,2024-12-08,Not Started
+5,8,Project Management,2024-03-06,2024-03-27,Not Started
+6,8,Data Analysis,2025-09-30,2025-10-07,Not Started
+7,9,Leadership,2024-08-10,2024-09-02,Completed
+8,9,Data Analysis,2024-02-14,2024-03-08,Ongoing
+9,10,Data Analysis,2025-05-08,2025-05-14,Completed
+10,10,Data Analysis,2025-03-28,2025-04-26,Completed
+11,11,Python Basics,2025-10-22,2025-10-30,Completed
+12,12,Data Analysis,2024-07-21,2024-08-18,Ongoing
+13,12,Leadership,2024-09-23,2024-10-17,Ongoing
+14,13,Leadership,2024-07-25,2024-08-04,Not Started
+15,13,Communication Skills,2024-10-26,2024-11-23,Not Started
+16,14,Python Basics,2025-01-29,2025-02-10,Ongoing
+17,15,Leadership,2024-03-01,2024-03-21,Not Started
+18,15,Communication Skills,2025-10-10,2025-10-29,Ongoing
+19,16,Python Basics,2025-08-28,2025-09-21,Ongoing
+20,16,Python Basics,2025-12-08,2025-12-18,Ongoing
+21,21,Communication Skills,2024-02-08,2024-02-17,Ongoing
+22,32,Python Basics,2025-09-19,2025-09-26,Not Started
+23,32,Leadership,2025-09-20,2025-10-16,Not Started
+24,34,Leadership,2024-05-02,2024-05-14,Not Started
+25,35,Project Management,2025-06-21,2025-07-06,Not Started
+26,36,Leadership,2025-05-24,2025-06-23,Not Started
+27,36,Communication Skills,2024-10-06,2024-10-20,Not Started
+28,37,Data Analysis,2025-04-01,2025-04-26,Completed
+29,38,Project Management,2025-04-30,2025-05-14,Not Started
+30,40,Leadership,2024-02-23,2024-03-17,Ongoing
+31,41,Leadership,2024-03-11,2024-03-22,Not Started
+32,41,Communication Skills,2025-02-12,2025-03-12,Ongoing
+33,42,Python Basics,2025-08-26,2025-09-21,Not Started
+34,43,Data Analysis,2024-11-23,2024-12-11,Not Started
+35,44,Communication Skills,2025-12-28,2026-01-22,Completed
+36,48,Data Analysis,2024-10-05,2024-10-22,Not Started
+37,49,Communication Skills,2025-11-01,2025-11-19,Completed
+38,49,Project Management,2024-01-22,2024-02-18,Completed
+39,50,Communication Skills,2025-09-20,2025-10-08,Completed
+40,52,Communication Skills,2025-07-04,2025-07-12,Not Started
+41,53,Project Management,2025-12-12,2025-12-30,Completed
+42,53,Data Analysis,2025-10-04,2025-10-13,Not Started
+43,54,Python Basics,2025-06-23,2025-07-18,Not Started
+44,54,Python Basics,2025-04-02,2025-04-27,Ongoing
+45,55,Communication Skills,2025-05-07,2025-06-02,Ongoing
+46,56,Python Basics,2025-12-16,2025-12-27,Not Started
+47,57,Python Basics,2024-06-08,2024-06-25,Completed
+48,57,Project Management,2024-11-12,2024-11-27,Ongoing
+49,58,Data Analysis,2024-11-24,2024-11-30,Ongoing
+50,58,Data Analysis,2025-01-12,2025-01-23,Completed
+51,61,Project Management,2025-08-10,2025-09-06,Ongoing
+52,65,Leadership,2025-12-05,2025-12-24,Ongoing
+53,68,Project Management,2024-03-31,2024-04-14,Ongoing
+54,71,Data Analysis,2024-09-23,2024-10-02,Not Started
+55,71,Communication Skills,2024-08-20,2024-09-06,Completed
+56,72,Data Analysis,2025-12-21,2026-01-07,Completed
+57,74,Project Management,2024-12-21,2025-01-16,Completed
+58,74,Communication Skills,2024-08-31,2024-09-30,Not Started
+59,76,Data Analysis,2025-12-06,2025-12-18,Not Started
+60,77,Project Management,2024-03-05,2024-03-29,Completed
+61,77,Communication Skills,2025-03-19,2025-03-30,Ongoing
+62,79,Communication Skills,2024-09-13,2024-09-30,Not Started
+63,80,Communication Skills,2025-04-08,2025-04-19,Completed
+64,80,Leadership,2025-09-24,2025-10-12,Completed
+65,81,Project Management,2024-09-20,2024-10-17,Ongoing
+66,82,Data Analysis,2025-04-17,2025-05-08,Ongoing
+67,84,Communication Skills,2024-04-22,2024-05-14,Ongoing
+68,84,Data Analysis,2025-10-24,2025-10-30,Completed
+69,85,Data Analysis,2024-11-28,2024-12-10,Not Started
+70,87,Python Basics,2024-10-08,2024-11-02,Not Started
+71,88,Communication Skills,2025-02-01,2025-02-10,Ongoing
+72,89,Leadership,2025-11-22,2025-12-17,Completed
+73,91,Leadership,2025-02-05,2025-02-19,Completed
+74,92,Communication Skills,2025-09-19,2025-10-10,Not Started
+75,93,Leadership,2025-10-09,2025-11-03,Completed
+76,94,Python Basics,2025-11-07,2025-11-12,Completed
+77,96,Python Basics,2024-02-14,2024-02-22,Completed
+78,96,Leadership,2024-09-24,2024-10-20,Ongoing
+79,97,Communication Skills,2025-05-09,2025-05-26,Not Started
+80,97,Python Basics,2024-09-21,2024-09-29,Ongoing
+81,99,Communication Skills,2024-09-11,2024-10-06,Ongoing
+82,99,Communication Skills,2025-05-20,2025-06-17,Not Started
+83,105,Project Management,2025-05-29,2025-06-22,Ongoing
+84,109,Project Management,2025-07-01,2025-07-11,Ongoing
+85,110,Communication Skills,2024-02-04,2024-02-19,Completed
+86,110,Communication Skills,2024-06-18,2024-07-04,Not Started
+87,111,Project Management,2025-12-06,2025-12-28,Completed
+88,111,Leadership,2025-06-17,2025-07-12,Completed
+89,112,Communication Skills,2024-03-08,2024-03-27,Completed
+90,112,Leadership,2024-03-05,2024-03-24,Completed
+91,113,Python Basics,2024-12-27,2025-01-22,Completed
+92,115,Project Management,2024-06-05,2024-07-03,Ongoing
+93,115,Python Basics,2025-12-20,2026-01-04,Ongoing
+94,116,Project Management,2024-06-04,2024-06-26,Ongoing
+95,116,Python Basics,2025-12-09,2026-01-08,Not Started
+96,117,Leadership,2025-08-28,2025-09-06,Not Started
+97,117,Communication Skills,2025-03-27,2025-04-02,Ongoing
+98,119,Project Management,2024-03-14,2024-04-13,Ongoing
+99,119,Data Analysis,2024-09-12,2024-10-05,Completed
+100,120,Python Basics,2025-09-01,2025-09-09,Ongoing
+101,120,Python Basics,2025-10-04,2025-10-16,Not Started
+102,121,Project Management,2024-08-05,2024-08-15,Completed
+103,121,Communication Skills,2024-02-17,2024-03-03,Ongoing
+104,123,Python Basics,2025-03-29,2025-04-17,Ongoing
+105,123,Communication Skills,2024-04-11,2024-04-24,Not Started
+106,124,Data Analysis,2024-06-29,2024-07-14,Completed
+107,126,Leadership,2025-02-14,2025-03-05,Ongoing
+108,127,Data Analysis,2024-10-22,2024-11-15,Completed
+109,128,Communication Skills,2024-12-01,2024-12-23,Ongoing
+110,130,Python Basics,2024-10-02,2024-10-29,Not Started
+111,131,Leadership,2025-10-07,2025-10-22,Not Started
+112,132,Communication Skills,2024-10-09,2024-10-25,Not Started
+113,135,Python Basics,2025-04-19,2025-04-27,Ongoing
+114,135,Data Analysis,2025-12-12,2025-12-26,Ongoing
+115,136,Project Management,2024-02-28,2024-03-07,Not Started
+116,136,Data Analysis,2024-04-07,2024-04-22,Completed
+117,137,Project Management,2024-05-24,2024-06-08,Ongoing
+118,139,Project Management,2024-09-20,2024-09-30,Completed
+119,139,Project Management,2024-09-07,2024-09-21,Not Started
+120,142,Project Management,2024-06-19,2024-06-25,Ongoing
+121,142,Python Basics,2025-02-19,2025-03-10,Not Started
+122,146,Project Management,2024-08-20,2024-08-26,Not Started
+123,146,Communication Skills,2025-07-02,2025-07-16,Ongoing
+124,150,Data Analysis,2025-07-29,2025-08-03,Ongoing
+125,150,Data Analysis,2024-07-13,2024-08-12,Ongoing
+126,152,Project Management,2024-02-03,2024-03-03,Ongoing
+127,156,Data Analysis,2025-04-29,2025-05-16,Ongoing
+128,157,Leadership,2024-10-07,2024-11-01,Not Started
+129,157,Data Analysis,2025-03-24,2025-04-23,Ongoing
+130,158,Communication Skills,2024-07-30,2024-08-07,Not Started
+131,160,Data Analysis,2024-10-23,2024-11-18,Ongoing
+132,163,Python Basics,2024-07-04,2024-08-02,Not Started
+133,164,Python Basics,2025-04-28,2025-05-07,Completed
+134,166,Python Basics,2025-03-24,2025-03-31,Completed
+135,166,Communication Skills,2024-09-21,2024-10-01,Completed
+136,168,Project Management,2025-01-03,2025-01-14,Completed
+137,168,Leadership,2024-08-09,2024-09-08,Completed
+138,169,Data Analysis,2024-07-12,2024-07-30,Not Started
+139,169,Communication Skills,2024-03-21,2024-04-20,Ongoing
+140,171,Python Basics,2024-06-15,2024-06-27,Ongoing
+141,172,Leadership,2025-03-14,2025-04-13,Not Started
+142,172,Project Management,2024-04-23,2024-05-14,Not Started
+143,173,Communication Skills,2024-07-12,2024-07-28,Ongoing
+144,173,Communication Skills,2024-06-23,2024-07-09,Not Started
+145,174,Communication Skills,2025-09-07,2025-09-30,Completed
+146,174,Data Analysis,2024-03-25,2024-04-04,Not Started
+147,175,Project Management,2025-09-04,2025-10-04,Completed
+148,175,Python Basics,2025-05-11,2025-05-28,Ongoing
+149,176,Python Basics,2024-09-27,2024-10-24,Ongoing
+150,176,Project Management,2024-06-21,2024-07-02,Not Started
+151,178,Communication Skills,2025-07-23,2025-08-11,Ongoing
+152,179,Python Basics,2025-07-02,2025-07-10,Completed
+153,180,Project Management,2025-11-23,2025-12-16,Completed
+154,182,Communication Skills,2025-10-01,2025-10-07,Completed
+155,183,Data Analysis,2024-10-13,2024-10-30,Completed
+156,183,Project Management,2024-06-18,2024-07-17,Not Started
+157,184,Communication Skills,2025-09-13,2025-10-08,Ongoing
+158,185,Data Analysis,2025-07-17,2025-08-01,Not Started
+159,185,Data Analysis,2025-08-19,2025-09-14,Completed
+160,187,Python Basics,2025-08-13,2025-08-22,Not Started
+161,188,Leadership,2025-10-20,2025-11-19,Completed
+162,189,Communication Skills,2024-06-08,2024-06-28,Not Started
+163,189,Project Management,2024-02-01,2024-03-01,Ongoing
+164,190,Data Analysis,2024-06-23,2024-07-20,Not Started
+165,191,Communication Skills,2024-12-29,2025-01-23,Not Started
+166,192,Python Basics,2024-05-31,2024-06-08,Ongoing
+167,193,Python Basics,2024-01-31,2024-02-15,Not Started
+168,193,Communication Skills,2024-08-02,2024-08-23,Completed
+169,194,Project Management,2025-01-20,2025-01-26,Completed
+170,194,Leadership,2025-06-26,2025-07-04,Ongoing
+171,195,Data Analysis,2025-10-03,2025-10-26,Completed
+172,199,Project Management,2024-02-13,2024-03-09,Completed
+173,199,Project Management,2024-02-07,2024-02-26,Ongoing
+174,200,Communication Skills,2025-09-05,2025-09-17,Ongoing
+175,202,Leadership,2024-08-31,2024-09-06,Ongoing
+176,202,Communication Skills,2024-12-22,2025-01-02,Completed
+177,203,Project Management,2024-02-07,2024-02-22,Completed
+178,204,Data Analysis,2024-04-18,2024-05-12,Ongoing
+179,205,Leadership,2024-07-03,2024-07-22,Completed
+180,206,Leadership,2024-07-12,2024-07-21,Completed
+181,206,Python Basics,2025-08-07,2025-08-20,Completed
+182,208,Python Basics,2024-07-10,2024-07-19,Ongoing
+183,211,Data Analysis,2025-03-31,2025-04-08,Ongoing
+184,211,Data Analysis,2025-11-04,2025-11-26,Completed
+185,212,Communication Skills,2025-08-30,2025-09-25,Ongoing
+186,213,Python Basics,2025-11-08,2025-11-27,Not Started
+187,213,Project Management,2024-03-04,2024-03-11,Completed
+188,214,Python Basics,2024-05-02,2024-05-21,Not Started
+189,214,Communication Skills,2024-08-25,2024-09-24,Ongoing
+190,215,Leadership,2025-12-28,2026-01-13,Ongoing
+191,215,Python Basics,2024-03-01,2024-03-19,Ongoing
+192,216,Data Analysis,2025-05-08,2025-05-29,Completed
+193,216,Python Basics,2025-07-04,2025-07-09,Completed
+194,217,Project Management,2024-07-13,2024-08-08,Not Started
+195,217,Leadership,2024-10-10,2024-11-07,Completed
+196,218,Leadership,2024-03-26,2024-04-09,Completed
+197,220,Data Analysis,2024-10-09,2024-10-18,Completed
+198,224,Communication Skills,2024-12-17,2025-01-11,Completed
+199,225,Data Analysis,2025-07-23,2025-08-06,Not Started
+200,226,Project Management,2025-04-21,2025-05-03,Ongoing
+201,227,Leadership,2025-07-22,2025-07-29,Completed
+202,227,Communication Skills,2025-04-16,2025-05-08,Completed
+203,228,Python Basics,2024-11-13,2024-11-29,Completed
+204,228,Communication Skills,2024-10-03,2024-10-29,Not Started
+205,229,Communication Skills,2024-04-27,2024-05-21,Completed
+206,229,Leadership,2024-05-23,2024-05-30,Not Started
+207,230,Python Basics,2024-04-28,2024-05-07,Not Started
+208,230,Python Basics,2024-12-25,2025-01-16,Ongoing
+209,233,Project Management,2024-09-23,2024-10-16,Completed
+210,233,Data Analysis,2024-08-14,2024-08-21,Ongoing
+211,234,Python Basics,2024-04-20,2024-05-20,Ongoing
+212,236,Python Basics,2024-11-28,2024-12-17,Ongoing
+213,238,Project Management,2025-02-05,2025-02-14,Completed
+214,239,Communication Skills,2024-02-07,2024-02-19,Not Started
+215,239,Python Basics,2025-05-03,2025-05-29,Completed
+216,242,Leadership,2024-01-18,2024-02-03,Completed
+217,245,Communication Skills,2024-11-19,2024-12-03,Ongoing
+218,245,Leadership,2025-09-14,2025-10-10,Ongoing
+219,246,Python Basics,2025-03-27,2025-04-23,Not Started
+220,246,Communication Skills,2024-08-18,2024-09-04,Not Started
+221,247,Python Basics,2024-11-25,2024-12-11,Not Started
+222,247,Leadership,2024-12-26,2025-01-23,Not Started
+223,248,Communication Skills,2024-12-30,2025-01-12,Not Started
+224,249,Leadership,2025-09-01,2025-09-09,Completed
+225,249,Leadership,2025-05-29,2025-06-15,Completed
+226,251,Data Analysis,2024-03-09,2024-03-22,Completed
+227,253,Python Basics,2024-12-19,2025-01-17,Completed
+228,253,Data Analysis,2025-08-26,2025-09-05,Ongoing
+229,254,Data Analysis,2025-01-04,2025-01-30,Not Started
+230,255,Data Analysis,2025-01-26,2025-02-20,Not Started
+231,256,Project Management,2025-02-02,2025-02-14,Ongoing
+232,256,Leadership,2024-10-23,2024-11-10,Ongoing
+233,257,Python Basics,2024-01-10,2024-01-17,Ongoing
+234,257,Project Management,2024-03-27,2024-04-25,Not Started
+235,259,Data Analysis,2025-01-26,2025-02-06,Completed
+236,260,Python Basics,2025-09-13,2025-10-10,Ongoing
+237,264,Data Analysis,2024-08-12,2024-08-18,Completed
+238,264,Project Management,2025-05-26,2025-06-11,Ongoing
+239,266,Python Basics,2025-06-15,2025-07-13,Not Started
+240,266,Data Analysis,2025-04-28,2025-05-24,Ongoing
+241,267,Leadership,2025-07-11,2025-08-09,Completed
+242,267,Project Management,2025-06-14,2025-07-06,Completed
+243,268,Python Basics,2024-10-03,2024-10-29,Not Started
+244,269,Communication Skills,2025-01-11,2025-01-22,Ongoing
+245,269,Data Analysis,2024-08-08,2024-09-01,Not Started
+246,271,Leadership,2024-05-15,2024-06-04,Completed
+247,271,Python Basics,2025-04-16,2025-04-26,Completed
+248,272,Project Management,2025-06-01,2025-06-28,Ongoing
+249,273,Leadership,2025-05-13,2025-05-31,Not Started
+250,273,Leadership,2025-02-21,2025-03-21,Completed
+251,274,Python Basics,2025-04-15,2025-05-06,Not Started
+252,274,Python Basics,2025-05-08,2025-05-23,Not Started
+253,275,Python Basics,2025-12-01,2025-12-12,Completed
+254,275,Project Management,2024-12-23,2025-01-19,Completed
+255,276,Python Basics,2024-12-07,2024-12-13,Completed
+256,277,Data Analysis,2024-11-10,2024-11-16,Completed
+257,279,Data Analysis,2025-11-08,2025-12-05,Completed
+258,280,Data Analysis,2024-03-16,2024-04-12,Completed
+259,280,Data Analysis,2024-05-18,2024-05-26,Completed
+260,282,Data Analysis,2024-08-08,2024-08-29,Not Started
+261,283,Leadership,2024-07-08,2024-07-17,Ongoing
+262,283,Python Basics,2024-07-26,2024-08-18,Completed
+263,289,Project Management,2025-06-27,2025-07-23,Ongoing
+264,289,Python Basics,2024-05-03,2024-05-12,Not Started
+265,290,Data Analysis,2024-01-19,2024-02-13,Not Started
+266,292,Project Management,2024-05-27,2024-06-17,Ongoing
+267,292,Project Management,2024-10-09,2024-10-17,Completed
+268,294,Data Analysis,2024-08-08,2024-08-31,Ongoing
+269,295,Project Management,2024-09-06,2024-10-04,Ongoing
+270,297,Project Management,2025-05-06,2025-05-23,Not Started
+271,299,Leadership,2024-09-05,2024-10-05,Not Started
+272,300,Communication Skills,2025-09-15,2025-10-07,Completed
+273,300,Python Basics,2024-05-10,2024-05-29,Completed
+274,301,Leadership,2025-09-22,2025-10-22,Completed
+275,301,Project Management,2025-06-02,2025-06-24,Completed
+276,302,Data Analysis,2024-11-27,2024-12-18,Not Started
+277,304,Project Management,2025-03-28,2025-04-03,Ongoing
+278,304,Leadership,2025-01-11,2025-01-22,Not Started
+279,306,Data Analysis,2024-03-25,2024-03-31,Not Started
+280,306,Leadership,2024-11-10,2024-11-17,Ongoing
+281,307,Project Management,2024-03-27,2024-04-13,Not Started
+282,307,Python Basics,2025-03-10,2025-03-27,Ongoing
+283,308,Project Management,2024-01-27,2024-02-08,Not Started
+284,309,Python Basics,2024-05-23,2024-06-19,Ongoing
+285,309,Communication Skills,2024-03-04,2024-03-20,Completed
+286,310,Project Management,2024-12-21,2024-12-26,Ongoing
+287,310,Project Management,2024-04-23,2024-05-09,Ongoing
+288,313,Python Basics,2025-03-10,2025-04-05,Not Started
+289,313,Project Management,2024-03-09,2024-04-02,Completed
+290,314,Data Analysis,2024-05-07,2024-05-29,Ongoing
+291,314,Python Basics,2024-06-17,2024-07-12,Completed
+292,315,Data Analysis,2024-04-06,2024-04-16,Completed
+293,315,Leadership,2024-08-08,2024-08-19,Completed
+294,316,Python Basics,2024-09-04,2024-10-01,Completed
+295,316,Data Analysis,2024-01-20,2024-02-19,Ongoing
+296,317,Data Analysis,2024-06-26,2024-07-15,Completed
+297,319,Data Analysis,2024-04-18,2024-04-30,Ongoing
+298,319,Python Basics,2024-12-17,2025-01-10,Ongoing
+299,320,Leadership,2025-05-31,2025-06-30,Completed
+300,321,Leadership,2024-06-20,2024-07-08,Completed
+301,321,Communication Skills,2024-11-22,2024-11-27,Ongoing
+302,323,Python Basics,2024-06-30,2024-07-23,Completed
+303,323,Leadership,2025-10-05,2025-10-29,Not Started
+304,325,Python Basics,2025-05-01,2025-05-28,Completed
+305,326,Communication Skills,2024-12-03,2024-12-25,Ongoing
+306,328,Leadership,2024-09-09,2024-10-06,Completed
+307,329,Python Basics,2025-01-04,2025-01-24,Not Started
+308,330,Leadership,2024-10-11,2024-10-29,Completed
+309,331,Project Management,2024-12-17,2024-12-27,Not Started
+310,332,Project Management,2024-11-22,2024-12-06,Not Started
+311,332,Python Basics,2024-09-20,2024-10-19,Completed
+312,333,Data Analysis,2025-02-28,2025-03-15,Ongoing
+313,333,Python Basics,2025-08-03,2025-08-26,Ongoing
+314,334,Communication Skills,2024-12-27,2025-01-13,Ongoing
+315,334,Communication Skills,2025-02-01,2025-02-12,Ongoing
+316,337,Communication Skills,2025-12-13,2025-12-19,Completed
+317,337,Project Management,2025-04-21,2025-05-13,Completed
+318,338,Data Analysis,2024-06-17,2024-07-09,Not Started
+319,339,Project Management,2024-04-23,2024-05-19,Not Started
+320,339,Python Basics,2024-03-25,2024-04-17,Not Started
+321,340,Leadership,2024-11-12,2024-12-02,Ongoing
+322,340,Leadership,2025-04-05,2025-04-12,Completed
+323,342,Python Basics,2025-10-27,2025-11-25,Not Started
+324,343,Communication Skills,2025-07-28,2025-08-08,Ongoing
+325,344,Leadership,2025-11-13,2025-12-10,Not Started
+326,344,Leadership,2024-12-12,2025-01-07,Ongoing
+327,345,Data Analysis,2024-01-30,2024-02-19,Ongoing
+328,345,Data Analysis,2025-03-20,2025-04-09,Not Started
+329,346,Python Basics,2025-10-21,2025-11-08,Not Started
+330,346,Leadership,2024-02-10,2024-03-10,Ongoing
+331,347,Project Management,2025-12-08,2026-01-06,Completed
+332,347,Leadership,2025-11-27,2025-12-15,Completed
+333,349,Communication Skills,2024-04-20,2024-05-18,Ongoing
+334,351,Project Management,2024-08-01,2024-08-14,Ongoing
+335,355,Python Basics,2024-03-28,2024-04-25,Not Started
+336,356,Data Analysis,2025-11-19,2025-12-07,Not Started
+337,356,Data Analysis,2024-05-06,2024-05-11,Ongoing
+338,358,Data Analysis,2024-08-03,2024-09-01,Completed
+339,359,Project Management,2024-07-11,2024-08-05,Not Started
+340,359,Leadership,2025-08-27,2025-09-08,Not Started
+341,360,Python Basics,2025-06-13,2025-06-24,Ongoing
+342,361,Data Analysis,2024-04-03,2024-05-02,Not Started
+343,362,Leadership,2024-01-18,2024-02-14,Ongoing
+344,364,Python Basics,2024-07-25,2024-08-24,Completed
+345,365,Communication Skills,2024-02-06,2024-02-24,Not Started
+346,365,Leadership,2025-03-24,2025-04-22,Ongoing
+347,368,Leadership,2024-07-24,2024-08-09,Completed
+348,368,Project Management,2024-02-12,2024-02-19,Completed
+349,369,Python Basics,2025-03-28,2025-04-14,Ongoing
+350,369,Leadership,2025-04-05,2025-04-15,Not Started
+351,370,Leadership,2025-05-22,2025-06-20,Completed
+352,370,Data Analysis,2025-11-02,2025-12-01,Ongoing
+353,371,Project Management,2025-09-11,2025-10-05,Completed
+354,372,Project Management,2024-08-21,2024-08-27,Ongoing
+355,374,Data Analysis,2025-01-15,2025-02-11,Completed
+356,375,Communication Skills,2025-08-28,2025-09-05,Ongoing
+357,375,Leadership,2025-01-05,2025-01-16,Completed
+358,376,Project Management,2024-02-08,2024-02-25,Completed
+359,378,Data Analysis,2024-05-05,2024-06-03,Completed
+360,378,Leadership,2024-04-24,2024-05-13,Not Started
+361,379,Data Analysis,2024-12-02,2024-12-14,Ongoing
+362,379,Python Basics,2024-10-28,2024-11-13,Not Started
+363,380,Data Analysis,2024-02-14,2024-02-20,Ongoing
+364,381,Communication Skills,2024-03-31,2024-04-30,Not Started
+365,381,Project Management,2025-02-06,2025-02-21,Ongoing
+366,382,Data Analysis,2024-09-15,2024-10-02,Ongoing
+367,382,Project Management,2025-03-26,2025-04-13,Not Started
+368,383,Data Analysis,2025-09-09,2025-10-03,Not Started
+369,383,Python Basics,2024-07-23,2024-08-13,Completed
+370,384,Communication Skills,2025-12-30,2026-01-12,Completed
+371,384,Python Basics,2025-08-14,2025-08-25,Ongoing
+372,385,Project Management,2024-01-12,2024-01-27,Ongoing
+373,385,Project Management,2025-03-08,2025-04-06,Not Started
+374,387,Project Management,2025-01-21,2025-01-26,Ongoing
+375,387,Data Analysis,2025-01-09,2025-01-17,Completed
+376,388,Communication Skills,2025-11-02,2025-11-16,Completed
+377,389,Project Management,2025-10-03,2025-10-18,Ongoing
+378,389,Communication Skills,2025-11-09,2025-11-30,Ongoing
+379,390,Data Analysis,2024-07-17,2024-08-16,Ongoing
+380,390,Python Basics,2024-11-23,2024-12-13,Completed
+381,391,Communication Skills,2025-04-18,2025-05-11,Completed
+382,392,Python Basics,2025-09-01,2025-09-30,Completed
+383,392,Python Basics,2025-05-14,2025-06-08,Completed
+384,394,Python Basics,2025-05-22,2025-05-30,Ongoing
+385,396,Data Analysis,2025-04-05,2025-04-11,Not Started
+386,398,Project Management,2025-06-29,2025-07-06,Not Started
+387,399,Project Management,2025-07-14,2025-08-02,Ongoing
+388,399,Data Analysis,2025-06-06,2025-06-25,Completed
+389,400,Project Management,2024-05-26,2024-06-14,Not Started
+390,400,Python Basics,2025-03-09,2025-04-07,Ongoing
+391,401,Communication Skills,2024-09-12,2024-10-12,Not Started
+392,401,Communication Skills,2024-09-24,2024-10-16,Not Started
+393,402,Communication Skills,2024-05-14,2024-05-29,Ongoing
+394,404,Communication Skills,2024-02-10,2024-02-16,Ongoing
+395,405,Data Analysis,2024-07-11,2024-07-25,Completed
+396,406,Communication Skills,2025-12-22,2026-01-11,Completed
+397,406,Leadership,2024-02-22,2024-02-29,Not Started
+398,407,Project Management,2025-10-05,2025-10-20,Ongoing
+399,407,Project Management,2024-10-29,2024-11-10,Not Started
+400,411,Leadership,2024-10-17,2024-11-16,Ongoing
+401,413,Python Basics,2024-03-08,2024-03-16,Ongoing
+402,413,Communication Skills,2024-06-04,2024-06-22,Completed
+403,415,Project Management,2025-12-07,2025-12-21,Not Started
+404,415,Data Analysis,2024-03-19,2024-04-03,Completed
+405,416,Leadership,2025-08-15,2025-09-01,Not Started
+406,418,Project Management,2024-12-29,2025-01-28,Not Started
+407,418,Python Basics,2025-11-27,2025-12-02,Ongoing
+408,420,Project Management,2024-09-16,2024-09-24,Not Started
+409,420,Leadership,2024-10-23,2024-11-21,Not Started
+410,421,Leadership,2024-12-10,2025-01-04,Not Started
+411,421,Communication Skills,2025-06-22,2025-07-18,Not Started
+412,422,Python Basics,2025-10-10,2025-10-15,Not Started
+413,422,Project Management,2024-02-02,2024-02-28,Ongoing
+414,423,Leadership,2025-04-11,2025-05-02,Ongoing
+415,423,Leadership,2025-03-26,2025-04-05,Completed
+416,424,Data Analysis,2025-09-11,2025-09-29,Ongoing
+417,425,Communication Skills,2025-10-14,2025-11-02,Completed
+418,425,Data Analysis,2025-05-04,2025-05-14,Not Started
+419,426,Communication Skills,2025-03-07,2025-03-31,Completed
+420,426,Communication Skills,2024-07-07,2024-07-27,Ongoing
+421,427,Communication Skills,2025-06-12,2025-07-11,Not Started
+422,428,Python Basics,2025-04-01,2025-04-16,Not Started
+423,428,Leadership,2025-12-16,2026-01-08,Not Started
+424,429,Data Analysis,2024-02-03,2024-02-15,Completed
+425,429,Data Analysis,2025-05-29,2025-06-27,Not Started
+426,431,Project Management,2025-10-12,2025-10-18,Not Started
+427,431,Leadership,2025-08-26,2025-09-07,Completed
+428,433,Leadership,2025-09-30,2025-10-30,Not Started
+429,435,Project Management,2025-09-19,2025-10-18,Ongoing
+430,436,Data Analysis,2024-02-07,2024-02-18,Not Started
+431,436,Communication Skills,2024-12-04,2024-12-11,Completed
+432,437,Project Management,2024-01-22,2024-01-27,Not Started
+433,438,Data Analysis,2025-06-10,2025-07-08,Not Started
+434,441,Leadership,2024-09-19,2024-10-03,Ongoing
+435,441,Communication Skills,2025-01-19,2025-01-31,Not Started
+436,442,Communication Skills,2024-08-15,2024-08-23,Ongoing
+437,442,Leadership,2024-08-24,2024-09-11,Not Started
+438,445,Data Analysis,2024-07-07,2024-07-20,Not Started
+439,447,Data Analysis,2024-01-29,2024-02-20,Not Started
+440,448,Data Analysis,2025-09-25,2025-10-21,Ongoing
+441,449,Python Basics,2025-09-07,2025-09-16,Completed
+442,449,Communication Skills,2025-12-10,2025-12-20,Ongoing
+443,450,Communication Skills,2025-06-28,2025-07-08,Ongoing
+444,451,Communication Skills,2024-04-14,2024-05-05,Completed
+445,452,Leadership,2025-10-14,2025-10-19,Not Started
+446,454,Data Analysis,2024-06-23,2024-07-22,Ongoing
+447,455,Communication Skills,2025-09-08,2025-10-06,Not Started
+448,455,Project Management,2024-09-12,2024-10-07,Completed
+449,456,Data Analysis,2025-03-14,2025-04-04,Ongoing
+450,458,Python Basics,2024-10-25,2024-11-18,Not Started
+451,459,Python Basics,2024-08-27,2024-09-08,Ongoing
+452,463,Leadership,2024-11-20,2024-12-02,Completed
+453,463,Project Management,2025-02-26,2025-03-05,Not Started
+454,464,Data Analysis,2024-07-26,2024-08-22,Ongoing
+455,465,Project Management,2025-01-12,2025-01-21,Ongoing
+456,465,Project Management,2025-07-17,2025-08-11,Not Started
+457,466,Communication Skills,2024-03-29,2024-04-14,Not Started
+458,466,Leadership,2025-05-24,2025-06-22,Ongoing
+459,467,Data Analysis,2025-07-18,2025-08-14,Ongoing
+460,470,Leadership,2024-04-07,2024-04-29,Ongoing
+461,470,Leadership,2024-03-21,2024-04-19,Completed
+462,473,Python Basics,2024-11-09,2024-12-05,Completed
+463,473,Data Analysis,2025-07-23,2025-07-30,Ongoing
+464,474,Leadership,2025-04-09,2025-04-28,Completed
+465,475,Leadership,2025-04-12,2025-05-03,Ongoing
+466,475,Project Management,2025-01-04,2025-01-20,Not Started
+467,477,Communication Skills,2024-06-18,2024-07-04,Ongoing
+468,477,Project Management,2025-10-20,2025-11-04,Completed
+469,482,Python Basics,2025-04-08,2025-04-23,Not Started
+470,482,Data Analysis,2024-02-23,2024-03-09,Completed
+471,483,Leadership,2025-09-26,2025-10-17,Not Started
+472,483,Leadership,2025-07-02,2025-07-23,Not Started
+473,484,Data Analysis,2025-12-07,2025-12-31,Completed
+474,484,Python Basics,2024-10-10,2024-10-24,Completed
+475,485,Data Analysis,2024-09-10,2024-10-02,Completed
+476,485,Python Basics,2024-02-13,2024-02-26,Ongoing
+477,488,Python Basics,2024-09-13,2024-10-02,Completed
+478,490,Communication Skills,2025-01-01,2025-01-08,Ongoing
+479,491,Leadership,2025-12-22,2026-01-01,Ongoing
+480,491,Data Analysis,2024-03-01,2024-03-19,Completed
+481,493,Project Management,2025-11-14,2025-12-05,Completed
+482,494,Data Analysis,2025-06-15,2025-07-02,Not Started
+483,495,Leadership,2024-10-28,2024-11-06,Not Started
+484,496,Leadership,2024-02-03,2024-02-15,Not Started
+485,497,Python Basics,2025-01-14,2025-01-21,Completed
+486,499,Leadership,2024-08-06,2024-08-30,Ongoing
+487,500,Data Analysis,2024-10-29,2024-11-05,Not Started
+488,501,Communication Skills,2025-07-29,2025-08-12,Ongoing
+489,502,Project Management,2024-12-05,2024-12-22,Ongoing
+490,503,Python Basics,2025-12-15,2026-01-10,Completed
+491,503,Python Basics,2024-12-25,2025-01-15,Completed
+492,505,Data Analysis,2025-01-11,2025-02-01,Not Started
+493,505,Communication Skills,2024-09-24,2024-09-30,Not Started
+494,506,Leadership,2025-01-29,2025-02-24,Completed
+495,506,Data Analysis,2025-07-10,2025-08-08,Not Started
+496,508,Leadership,2025-05-18,2025-05-31,Ongoing
+497,510,Project Management,2025-03-21,2025-04-13,Completed
+498,512,Data Analysis,2024-04-16,2024-05-04,Ongoing
+499,513,Python Basics,2025-03-01,2025-03-07,Not Started
+500,514,Data Analysis,2025-10-18,2025-10-23,Not Started
+501,514,Leadership,2024-01-21,2024-02-12,Completed
+502,515,Leadership,2024-07-17,2024-08-10,Completed
+503,517,Python Basics,2025-12-25,2026-01-24,Completed
+504,517,Communication Skills,2025-06-11,2025-06-16,Not Started
+505,518,Python Basics,2025-07-27,2025-08-10,Completed
+506,519,Leadership,2025-02-14,2025-02-22,Completed
+507,519,Communication Skills,2025-09-19,2025-10-16,Completed
+508,520,Communication Skills,2024-11-20,2024-12-19,Not Started
+509,521,Leadership,2024-11-11,2024-11-24,Completed
+510,521,Leadership,2025-01-08,2025-01-31,Ongoing
+511,523,Communication Skills,2025-04-10,2025-05-04,Not Started
+512,526,Project Management,2025-08-12,2025-09-01,Ongoing
+513,526,Data Analysis,2024-07-31,2024-08-20,Ongoing
+514,527,Python Basics,2025-08-28,2025-09-05,Not Started
+515,527,Python Basics,2024-07-18,2024-07-29,Completed
+516,528,Data Analysis,2024-08-30,2024-09-10,Ongoing
+517,528,Data Analysis,2025-01-30,2025-02-07,Completed
+518,529,Project Management,2025-05-10,2025-05-27,Ongoing
+519,530,Communication Skills,2024-07-19,2024-07-26,Not Started
+520,530,Leadership,2025-02-01,2025-02-12,Ongoing
+521,531,Project Management,2024-01-21,2024-02-16,Completed
+522,531,Project Management,2025-11-29,2025-12-10,Not Started
+523,533,Communication Skills,2025-05-16,2025-05-23,Completed
+524,533,Project Management,2024-09-22,2024-10-05,Not Started
+525,534,Leadership,2024-11-23,2024-12-01,Not Started
+526,535,Leadership,2025-01-13,2025-02-10,Not Started
+527,537,Communication Skills,2024-02-25,2024-03-18,Not Started
+528,537,Communication Skills,2024-09-21,2024-10-08,Not Started
+529,538,Data Analysis,2025-12-15,2025-12-24,Completed
+530,539,Communication Skills,2025-11-13,2025-11-28,Ongoing
+531,539,Project Management,2025-04-20,2025-05-08,Completed
+532,541,Data Analysis,2024-11-15,2024-12-06,Completed
+533,541,Communication Skills,2025-11-26,2025-12-26,Not Started
+534,542,Communication Skills,2025-08-23,2025-09-10,Ongoing
+535,543,Leadership,2024-01-16,2024-01-23,Not Started
+536,543,Data Analysis,2024-01-03,2024-01-30,Completed
+537,544,Python Basics,2025-09-26,2025-10-26,Not Started
+538,544,Leadership,2024-08-26,2024-09-24,Not Started
+539,545,Data Analysis,2025-07-07,2025-08-03,Not Started
+540,546,Communication Skills,2024-08-18,2024-08-27,Completed
+541,546,Data Analysis,2024-06-23,2024-07-05,Not Started
+542,547,Data Analysis,2025-01-12,2025-02-08,Not Started
+543,548,Python Basics,2025-05-31,2025-06-30,Not Started
+544,548,Project Management,2025-01-08,2025-01-24,Ongoing
+545,550,Leadership,2024-02-26,2024-03-10,Completed
+546,550,Communication Skills,2025-06-19,2025-06-28,Ongoing
+547,553,Python Basics,2025-02-07,2025-02-27,Not Started
+548,553,Communication Skills,2024-11-26,2024-12-05,Completed
+549,554,Python Basics,2024-11-14,2024-12-13,Completed
+550,555,Communication Skills,2025-04-23,2025-05-12,Completed
+551,555,Communication Skills,2025-01-22,2025-02-08,Ongoing
+552,556,Communication Skills,2025-03-14,2025-04-12,Ongoing
+553,556,Communication Skills,2024-07-18,2024-08-11,Ongoing
+554,559,Communication Skills,2025-04-27,2025-05-17,Not Started
+555,559,Communication Skills,2025-05-29,2025-06-09,Ongoing
+556,560,Leadership,2024-11-05,2024-11-15,Completed
+557,560,Data Analysis,2024-10-12,2024-11-09,Not Started
+558,561,Project Management,2024-05-16,2024-06-05,Not Started
+559,562,Leadership,2025-01-13,2025-01-24,Ongoing
+560,562,Python Basics,2025-05-03,2025-05-26,Not Started
+561,563,Data Analysis,2025-06-30,2025-07-11,Ongoing
+562,565,Project Management,2024-10-25,2024-11-03,Ongoing
+563,566,Data Analysis,2025-08-19,2025-09-18,Ongoing
+564,566,Data Analysis,2025-03-04,2025-03-18,Not Started
+565,567,Project Management,2025-11-19,2025-11-27,Not Started
+566,568,Python Basics,2025-07-27,2025-08-21,Ongoing
+567,568,Leadership,2025-05-28,2025-06-04,Completed
+568,572,Leadership,2024-07-15,2024-08-03,Completed
+569,572,Leadership,2024-03-27,2024-04-10,Ongoing
+570,573,Data Analysis,2025-11-24,2025-12-10,Ongoing
+571,573,Data Analysis,2024-06-28,2024-07-20,Ongoing
+572,575,Communication Skills,2024-09-11,2024-09-21,Completed
+573,575,Python Basics,2025-07-11,2025-07-20,Ongoing
+574,576,Leadership,2025-03-18,2025-04-07,Not Started
+575,576,Communication Skills,2024-01-31,2024-02-08,Not Started
+576,579,Python Basics,2024-08-12,2024-09-04,Completed
+577,579,Communication Skills,2025-06-12,2025-06-21,Not Started
+578,582,Communication Skills,2025-08-12,2025-08-19,Completed
+579,583,Leadership,2024-08-21,2024-08-26,Completed
+580,584,Leadership,2024-04-28,2024-05-08,Completed
+581,585,Leadership,2024-02-08,2024-03-09,Not Started
+582,585,Data Analysis,2024-03-05,2024-03-16,Completed
+583,586,Data Analysis,2024-08-20,2024-09-16,Not Started
+584,587,Data Analysis,2024-07-06,2024-07-22,Ongoing
+585,589,Data Analysis,2024-04-15,2024-04-23,Ongoing
+586,589,Project Management,2024-08-23,2024-09-08,Completed
+587,593,Project Management,2025-11-04,2025-11-22,Ongoing
+588,593,Communication Skills,2024-01-22,2024-02-07,Completed
+589,596,Leadership,2025-10-27,2025-11-26,Completed
+590,596,Communication Skills,2024-02-01,2024-02-11,Ongoing
+591,597,Python Basics,2025-12-02,2025-12-30,Completed
+592,597,Project Management,2025-12-04,2025-12-28,Not Started
+593,600,Leadership,2025-07-07,2025-07-23,Completed
+594,600,Project Management,2025-10-23,2025-11-20,Ongoing
+595,602,Leadership,2025-10-06,2025-10-23,Not Started
+596,602,Data Analysis,2024-11-15,2024-12-06,Not Started
+597,605,Python Basics,2024-10-02,2024-10-25,Not Started
+598,605,Python Basics,2024-11-24,2024-12-23,Completed
+599,609,Communication Skills,2025-09-08,2025-09-27,Ongoing
+600,610,Data Analysis,2024-08-27,2024-09-17,Completed
+601,611,Project Management,2024-06-05,2024-06-29,Ongoing
+602,611,Communication Skills,2025-08-31,2025-09-29,Not Started
+603,612,Project Management,2025-01-08,2025-01-29,Completed
+604,613,Communication Skills,2025-01-29,2025-02-24,Ongoing
+605,614,Project Management,2024-06-20,2024-07-15,Ongoing
+606,614,Data Analysis,2024-01-05,2024-01-11,Completed
+607,616,Leadership,2024-04-20,2024-04-29,Not Started
+608,616,Leadership,2025-05-06,2025-05-12,Ongoing
+609,617,Project Management,2025-12-05,2025-12-27,Not Started
+610,618,Python Basics,2025-07-10,2025-07-22,Completed
+611,620,Leadership,2025-10-29,2025-11-17,Ongoing
+612,621,Communication Skills,2024-04-23,2024-05-14,Not Started
+613,621,Project Management,2024-10-14,2024-10-19,Ongoing
+614,622,Communication Skills,2025-03-13,2025-03-19,Completed
+615,623,Data Analysis,2025-01-27,2025-02-13,Completed
+616,624,Python Basics,2024-03-27,2024-04-04,Completed
+617,624,Data Analysis,2024-05-30,2024-06-23,Ongoing
+618,625,Python Basics,2025-12-18,2026-01-03,Ongoing
+619,629,Communication Skills,2024-10-02,2024-10-20,Ongoing
+620,629,Project Management,2024-06-07,2024-07-01,Not Started
+621,630,Python Basics,2025-08-15,2025-08-21,Ongoing
+622,630,Data Analysis,2024-03-12,2024-03-23,Ongoing
+623,631,Communication Skills,2025-09-18,2025-10-15,Ongoing
+624,632,Project Management,2025-11-01,2025-11-25,Not Started
+625,632,Python Basics,2024-07-01,2024-07-13,Not Started
+626,633,Python Basics,2026-01-01,2026-01-23,Not Started
+627,633,Data Analysis,2025-09-04,2025-10-01,Not Started
+628,634,Communication Skills,2025-09-17,2025-09-22,Completed
+629,637,Project Management,2025-12-09,2026-01-08,Ongoing
+630,638,Data Analysis,2024-05-26,2024-06-17,Ongoing
+631,638,Leadership,2024-11-11,2024-11-25,Not Started
+632,639,Python Basics,2025-04-09,2025-05-08,Ongoing
+633,639,Data Analysis,2024-05-14,2024-06-07,Ongoing
+634,641,Project Management,2025-02-27,2025-03-08,Not Started
+635,641,Communication Skills,2024-10-08,2024-10-19,Ongoing
+636,642,Python Basics,2025-01-19,2025-02-10,Completed
+637,642,Data Analysis,2025-02-13,2025-03-04,Not Started
+638,643,Data Analysis,2024-12-30,2025-01-28,Ongoing
+639,643,Data Analysis,2024-11-23,2024-12-17,Not Started
+640,644,Data Analysis,2024-11-30,2024-12-20,Completed
+641,645,Communication Skills,2024-03-27,2024-04-24,Completed
+642,645,Data Analysis,2025-11-18,2025-12-18,Completed
+643,646,Communication Skills,2024-03-02,2024-04-01,Not Started
+644,646,Project Management,2025-05-06,2025-05-20,Ongoing
+645,647,Project Management,2025-03-18,2025-03-29,Ongoing
+646,647,Project Management,2024-08-16,2024-09-08,Not Started
+647,649,Project Management,2024-03-23,2024-04-12,Ongoing
+648,649,Data Analysis,2025-03-04,2025-03-11,Not Started
+649,650,Leadership,2025-08-15,2025-08-30,Ongoing
+650,651,Data Analysis,2025-07-07,2025-07-31,Completed
+651,652,Data Analysis,2025-03-04,2025-03-19,Ongoing
+652,653,Communication Skills,2025-11-29,2025-12-26,Not Started
+653,653,Communication Skills,2025-12-29,2026-01-19,Completed
+654,654,Communication Skills,2024-02-25,2024-03-12,Completed
+655,654,Python Basics,2025-08-03,2025-08-13,Completed
+656,656,Leadership,2025-08-12,2025-08-21,Ongoing
+657,658,Project Management,2024-05-01,2024-05-18,Not Started
+658,658,Communication Skills,2024-11-05,2024-12-05,Completed
+659,660,Project Management,2025-09-02,2025-09-15,Ongoing
+660,663,Communication Skills,2025-08-01,2025-08-22,Not Started
+661,667,Leadership,2024-05-21,2024-06-01,Ongoing
+662,667,Project Management,2025-02-25,2025-03-04,Completed
+663,668,Communication Skills,2024-09-29,2024-10-08,Completed
+664,668,Leadership,2025-08-16,2025-09-05,Completed
+665,670,Project Management,2025-09-18,2025-10-11,Not Started
+666,671,Data Analysis,2024-08-04,2024-08-21,Ongoing
+667,672,Project Management,2024-12-03,2024-12-27,Completed
+668,672,Leadership,2024-11-26,2024-12-16,Not Started
+669,673,Project Management,2024-11-05,2024-11-30,Ongoing
+670,673,Python Basics,2024-02-26,2024-03-08,Completed
+671,674,Leadership,2024-10-13,2024-10-21,Not Started
+672,676,Communication Skills,2025-12-09,2025-12-15,Not Started
+673,676,Communication Skills,2024-05-12,2024-06-09,Completed
+674,677,Python Basics,2024-10-13,2024-10-25,Not Started
+675,680,Data Analysis,2025-04-29,2025-05-25,Ongoing
+676,682,Data Analysis,2024-04-17,2024-05-04,Completed
+677,683,Project Management,2025-12-02,2025-12-14,Completed
+678,685,Leadership,2024-07-10,2024-08-06,Not Started
+679,685,Communication Skills,2025-02-22,2025-03-24,Ongoing
+680,686,Project Management,2024-12-28,2025-01-20,Ongoing
+681,687,Python Basics,2024-02-09,2024-02-23,Ongoing
+682,688,Communication Skills,2024-07-30,2024-08-27,Not Started
+683,689,Data Analysis,2024-07-24,2024-08-06,Ongoing
+684,689,Leadership,2024-01-24,2024-02-15,Completed
+685,691,Communication Skills,2024-05-30,2024-06-19,Completed
+686,692,Leadership,2025-12-02,2025-12-20,Not Started
+687,692,Python Basics,2025-02-09,2025-03-01,Not Started
+688,695,Data Analysis,2025-02-02,2025-03-02,Completed
+689,695,Python Basics,2024-07-11,2024-08-03,Ongoing
+690,696,Project Management,2025-07-10,2025-08-01,Completed
+691,696,Python Basics,2025-08-26,2025-09-20,Not Started
+692,698,Data Analysis,2025-02-09,2025-03-01,Completed
+693,699,Project Management,2025-03-12,2025-03-21,Ongoing
+694,700,Leadership,2024-04-26,2024-05-13,Not Started
+695,700,Communication Skills,2025-09-18,2025-10-11,Ongoing
+696,701,Communication Skills,2025-05-19,2025-05-26,Completed
+697,704,Data Analysis,2024-05-17,2024-06-08,Ongoing
+698,705,Python Basics,2025-01-29,2025-02-27,Ongoing
+699,705,Leadership,2025-04-09,2025-04-18,Not Started
+700,707,Data Analysis,2025-06-14,2025-06-21,Not Started
+701,707,Data Analysis,2024-07-22,2024-07-30,Completed
+702,708,Leadership,2024-12-17,2024-12-31,Not Started
+703,712,Leadership,2024-03-15,2024-03-31,Not Started
+704,714,Python Basics,2025-10-14,2025-10-19,Ongoing
+705,714,Communication Skills,2024-04-20,2024-04-26,Not Started
+706,716,Project Management,2024-07-02,2024-07-16,Not Started
+707,718,Data Analysis,2025-04-26,2025-05-10,Completed
+708,720,Leadership,2024-08-26,2024-09-01,Ongoing
+709,722,Python Basics,2024-11-21,2024-12-18,Ongoing
+710,723,Project Management,2025-09-01,2025-09-08,Not Started
+711,724,Leadership,2025-04-28,2025-05-03,Not Started
+712,725,Data Analysis,2024-08-02,2024-08-09,Completed
+713,725,Communication Skills,2025-09-05,2025-09-13,Completed
+714,726,Python Basics,2025-10-07,2025-11-06,Not Started
+715,726,Data Analysis,2024-12-18,2024-12-29,Not Started
+716,727,Python Basics,2024-09-28,2024-10-17,Ongoing
+717,727,Leadership,2024-12-29,2025-01-20,Completed
+718,728,Communication Skills,2025-11-21,2025-12-07,Completed
+719,729,Data Analysis,2024-10-26,2024-11-01,Completed
+720,730,Data Analysis,2024-01-31,2024-02-11,Ongoing
+721,730,Leadership,2024-08-06,2024-08-20,Not Started
+722,731,Python Basics,2025-05-20,2025-05-31,Ongoing
+723,731,Project Management,2024-11-13,2024-12-08,Not Started
+724,732,Communication Skills,2024-03-13,2024-03-18,Completed
+725,735,Python Basics,2025-11-09,2025-12-06,Not Started
+726,735,Leadership,2025-05-09,2025-05-31,Completed
+727,736,Communication Skills,2024-03-17,2024-04-07,Not Started
+728,737,Project Management,2024-09-18,2024-09-29,Ongoing
+729,737,Leadership,2024-10-04,2024-10-26,Not Started
+730,738,Project Management,2024-01-04,2024-01-14,Not Started
+731,738,Project Management,2024-06-04,2024-06-19,Completed
+732,739,Project Management,2025-05-31,2025-06-28,Not Started
+733,740,Data Analysis,2024-03-12,2024-04-01,Ongoing
+734,742,Communication Skills,2024-11-03,2024-11-27,Not Started
+735,745,Communication Skills,2024-01-23,2024-02-20,Completed
+736,745,Communication Skills,2024-04-01,2024-04-07,Ongoing
+737,746,Leadership,2025-02-28,2025-03-24,Completed
+738,750,Leadership,2025-11-02,2025-11-17,Completed
+739,751,Python Basics,2025-11-15,2025-12-14,Completed
+740,751,Communication Skills,2024-08-20,2024-09-18,Ongoing
+741,753,Python Basics,2024-01-19,2024-02-01,Completed
+742,753,Project Management,2025-05-23,2025-06-13,Completed
+743,755,Python Basics,2025-10-14,2025-11-11,Ongoing
+744,756,Project Management,2024-05-11,2024-06-08,Completed
+745,757,Python Basics,2025-05-22,2025-06-09,Completed
+746,759,Communication Skills,2024-03-04,2024-04-03,Ongoing
+747,760,Communication Skills,2024-08-12,2024-09-05,Ongoing
+748,760,Data Analysis,2025-11-25,2025-12-12,Ongoing
+749,761,Communication Skills,2024-10-29,2024-11-28,Not Started
+750,761,Data Analysis,2025-09-02,2025-09-09,Not Started
+751,763,Communication Skills,2025-04-24,2025-05-13,Ongoing
+752,763,Leadership,2025-09-07,2025-09-27,Ongoing
+753,766,Project Management,2024-07-14,2024-08-03,Completed
+754,768,Communication Skills,2024-12-24,2024-12-30,Not Started
+755,768,Data Analysis,2025-04-29,2025-05-08,Completed
+756,770,Data Analysis,2024-12-29,2025-01-26,Ongoing
+757,770,Python Basics,2024-02-23,2024-03-21,Ongoing
+758,773,Project Management,2024-10-17,2024-10-22,Completed
+759,774,Communication Skills,2025-03-26,2025-04-21,Ongoing
+760,775,Data Analysis,2025-02-03,2025-03-04,Ongoing
+761,775,Project Management,2025-11-04,2025-11-21,Not Started
+762,776,Data Analysis,2024-07-07,2024-08-06,Completed
+763,776,Project Management,2024-02-16,2024-03-10,Completed
+764,777,Python Basics,2024-11-01,2024-11-29,Completed
+765,777,Project Management,2025-12-14,2025-12-24,Ongoing
+766,778,Project Management,2024-10-26,2024-11-18,Not Started
+767,778,Data Analysis,2025-05-02,2025-05-17,Ongoing
+768,782,Data Analysis,2024-01-26,2024-02-14,Not Started
+769,783,Communication Skills,2025-06-10,2025-06-29,Completed
+770,783,Python Basics,2024-01-24,2024-02-03,Completed
+771,786,Leadership,2024-03-08,2024-03-30,Completed
+772,786,Project Management,2025-01-26,2025-02-13,Not Started
+773,788,Leadership,2025-05-14,2025-06-07,Not Started
+774,790,Project Management,2025-05-05,2025-05-25,Completed
+775,790,Leadership,2024-12-07,2024-12-23,Ongoing
+776,791,Communication Skills,2025-02-27,2025-03-12,Completed
+777,791,Project Management,2025-08-22,2025-09-11,Completed
+778,792,Project Management,2025-09-18,2025-10-01,Not Started
+779,793,Communication Skills,2024-02-17,2024-02-25,Not Started
+780,794,Project Management,2025-05-24,2025-05-29,Ongoing
+781,794,Project Management,2024-07-01,2024-07-12,Ongoing
+782,795,Project Management,2025-07-26,2025-08-06,Ongoing
+783,797,Data Analysis,2025-08-03,2025-08-25,Ongoing
+784,799,Data Analysis,2024-05-17,2024-06-10,Not Started
+785,800,Python Basics,2025-04-23,2025-05-17,Ongoing
+786,800,Data Analysis,2025-12-17,2025-12-23,Ongoing
+787,802,Project Management,2024-03-08,2024-03-14,Ongoing
+788,804,Project Management,2025-03-17,2025-04-12,Not Started
+789,805,Project Management,2024-02-22,2024-03-15,Not Started
+790,805,Communication Skills,2024-09-29,2024-10-11,Not Started
+791,806,Project Management,2025-09-09,2025-10-04,Completed
+792,806,Communication Skills,2024-12-10,2024-12-16,Not Started
+793,807,Python Basics,2025-02-14,2025-03-13,Not Started
+794,807,Project Management,2024-11-16,2024-12-11,Completed
+795,808,Communication Skills,2024-12-10,2024-12-30,Not Started
+796,808,Data Analysis,2024-05-07,2024-06-02,Completed
+797,809,Python Basics,2025-09-21,2025-10-10,Not Started
+798,811,Leadership,2024-09-03,2024-09-11,Completed
+799,812,Python Basics,2025-02-07,2025-02-15,Ongoing
+800,812,Leadership,2024-09-22,2024-09-30,Ongoing
+801,814,Data Analysis,2025-10-08,2025-10-18,Not Started
+802,814,Data Analysis,2024-05-14,2024-05-29,Not Started
+803,815,Data Analysis,2025-05-01,2025-05-23,Completed
+804,815,Python Basics,2024-04-02,2024-04-24,Completed
+805,816,Communication Skills,2025-08-02,2025-08-17,Not Started
+806,816,Data Analysis,2025-05-08,2025-05-22,Not Started
+807,817,Project Management,2024-11-15,2024-11-25,Ongoing
+808,818,Data Analysis,2025-05-03,2025-05-26,Not Started
+809,819,Python Basics,2025-04-08,2025-04-14,Completed
+810,819,Project Management,2024-06-10,2024-06-21,Ongoing
+811,821,Data Analysis,2025-01-13,2025-02-09,Not Started
+812,821,Project Management,2024-03-19,2024-04-01,Not Started
+813,822,Python Basics,2025-07-21,2025-07-27,Not Started
+814,824,Python Basics,2024-03-29,2024-04-11,Ongoing
+815,824,Project Management,2025-08-14,2025-09-08,Ongoing
+816,825,Project Management,2025-05-01,2025-05-16,Not Started
+817,826,Communication Skills,2024-11-27,2024-12-19,Ongoing
+818,826,Leadership,2025-12-16,2026-01-12,Ongoing
+819,827,Leadership,2024-07-05,2024-07-31,Completed
+820,827,Communication Skills,2025-10-12,2025-10-31,Ongoing
+821,828,Data Analysis,2024-06-14,2024-06-21,Completed
+822,829,Python Basics,2025-10-02,2025-10-13,Not Started
+823,831,Python Basics,2024-01-08,2024-01-23,Completed
+824,831,Leadership,2024-02-29,2024-03-15,Ongoing
+825,832,Data Analysis,2025-04-26,2025-05-14,Ongoing
+826,832,Project Management,2024-04-23,2024-05-22,Completed
+827,834,Project Management,2025-05-21,2025-06-07,Completed
+828,835,Communication Skills,2025-05-20,2025-06-13,Ongoing
+829,836,Project Management,2024-05-11,2024-06-01,Ongoing
+830,837,Communication Skills,2024-03-29,2024-04-11,Completed
+831,837,Data Analysis,2024-12-12,2025-01-09,Not Started
+832,838,Data Analysis,2025-10-18,2025-11-10,Ongoing
+833,838,Python Basics,2025-10-14,2025-11-03,Completed
+834,840,Communication Skills,2024-06-24,2024-07-15,Not Started
+835,840,Project Management,2025-04-04,2025-04-23,Completed
+836,842,Project Management,2025-02-19,2025-03-18,Ongoing
+837,843,Leadership,2024-11-06,2024-11-16,Completed
+838,843,Python Basics,2024-03-06,2024-03-26,Not Started
+839,846,Data Analysis,2024-07-08,2024-08-03,Not Started
+840,846,Leadership,2024-01-13,2024-01-18,Not Started
+841,847,Communication Skills,2024-07-02,2024-07-15,Completed
+842,848,Data Analysis,2024-05-15,2024-06-02,Not Started
+843,849,Project Management,2025-03-08,2025-03-15,Completed
+844,851,Communication Skills,2024-07-18,2024-08-11,Completed
+845,852,Leadership,2025-12-02,2025-12-13,Completed
+846,854,Communication Skills,2024-06-05,2024-07-04,Ongoing
+847,854,Communication Skills,2025-08-05,2025-09-02,Not Started
+848,855,Leadership,2025-03-03,2025-03-11,Completed
+849,855,Python Basics,2024-06-10,2024-07-07,Ongoing
+850,856,Leadership,2025-02-05,2025-02-16,Completed
+851,856,Python Basics,2025-01-24,2025-02-13,Ongoing
+852,857,Project Management,2024-06-25,2024-07-17,Completed
+853,858,Leadership,2024-01-07,2024-02-04,Completed
+854,860,Project Management,2025-06-05,2025-06-18,Ongoing
+855,863,Python Basics,2025-10-13,2025-11-03,Completed
+856,863,Communication Skills,2025-10-05,2025-10-31,Ongoing
+857,865,Python Basics,2025-04-19,2025-05-12,Ongoing
+858,867,Project Management,2024-01-13,2024-01-19,Completed
+859,868,Leadership,2024-08-23,2024-09-05,Completed
+860,868,Project Management,2025-10-05,2025-10-12,Not Started
+861,870,Python Basics,2024-03-29,2024-04-11,Not Started
+862,870,Python Basics,2025-11-10,2025-11-15,Ongoing
+863,871,Python Basics,2025-07-02,2025-07-23,Completed
+864,871,Python Basics,2024-07-24,2024-08-08,Not Started
+865,873,Data Analysis,2025-04-30,2025-05-28,Ongoing
+866,874,Python Basics,2025-12-31,2026-01-30,Not Started
+867,874,Python Basics,2025-05-07,2025-05-30,Completed
+868,875,Python Basics,2025-11-05,2025-11-16,Ongoing
+869,875,Communication Skills,2025-09-14,2025-09-19,Ongoing
+870,876,Project Management,2024-03-27,2024-04-14,Completed
+871,878,Python Basics,2025-04-08,2025-05-08,Not Started
+872,878,Python Basics,2024-10-22,2024-11-02,Ongoing
+873,879,Python Basics,2025-11-08,2025-11-14,Ongoing
+874,880,Leadership,2025-12-29,2026-01-24,Ongoing
+875,880,Python Basics,2024-03-22,2024-03-30,Not Started
+876,881,Python Basics,2024-09-27,2024-10-10,Ongoing
+877,882,Data Analysis,2024-08-10,2024-09-06,Not Started
+878,883,Project Management,2024-05-15,2024-06-10,Not Started
+879,884,Project Management,2024-05-02,2024-05-13,Ongoing
+880,884,Communication Skills,2025-03-11,2025-04-06,Not Started
+881,885,Project Management,2025-11-17,2025-12-08,Not Started
+882,885,Python Basics,2025-03-06,2025-03-20,Completed
+883,888,Python Basics,2025-09-25,2025-10-19,Ongoing
+884,888,Leadership,2025-05-08,2025-05-18,Not Started
+885,889,Python Basics,2024-03-17,2024-04-09,Not Started
+886,889,Leadership,2024-05-21,2024-06-19,Completed
+887,890,Project Management,2025-12-07,2025-12-19,Completed
+888,890,Communication Skills,2025-09-02,2025-09-23,Not Started
+889,893,Leadership,2025-01-27,2025-02-05,Ongoing
+890,893,Data Analysis,2024-12-27,2025-01-23,Completed
+891,894,Python Basics,2025-09-04,2025-09-23,Not Started
+892,895,Data Analysis,2025-07-18,2025-08-13,Ongoing
+893,896,Project Management,2024-07-11,2024-08-02,Not Started
+894,897,Communication Skills,2024-09-19,2024-10-12,Not Started
+895,897,Python Basics,2024-08-10,2024-09-01,Ongoing
+896,899,Communication Skills,2025-05-22,2025-06-03,Completed
+897,899,Data Analysis,2024-02-15,2024-03-03,Not Started
+898,900,Leadership,2025-12-24,2026-01-04,Not Started
+899,900,Python Basics,2024-09-21,2024-10-07,Ongoing
+900,901,Leadership,2024-12-29,2025-01-11,Not Started
+901,901,Python Basics,2024-02-03,2024-02-17,Completed
+902,902,Leadership,2025-07-23,2025-08-15,Completed
+903,902,Communication Skills,2024-03-17,2024-04-02,Not Started
+904,903,Communication Skills,2025-08-03,2025-08-12,Completed
+905,903,Python Basics,2025-08-20,2025-08-26,Not Started
+906,904,Communication Skills,2025-07-01,2025-07-19,Completed
+907,904,Data Analysis,2024-10-04,2024-10-19,Not Started
+908,906,Data Analysis,2024-04-06,2024-04-15,Completed
+909,906,Project Management,2024-01-04,2024-01-12,Completed
+910,907,Python Basics,2025-11-30,2025-12-24,Ongoing
+911,907,Communication Skills,2024-06-22,2024-07-13,Completed
+912,908,Data Analysis,2024-05-08,2024-05-22,Not Started
+913,913,Leadership,2025-12-20,2026-01-01,Completed
+914,915,Project Management,2025-02-10,2025-02-16,Not Started
+915,915,Data Analysis,2024-12-08,2024-12-30,Not Started
+916,916,Leadership,2025-10-03,2025-10-19,Completed
+917,916,Communication Skills,2024-04-24,2024-05-04,Ongoing
+918,917,Project Management,2024-09-04,2024-09-21,Completed
+919,917,Data Analysis,2025-03-06,2025-03-29,Not Started
+920,919,Leadership,2025-02-28,2025-03-21,Ongoing
+921,920,Python Basics,2025-12-03,2026-01-02,Completed
+922,920,Data Analysis,2025-11-29,2025-12-06,Not Started
+923,921,Data Analysis,2024-02-07,2024-02-13,Ongoing
+924,921,Data Analysis,2025-06-14,2025-06-23,Completed
+925,922,Project Management,2025-05-14,2025-06-10,Ongoing
+926,922,Python Basics,2025-03-11,2025-04-03,Ongoing
+927,923,Data Analysis,2024-09-04,2024-09-20,Completed
+928,923,Project Management,2024-08-09,2024-08-31,Not Started
+929,924,Python Basics,2024-01-31,2024-02-27,Completed
+930,925,Communication Skills,2024-02-08,2024-02-19,Ongoing
+931,926,Python Basics,2024-11-12,2024-12-06,Ongoing
+932,931,Leadership,2025-10-24,2025-11-06,Ongoing
+933,931,Communication Skills,2025-08-16,2025-09-09,Ongoing
+934,932,Python Basics,2024-08-11,2024-09-05,Completed
+935,933,Project Management,2025-02-06,2025-03-04,Completed
+936,935,Leadership,2025-02-26,2025-03-05,Completed
+937,936,Data Analysis,2025-11-28,2025-12-18,Completed
+938,936,Leadership,2025-03-04,2025-04-02,Completed
+939,938,Data Analysis,2025-05-24,2025-06-05,Completed
+940,938,Leadership,2025-07-18,2025-07-24,Not Started
+941,939,Project Management,2025-02-17,2025-02-26,Completed
+942,939,Project Management,2024-11-14,2024-12-01,Ongoing
+943,941,Leadership,2025-12-14,2026-01-06,Completed
+944,943,Communication Skills,2025-02-04,2025-02-26,Completed
+945,944,Python Basics,2025-04-10,2025-05-06,Ongoing
+946,945,Python Basics,2025-12-16,2026-01-05,Not Started
+947,945,Leadership,2024-01-06,2024-01-26,Not Started
+948,947,Data Analysis,2025-11-01,2025-11-06,Not Started
+949,948,Communication Skills,2024-08-19,2024-09-11,Not Started
+950,949,Data Analysis,2024-12-11,2024-12-22,Not Started
+951,949,Communication Skills,2024-07-31,2024-08-08,Completed
+952,950,Data Analysis,2024-08-19,2024-09-11,Ongoing
+953,950,Python Basics,2024-11-08,2024-11-26,Not Started
+954,952,Python Basics,2024-11-02,2024-11-28,Ongoing
+955,952,Python Basics,2024-11-23,2024-12-22,Ongoing
+956,953,Leadership,2025-12-15,2026-01-10,Ongoing
+957,954,Leadership,2025-10-27,2025-11-21,Not Started
+958,955,Communication Skills,2024-11-06,2024-11-30,Completed
+959,956,Leadership,2024-10-19,2024-11-17,Ongoing
+960,956,Project Management,2024-07-20,2024-08-05,Not Started
+961,957,Data Analysis,2025-08-23,2025-09-04,Completed
+962,958,Data Analysis,2024-04-30,2024-05-25,Not Started
+963,959,Data Analysis,2025-02-20,2025-03-22,Ongoing
+964,960,Python Basics,2025-03-10,2025-03-27,Ongoing
+965,960,Project Management,2024-06-08,2024-06-24,Ongoing
+966,961,Project Management,2025-08-27,2025-09-15,Completed
+967,961,Leadership,2024-12-31,2025-01-06,Not Started
+968,962,Data Analysis,2024-03-22,2024-04-11,Ongoing
+969,964,Data Analysis,2024-01-18,2024-02-17,Ongoing
+970,965,Data Analysis,2024-12-27,2025-01-17,Ongoing
+971,966,Data Analysis,2024-07-31,2024-08-29,Completed
+972,966,Data Analysis,2024-02-01,2024-02-06,Not Started
+973,968,Project Management,2024-03-29,2024-04-06,Ongoing
+974,969,Communication Skills,2024-03-03,2024-03-14,Completed
+975,971,Project Management,2024-05-01,2024-05-20,Not Started
+976,971,Python Basics,2024-12-08,2025-01-03,Completed
+977,972,Project Management,2025-06-02,2025-06-17,Not Started
+978,973,Project Management,2025-12-07,2026-01-06,Completed
+979,973,Leadership,2025-12-01,2025-12-09,Completed
+980,977,Leadership,2024-06-28,2024-07-10,Completed
+981,977,Project Management,2024-06-17,2024-07-01,Not Started
+982,978,Data Analysis,2024-01-06,2024-01-24,Not Started
+983,980,Leadership,2025-03-25,2025-04-17,Completed
+984,981,Communication Skills,2025-10-21,2025-11-16,Completed
+985,982,Data Analysis,2024-09-03,2024-09-22,Completed
+986,984,Leadership,2025-08-29,2025-09-22,Completed
+987,986,Project Management,2025-07-07,2025-07-30,Ongoing
+988,986,Data Analysis,2025-02-11,2025-03-02,Completed
+989,987,Project Management,2025-09-02,2025-09-22,Ongoing
+990,987,Communication Skills,2024-12-16,2024-12-31,Not Started
+991,989,Python Basics,2025-06-01,2025-06-13,Completed
+992,989,Leadership,2025-06-05,2025-06-19,Ongoing
+993,992,Communication Skills,2025-12-25,2026-01-15,Not Started
+994,992,Data Analysis,2024-11-20,2024-12-02,Ongoing
+995,993,Python Basics,2025-03-29,2025-04-10,Ongoing
+996,993,Communication Skills,2025-03-19,2025-03-31,Ongoing
+997,996,Leadership,2025-09-13,2025-10-07,Not Started
+998,998,Leadership,2025-01-16,2025-01-31,Not Started
+999,999,Python Basics,2025-02-25,2025-03-02,Ongoing
+1000,999,Communication Skills,2025-02-26,2025-03-26,Completed
+1001,1000,Communication Skills,2025-06-04,2025-06-24,Completed

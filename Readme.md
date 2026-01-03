@@ -1203,7 +1203,6 @@ conn = mysql.connector.connect(
     password='17111998',
     database='company_db'
 )
-
 ```
 - This runs the `SHOW TABLES` SQL command to list everything in the DB.
 
@@ -1224,7 +1223,6 @@ The script loops through every discovered table:
 ```commandline
 cursor.execute("SHOW TABLES")
 tables = [row[0] for row in cursor.fetchall()]
-
 ```
 
 Then:
@@ -1232,7 +1230,6 @@ Then:
 for i, table in enumerate(tqdm(tables, desc="Exporting Tables")):
     df = pd.read_sql(f"SELECT * FROM `{table}`", engine)
     df.to_csv(f"{table}.csv", index=False)
-
 ```
 - Every table is exported as `table_name.csv` 
 - No need to hard-code table names 
@@ -1254,7 +1251,6 @@ for i, table in enumerate(tqdm(tables, desc="Exporting Tables")):
 📤 Exporting table 2/12: attendance
 ...
 ✅ Export completed. All tables written to CSV.
-
 ```
 
 
@@ -1554,9 +1550,8 @@ This helps you verify chunking is working correctly.
 - Perfect for analysts, HR staff, or business users.
 
 
-
-
 ---
+
 
 # 📊 [Chapter 7: Exporting SQL Tables Directly to Excel (`script_to_excel_from_sql.py`)](#-Chapter-7-Exporting-SQL-Tables-Directly-to-Excel-script_to_excel_from_sqlpy)
 

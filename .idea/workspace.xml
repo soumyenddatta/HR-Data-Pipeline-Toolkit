@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b6ec3d4-5159-4006-9830-3835fd77cd17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Py test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Py test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company_database_full.sql" beforeDir="false" afterPath="$PROJECT_DIR$/company_database_full.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/assets.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/assets.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/attendance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/attendance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/bonuses.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/bonuses.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/employee_benefits.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/employee_benefits.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/employee_project.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/employee_project.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/employees.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/employees.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/leaves.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/leaves.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/output_csv_to_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dump/output_csv_to_excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/output_sql_excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/dump/output_sql_excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/payroll.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/payroll.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/process.log" beforeDir="false" afterPath="$PROJECT_DIR$/dump/process.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/projects.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/projects.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump/training.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dump/training.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

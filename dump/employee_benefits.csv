@@ -1,1471 +1,1464 @@
 benefit_id,empID,benefit_name,benefit_value
-1,2,Gym Membership,$1481
-2,2,Health Insurance,$964
-3,3,Stock Options,96 units
-4,6,Gym Membership,$137
-5,7,Paid Vacation,$1362
-6,7,Health Insurance,$1545
-7,8,Transport Allowance,$227
-8,8,Health Insurance,$1202
-9,9,Stock Options,92 units
-10,10,Health Insurance,$1634
-11,10,Health Insurance,$834
-12,10,Stock Options,16 units
-13,11,Paid Vacation,$1429
-14,11,Transport Allowance,$420
-15,11,Transport Allowance,$574
-16,12,Paid Vacation,$1966
-17,12,Stock Options,87 units
-18,13,Paid Vacation,$1822
-19,13,Paid Vacation,$1061
-20,13,Stock Options,60 units
-21,15,Health Insurance,$1047
-22,16,Gym Membership,$274
-23,16,Transport Allowance,$1778
-24,17,Paid Vacation,$1624
-25,19,Stock Options,8 units
-26,19,Paid Vacation,$1103
-27,19,Stock Options,46 units
-28,20,Paid Vacation,$1095
-29,20,Transport Allowance,$1336
-30,21,Gym Membership,$1402
-31,21,Stock Options,33 units
-32,22,Stock Options,83 units
-33,22,Gym Membership,$769
-34,24,Health Insurance,$195
-35,24,Health Insurance,$1821
-36,25,Transport Allowance,$165
-37,25,Gym Membership,$1423
-38,25,Transport Allowance,$1661
-39,26,Paid Vacation,$987
-40,26,Gym Membership,$1688
-41,27,Health Insurance,$1063
-42,29,Paid Vacation,$1872
-43,29,Stock Options,22 units
-44,30,Stock Options,3 units
-45,32,Transport Allowance,$1869
-46,32,Stock Options,46 units
-47,33,Paid Vacation,$387
-48,33,Transport Allowance,$1166
-49,33,Stock Options,45 units
-50,34,Stock Options,24 units
-51,35,Health Insurance,$1696
-52,36,Health Insurance,$1705
-53,37,Gym Membership,$1982
-54,38,Paid Vacation,$107
-55,38,Stock Options,41 units
-56,38,Health Insurance,$389
-57,39,Health Insurance,$699
-58,39,Stock Options,63 units
-59,40,Health Insurance,$132
-60,40,Gym Membership,$1158
-61,41,Gym Membership,$1080
-62,41,Stock Options,12 units
-63,42,Transport Allowance,$791
-64,43,Gym Membership,$1805
-65,43,Paid Vacation,$625
-66,43,Paid Vacation,$1643
-67,45,Transport Allowance,$872
-68,46,Gym Membership,$132
-69,46,Transport Allowance,$1447
-70,47,Health Insurance,$533
-71,49,Health Insurance,$473
-72,49,Paid Vacation,$359
-73,49,Gym Membership,$426
-74,50,Stock Options,27 units
-75,50,Gym Membership,$399
-76,50,Health Insurance,$1163
-77,51,Stock Options,31 units
-78,51,Health Insurance,$1096
-79,51,Paid Vacation,$1239
-80,52,Health Insurance,$1169
-81,52,Gym Membership,$345
-82,52,Gym Membership,$1514
-83,57,Health Insurance,$1007
-84,58,Gym Membership,$135
-85,58,Gym Membership,$886
-86,60,Paid Vacation,$1255
-87,60,Health Insurance,$1680
-88,61,Paid Vacation,$1988
-89,61,Gym Membership,$142
-90,62,Gym Membership,$1603
-91,63,Health Insurance,$1171
-92,64,Gym Membership,$1822
-93,65,Paid Vacation,$1253
-94,65,Stock Options,16 units
-95,67,Transport Allowance,$565
-96,67,Transport Allowance,$747
-97,68,Transport Allowance,$1505
-98,68,Gym Membership,$1793
-99,71,Paid Vacation,$566
-100,71,Gym Membership,$1366
-101,71,Paid Vacation,$500
-102,72,Transport Allowance,$993
-103,73,Health Insurance,$759
-104,74,Gym Membership,$1010
-105,74,Transport Allowance,$1691
-106,75,Gym Membership,$324
-107,75,Stock Options,22 units
-108,75,Paid Vacation,$577
-109,76,Transport Allowance,$1657
-110,76,Gym Membership,$1150
-111,77,Paid Vacation,$1893
-112,78,Stock Options,23 units
-113,78,Transport Allowance,$1678
-114,78,Paid Vacation,$210
-115,80,Gym Membership,$1514
-116,80,Paid Vacation,$374
-117,80,Gym Membership,$724
-118,81,Gym Membership,$438
-119,84,Health Insurance,$1161
-120,84,Stock Options,39 units
-121,84,Gym Membership,$1130
-122,85,Transport Allowance,$928
-123,86,Health Insurance,$403
-124,86,Gym Membership,$1986
-125,87,Paid Vacation,$1063
-126,88,Paid Vacation,$1881
-127,88,Paid Vacation,$1857
-128,89,Stock Options,14 units
-129,89,Transport Allowance,$1397
-130,90,Transport Allowance,$421
-131,90,Paid Vacation,$1516
-132,90,Stock Options,47 units
-133,91,Transport Allowance,$1964
-134,93,Stock Options,51 units
-135,93,Transport Allowance,$707
-136,93,Paid Vacation,$1653
-137,94,Stock Options,24 units
-138,94,Gym Membership,$1155
-139,94,Health Insurance,$1354
-140,95,Gym Membership,$932
-141,95,Paid Vacation,$1333
-142,96,Paid Vacation,$1783
-143,96,Transport Allowance,$1402
-144,96,Transport Allowance,$1390
-145,97,Health Insurance,$315
-146,97,Paid Vacation,$900
-147,98,Stock Options,7 units
-148,98,Paid Vacation,$1464
-149,98,Transport Allowance,$770
-150,99,Gym Membership,$1462
-151,99,Paid Vacation,$611
-152,99,Paid Vacation,$748
-153,100,Gym Membership,$553
-154,100,Paid Vacation,$1475
-155,100,Health Insurance,$495
-156,101,Stock Options,23 units
-157,101,Health Insurance,$1833
-158,101,Transport Allowance,$795
-159,102,Transport Allowance,$1208
-160,102,Stock Options,100 units
-161,102,Stock Options,20 units
-162,103,Health Insurance,$470
-163,104,Transport Allowance,$1167
-164,104,Paid Vacation,$1009
-165,105,Gym Membership,$1300
-166,105,Paid Vacation,$1604
-167,106,Stock Options,47 units
-168,106,Gym Membership,$1240
-169,106,Health Insurance,$346
-170,107,Paid Vacation,$320
-171,108,Stock Options,95 units
-172,108,Gym Membership,$1541
-173,111,Paid Vacation,$495
-174,111,Gym Membership,$248
-175,111,Paid Vacation,$809
-176,113,Transport Allowance,$1174
-177,113,Transport Allowance,$1519
-178,114,Gym Membership,$1643
-179,115,Health Insurance,$482
-180,115,Stock Options,11 units
-181,115,Paid Vacation,$1382
-182,116,Transport Allowance,$394
-183,116,Health Insurance,$1513
-184,116,Paid Vacation,$667
-185,118,Health Insurance,$626
-186,118,Stock Options,69 units
-187,119,Transport Allowance,$1733
-188,119,Gym Membership,$903
-189,119,Transport Allowance,$1468
-190,121,Paid Vacation,$1957
-191,121,Stock Options,64 units
-192,122,Gym Membership,$798
-193,122,Gym Membership,$766
-194,123,Paid Vacation,$482
-195,123,Health Insurance,$1784
-196,123,Stock Options,90 units
-197,124,Stock Options,75 units
-198,124,Gym Membership,$1311
-199,126,Paid Vacation,$775
-200,126,Transport Allowance,$1185
-201,126,Paid Vacation,$924
-202,127,Stock Options,44 units
-203,127,Stock Options,63 units
-204,127,Health Insurance,$1364
-205,128,Stock Options,89 units
-206,128,Gym Membership,$1801
-207,128,Gym Membership,$746
-208,129,Transport Allowance,$1979
-209,129,Paid Vacation,$370
-210,130,Gym Membership,$1387
-211,130,Gym Membership,$233
-212,130,Stock Options,6 units
-213,135,Transport Allowance,$1801
-214,135,Stock Options,13 units
-215,135,Gym Membership,$627
-216,136,Gym Membership,$1010
-217,136,Paid Vacation,$1615
-218,136,Paid Vacation,$144
-219,138,Paid Vacation,$363
-220,138,Gym Membership,$1948
-221,139,Stock Options,56 units
-222,139,Stock Options,79 units
-223,140,Paid Vacation,$727
-224,140,Transport Allowance,$1287
-225,141,Health Insurance,$1009
-226,142,Transport Allowance,$1843
-227,142,Transport Allowance,$1044
-228,144,Transport Allowance,$408
-229,145,Health Insurance,$1444
-230,146,Gym Membership,$985
-231,147,Health Insurance,$1945
-232,147,Transport Allowance,$113
-233,148,Health Insurance,$106
-234,149,Transport Allowance,$1417
-235,150,Transport Allowance,$507
-236,150,Transport Allowance,$1630
-237,151,Paid Vacation,$103
-238,152,Stock Options,45 units
-239,152,Gym Membership,$148
-240,152,Gym Membership,$1833
-241,153,Gym Membership,$206
-242,153,Health Insurance,$678
-243,153,Paid Vacation,$112
-244,154,Health Insurance,$442
-245,154,Gym Membership,$1412
-246,154,Health Insurance,$1676
-247,155,Stock Options,83 units
-248,157,Transport Allowance,$1259
-249,158,Gym Membership,$971
-250,159,Transport Allowance,$1770
-251,161,Paid Vacation,$1477
-252,162,Health Insurance,$805
-253,163,Paid Vacation,$1458
-254,164,Health Insurance,$1957
-255,164,Transport Allowance,$1532
-256,164,Transport Allowance,$757
-257,167,Gym Membership,$1922
-258,168,Health Insurance,$1863
-259,168,Paid Vacation,$922
-260,168,Stock Options,70 units
-261,169,Health Insurance,$1522
-262,169,Stock Options,49 units
-263,169,Gym Membership,$1028
-264,170,Health Insurance,$1681
-265,170,Stock Options,9 units
-266,170,Paid Vacation,$798
-267,171,Stock Options,71 units
-268,171,Health Insurance,$230
-269,171,Paid Vacation,$717
-270,172,Gym Membership,$1751
-271,173,Stock Options,76 units
-272,173,Health Insurance,$1670
-273,174,Health Insurance,$1246
-274,176,Stock Options,23 units
-275,177,Health Insurance,$1670
-276,177,Health Insurance,$1760
-277,177,Health Insurance,$1495
-278,178,Gym Membership,$1508
-279,178,Paid Vacation,$1411
-280,179,Gym Membership,$1501
-281,179,Transport Allowance,$409
-282,181,Health Insurance,$667
-283,181,Stock Options,99 units
-284,181,Paid Vacation,$1849
-285,182,Paid Vacation,$1347
-286,183,Stock Options,24 units
-287,183,Health Insurance,$1184
-288,183,Transport Allowance,$624
-289,185,Gym Membership,$937
-290,185,Paid Vacation,$652
-291,186,Health Insurance,$1891
-292,189,Paid Vacation,$1536
-293,189,Transport Allowance,$874
-294,189,Transport Allowance,$1747
-295,190,Stock Options,35 units
-296,190,Transport Allowance,$335
-297,190,Stock Options,54 units
-298,192,Gym Membership,$1453
-299,192,Health Insurance,$945
-300,194,Gym Membership,$1425
-301,194,Transport Allowance,$1194
-302,195,Health Insurance,$349
-303,196,Gym Membership,$1629
-304,196,Paid Vacation,$1439
-305,196,Paid Vacation,$1563
-306,197,Health Insurance,$1950
-307,197,Paid Vacation,$1411
-308,197,Stock Options,59 units
-309,198,Health Insurance,$1797
-310,198,Gym Membership,$1541
-311,198,Stock Options,47 units
-312,200,Gym Membership,$271
-313,200,Paid Vacation,$1905
-314,202,Health Insurance,$526
-315,202,Transport Allowance,$696
-316,203,Health Insurance,$137
-317,203,Stock Options,94 units
-318,203,Gym Membership,$1596
-319,204,Stock Options,42 units
-320,204,Paid Vacation,$1012
-321,204,Stock Options,44 units
-322,205,Transport Allowance,$1287
-323,205,Paid Vacation,$146
-324,205,Transport Allowance,$1091
-325,206,Stock Options,99 units
-326,206,Gym Membership,$413
-327,207,Paid Vacation,$636
-328,207,Transport Allowance,$1208
-329,208,Gym Membership,$908
-330,208,Stock Options,68 units
-331,208,Paid Vacation,$1471
-332,209,Stock Options,52 units
-333,209,Stock Options,5 units
-334,210,Transport Allowance,$330
-335,210,Health Insurance,$1784
-336,211,Paid Vacation,$349
-337,211,Transport Allowance,$1627
-338,213,Stock Options,71 units
-339,213,Gym Membership,$442
-340,215,Stock Options,16 units
-341,216,Health Insurance,$1312
-342,217,Gym Membership,$350
-343,217,Gym Membership,$1463
-344,217,Gym Membership,$1135
-345,218,Transport Allowance,$1073
-346,218,Stock Options,63 units
-347,218,Health Insurance,$1832
-348,219,Health Insurance,$1392
-349,219,Stock Options,60 units
-350,219,Health Insurance,$999
-351,221,Paid Vacation,$1734
-352,222,Paid Vacation,$1842
-353,223,Stock Options,20 units
-354,224,Paid Vacation,$1559
-355,224,Transport Allowance,$575
-356,226,Paid Vacation,$216
-357,229,Gym Membership,$1633
-358,229,Stock Options,60 units
-359,230,Transport Allowance,$1087
-360,230,Paid Vacation,$411
-361,231,Stock Options,38 units
-362,231,Paid Vacation,$1083
-363,231,Transport Allowance,$452
-364,233,Transport Allowance,$910
-365,233,Paid Vacation,$257
-366,236,Paid Vacation,$1374
-367,237,Stock Options,70 units
-368,238,Transport Allowance,$1936
-369,239,Paid Vacation,$1384
-370,239,Health Insurance,$1959
-371,240,Health Insurance,$1125
-372,241,Transport Allowance,$1635
-373,241,Transport Allowance,$214
-374,242,Health Insurance,$430
-375,243,Transport Allowance,$750
-376,243,Health Insurance,$1505
-377,246,Gym Membership,$1360
-378,246,Gym Membership,$1535
-379,246,Transport Allowance,$1782
-380,247,Stock Options,69 units
-381,247,Health Insurance,$1073
-382,247,Health Insurance,$1501
-383,248,Transport Allowance,$548
-384,248,Health Insurance,$333
-385,248,Health Insurance,$893
-386,249,Stock Options,67 units
-387,249,Paid Vacation,$860
-388,251,Health Insurance,$701
-389,251,Health Insurance,$1204
-390,253,Transport Allowance,$1283
-391,254,Health Insurance,$1987
-392,255,Transport Allowance,$521
-393,255,Paid Vacation,$689
-394,255,Stock Options,76 units
-395,256,Gym Membership,$1246
-396,256,Transport Allowance,$296
-397,256,Transport Allowance,$1946
-398,258,Gym Membership,$547
-399,259,Gym Membership,$430
-400,259,Paid Vacation,$1889
-401,261,Paid Vacation,$1732
-402,262,Health Insurance,$1957
-403,264,Transport Allowance,$1004
-404,264,Gym Membership,$1895
-405,264,Gym Membership,$813
-406,265,Paid Vacation,$1019
-407,266,Transport Allowance,$703
-408,267,Transport Allowance,$1482
-409,267,Transport Allowance,$1448
-410,268,Health Insurance,$1192
-411,268,Paid Vacation,$774
-412,268,Transport Allowance,$1532
-413,269,Paid Vacation,$774
-414,269,Health Insurance,$671
-415,269,Transport Allowance,$1309
-416,270,Gym Membership,$208
-417,271,Paid Vacation,$1673
-418,272,Transport Allowance,$766
-419,272,Gym Membership,$886
-420,272,Transport Allowance,$1182
-421,273,Transport Allowance,$351
-422,273,Transport Allowance,$520
-423,274,Health Insurance,$697
-424,274,Gym Membership,$1208
-425,274,Stock Options,73 units
-426,275,Paid Vacation,$1998
-427,275,Gym Membership,$577
-428,277,Gym Membership,$270
-429,277,Health Insurance,$443
-430,279,Paid Vacation,$1254
-431,279,Transport Allowance,$1494
-432,279,Gym Membership,$1182
-433,280,Paid Vacation,$1859
-434,280,Stock Options,22 units
-435,280,Paid Vacation,$1600
-436,281,Health Insurance,$113
-437,281,Health Insurance,$1832
-438,283,Gym Membership,$1286
-439,284,Gym Membership,$1215
-440,284,Transport Allowance,$1565
-441,284,Health Insurance,$1037
-442,285,Gym Membership,$1112
-443,285,Health Insurance,$1119
-444,285,Health Insurance,$327
-445,286,Transport Allowance,$1409
-446,286,Stock Options,44 units
-447,287,Gym Membership,$1995
-448,289,Transport Allowance,$326
-449,289,Stock Options,64 units
-450,289,Gym Membership,$1532
-451,290,Gym Membership,$438
-452,290,Gym Membership,$675
-453,291,Transport Allowance,$641
-454,291,Health Insurance,$1919
-455,292,Health Insurance,$592
-456,292,Transport Allowance,$1324
-457,293,Gym Membership,$1509
-458,293,Transport Allowance,$928
-459,293,Stock Options,69 units
-460,295,Transport Allowance,$252
-461,296,Health Insurance,$1953
-462,297,Gym Membership,$1935
-463,298,Paid Vacation,$1477
-464,299,Transport Allowance,$114
-465,299,Health Insurance,$1679
-466,299,Gym Membership,$1769
-467,300,Transport Allowance,$469
-468,300,Transport Allowance,$815
-469,301,Paid Vacation,$864
-470,301,Gym Membership,$1008
-471,302,Stock Options,32 units
-472,302,Stock Options,13 units
-473,302,Health Insurance,$990
-474,303,Transport Allowance,$978
-475,304,Health Insurance,$1012
-476,304,Stock Options,96 units
-477,304,Gym Membership,$356
-478,305,Health Insurance,$632
-479,309,Gym Membership,$1776
-480,309,Stock Options,16 units
-481,311,Stock Options,86 units
-482,311,Health Insurance,$1757
-483,312,Transport Allowance,$757
-484,312,Stock Options,72 units
-485,313,Health Insurance,$106
-486,313,Transport Allowance,$1582
-487,313,Paid Vacation,$1812
-488,314,Health Insurance,$502
-489,314,Stock Options,50 units
-490,315,Stock Options,11 units
-491,315,Stock Options,83 units
-492,316,Gym Membership,$1879
-493,316,Health Insurance,$746
-494,316,Transport Allowance,$1846
-495,318,Paid Vacation,$1635
-496,320,Gym Membership,$881
-497,320,Transport Allowance,$1509
-498,320,Gym Membership,$1367
-499,321,Paid Vacation,$438
-500,322,Transport Allowance,$112
-501,322,Paid Vacation,$701
-502,322,Stock Options,2 units
-503,325,Health Insurance,$1778
-504,326,Paid Vacation,$104
-505,329,Transport Allowance,$1945
-506,329,Health Insurance,$765
-507,329,Paid Vacation,$1139
-508,330,Gym Membership,$223
-509,333,Health Insurance,$1741
-510,336,Gym Membership,$307
-511,336,Stock Options,66 units
-512,337,Gym Membership,$889
-513,337,Transport Allowance,$1080
-514,337,Gym Membership,$1225
-515,338,Health Insurance,$218
-516,338,Gym Membership,$139
-517,338,Paid Vacation,$548
-518,340,Health Insurance,$1113
-519,342,Paid Vacation,$912
-520,343,Stock Options,95 units
-521,347,Transport Allowance,$930
-522,348,Stock Options,35 units
-523,350,Gym Membership,$473
-524,351,Health Insurance,$1358
-525,351,Stock Options,11 units
-526,351,Transport Allowance,$125
-527,352,Gym Membership,$1433
-528,352,Health Insurance,$1622
-529,353,Health Insurance,$1983
-530,353,Paid Vacation,$1892
-531,354,Health Insurance,$1804
-532,354,Gym Membership,$405
-533,355,Stock Options,12 units
-534,355,Gym Membership,$915
-535,355,Stock Options,76 units
-536,356,Paid Vacation,$587
-537,356,Health Insurance,$674
-538,356,Paid Vacation,$190
-539,357,Stock Options,29 units
-540,358,Health Insurance,$753
-541,358,Transport Allowance,$1755
-542,358,Stock Options,37 units
-543,359,Gym Membership,$1657
-544,359,Paid Vacation,$546
-545,361,Health Insurance,$522
-546,362,Transport Allowance,$688
-547,362,Transport Allowance,$519
-548,362,Stock Options,55 units
-549,363,Health Insurance,$1766
-550,363,Gym Membership,$902
-551,363,Transport Allowance,$1540
-552,364,Paid Vacation,$1957
-553,366,Health Insurance,$261
-554,366,Stock Options,39 units
-555,368,Health Insurance,$658
-556,368,Gym Membership,$1273
-557,369,Transport Allowance,$808
-558,369,Gym Membership,$1943
-559,370,Stock Options,5 units
-560,370,Transport Allowance,$275
-561,371,Transport Allowance,$1553
-562,371,Transport Allowance,$1541
-563,374,Gym Membership,$335
-564,374,Gym Membership,$1637
-565,374,Transport Allowance,$1078
-566,375,Stock Options,66 units
-567,375,Gym Membership,$829
-568,376,Health Insurance,$138
-569,376,Health Insurance,$309
-570,378,Gym Membership,$1427
-571,378,Transport Allowance,$243
-572,380,Stock Options,71 units
-573,380,Stock Options,36 units
-574,380,Transport Allowance,$686
-575,382,Stock Options,96 units
-576,382,Transport Allowance,$1238
-577,382,Paid Vacation,$915
-578,383,Paid Vacation,$1510
-579,383,Transport Allowance,$1407
-580,384,Gym Membership,$509
-581,384,Stock Options,13 units
-582,384,Health Insurance,$308
-583,385,Transport Allowance,$168
-584,387,Stock Options,73 units
-585,388,Transport Allowance,$617
-586,388,Stock Options,59 units
-587,388,Stock Options,3 units
-588,389,Paid Vacation,$1335
-589,390,Gym Membership,$536
-590,390,Health Insurance,$973
-591,390,Gym Membership,$964
-592,394,Transport Allowance,$635
-593,394,Paid Vacation,$1295
-594,394,Stock Options,18 units
-595,395,Health Insurance,$946
-596,396,Transport Allowance,$767
-597,396,Gym Membership,$1001
-598,396,Health Insurance,$1538
-599,397,Health Insurance,$584
-600,397,Paid Vacation,$456
-601,398,Gym Membership,$234
-602,398,Health Insurance,$1658
-603,399,Gym Membership,$868
-604,400,Health Insurance,$382
-605,400,Paid Vacation,$1870
-606,401,Health Insurance,$859
-607,402,Gym Membership,$1630
-608,403,Transport Allowance,$1772
-609,403,Gym Membership,$1337
-610,405,Paid Vacation,$1552
-611,405,Stock Options,80 units
-612,405,Gym Membership,$480
-613,406,Health Insurance,$1927
-614,406,Gym Membership,$415
-615,406,Health Insurance,$460
-616,408,Paid Vacation,$1533
-617,408,Health Insurance,$1245
-618,409,Health Insurance,$638
-619,409,Stock Options,50 units
-620,410,Paid Vacation,$872
-621,411,Stock Options,35 units
-622,411,Stock Options,92 units
-623,411,Gym Membership,$572
-624,412,Gym Membership,$1121
-625,412,Paid Vacation,$1419
-626,415,Paid Vacation,$618
-627,415,Gym Membership,$1856
-628,415,Stock Options,80 units
-629,416,Health Insurance,$425
-630,416,Transport Allowance,$932
-631,417,Health Insurance,$417
-632,418,Transport Allowance,$1588
-633,418,Stock Options,25 units
-634,418,Health Insurance,$822
-635,419,Gym Membership,$1200
-636,419,Paid Vacation,$1845
-637,419,Paid Vacation,$123
-638,420,Gym Membership,$459
-639,420,Gym Membership,$1977
-640,421,Gym Membership,$868
-641,421,Paid Vacation,$357
-642,421,Stock Options,84 units
-643,422,Transport Allowance,$964
-644,422,Health Insurance,$1961
-645,423,Stock Options,54 units
-646,423,Paid Vacation,$594
-647,423,Transport Allowance,$1256
-648,424,Health Insurance,$1961
-649,425,Transport Allowance,$516
-650,425,Stock Options,48 units
-651,426,Paid Vacation,$1684
-652,426,Health Insurance,$1053
-653,426,Stock Options,2 units
-654,427,Paid Vacation,$1708
-655,427,Transport Allowance,$476
-656,427,Paid Vacation,$1479
-657,428,Paid Vacation,$1943
-658,428,Stock Options,60 units
-659,428,Health Insurance,$117
-660,430,Health Insurance,$1702
-661,431,Stock Options,13 units
-662,431,Gym Membership,$209
-663,432,Stock Options,1 units
-664,432,Gym Membership,$357
-665,435,Stock Options,67 units
-666,435,Gym Membership,$1725
-667,436,Stock Options,60 units
-668,437,Paid Vacation,$518
-669,437,Health Insurance,$963
-670,437,Transport Allowance,$739
-671,439,Health Insurance,$336
-672,439,Health Insurance,$586
-673,439,Paid Vacation,$663
-674,441,Paid Vacation,$996
-675,441,Stock Options,58 units
-676,442,Stock Options,37 units
-677,442,Transport Allowance,$502
-678,442,Gym Membership,$847
-679,443,Stock Options,99 units
-680,443,Gym Membership,$1006
-681,444,Transport Allowance,$702
-682,444,Gym Membership,$495
-683,444,Paid Vacation,$1410
-684,446,Transport Allowance,$640
-685,446,Paid Vacation,$839
-686,446,Gym Membership,$1241
-687,447,Stock Options,63 units
-688,447,Health Insurance,$1892
-689,448,Health Insurance,$1090
-690,448,Health Insurance,$466
-691,448,Transport Allowance,$352
-692,449,Transport Allowance,$1424
-693,449,Gym Membership,$652
-694,449,Gym Membership,$1152
-695,450,Gym Membership,$791
-696,450,Stock Options,8 units
-697,450,Health Insurance,$394
-698,451,Gym Membership,$1127
-699,452,Health Insurance,$1509
-700,455,Paid Vacation,$1569
-701,455,Health Insurance,$399
-702,458,Health Insurance,$1071
-703,458,Gym Membership,$228
-704,459,Transport Allowance,$449
-705,459,Paid Vacation,$225
-706,459,Health Insurance,$1040
-707,462,Paid Vacation,$1274
-708,462,Gym Membership,$435
-709,464,Health Insurance,$1900
-710,465,Paid Vacation,$547
-711,465,Health Insurance,$1357
-712,466,Gym Membership,$1250
-713,466,Transport Allowance,$727
-714,466,Transport Allowance,$1118
-715,467,Paid Vacation,$603
-716,467,Paid Vacation,$1373
-717,467,Stock Options,78 units
-718,468,Gym Membership,$1152
-719,468,Paid Vacation,$1065
-720,470,Paid Vacation,$300
-721,470,Health Insurance,$1562
-722,470,Transport Allowance,$1150
-723,471,Gym Membership,$1093
-724,473,Paid Vacation,$1369
-725,475,Transport Allowance,$1124
-726,475,Paid Vacation,$1211
-727,476,Transport Allowance,$141
-728,477,Paid Vacation,$1917
-729,477,Paid Vacation,$868
-730,477,Gym Membership,$856
-731,478,Gym Membership,$1831
-732,479,Gym Membership,$632
-733,479,Transport Allowance,$1151
-734,479,Health Insurance,$444
-735,481,Health Insurance,$1997
-736,482,Stock Options,98 units
-737,482,Stock Options,42 units
-738,483,Paid Vacation,$876
-739,483,Transport Allowance,$1217
-740,483,Transport Allowance,$1276
-741,484,Transport Allowance,$1059
-742,485,Paid Vacation,$204
-743,485,Transport Allowance,$590
-744,485,Gym Membership,$1785
-745,486,Paid Vacation,$613
-746,487,Transport Allowance,$1230
-747,488,Transport Allowance,$308
-748,488,Transport Allowance,$1561
-749,489,Health Insurance,$1856
-750,491,Gym Membership,$910
-751,491,Gym Membership,$318
-752,491,Transport Allowance,$537
-753,493,Stock Options,67 units
-754,493,Gym Membership,$416
-755,493,Health Insurance,$139
-756,494,Stock Options,47 units
-757,494,Gym Membership,$1172
-758,495,Gym Membership,$2000
-759,496,Health Insurance,$692
-760,496,Paid Vacation,$961
-761,498,Stock Options,21 units
-762,499,Health Insurance,$1353
-763,500,Gym Membership,$1521
-764,500,Stock Options,97 units
-765,501,Health Insurance,$336
-766,501,Transport Allowance,$1664
-767,502,Paid Vacation,$977
-768,502,Transport Allowance,$1443
-769,502,Health Insurance,$1482
-770,503,Transport Allowance,$1184
-771,504,Stock Options,97 units
-772,507,Paid Vacation,$1258
-773,508,Health Insurance,$1063
-774,509,Paid Vacation,$1743
-775,509,Gym Membership,$380
-776,509,Gym Membership,$1865
-777,510,Gym Membership,$183
-778,510,Health Insurance,$1730
-779,511,Gym Membership,$1782
-780,513,Health Insurance,$991
-781,513,Gym Membership,$128
-782,513,Paid Vacation,$1290
-783,514,Gym Membership,$1378
-784,514,Health Insurance,$1081
-785,515,Gym Membership,$164
-786,515,Health Insurance,$1768
-787,515,Transport Allowance,$950
-788,517,Health Insurance,$634
-789,517,Stock Options,6 units
-790,519,Transport Allowance,$1309
-791,519,Health Insurance,$1024
-792,520,Health Insurance,$322
-793,522,Transport Allowance,$836
-794,522,Paid Vacation,$1699
-795,523,Paid Vacation,$1231
-796,524,Paid Vacation,$1731
-797,524,Paid Vacation,$743
-798,524,Health Insurance,$1272
-799,525,Health Insurance,$1746
-800,525,Transport Allowance,$988
-801,526,Stock Options,47 units
-802,526,Gym Membership,$1500
-803,528,Health Insurance,$608
-804,529,Transport Allowance,$1724
-805,529,Health Insurance,$1651
-806,529,Health Insurance,$1181
-807,530,Gym Membership,$400
-808,530,Transport Allowance,$783
-809,530,Paid Vacation,$874
-810,532,Paid Vacation,$361
-811,532,Paid Vacation,$1339
-812,532,Transport Allowance,$1582
-813,533,Gym Membership,$1968
-814,534,Gym Membership,$708
-815,534,Stock Options,87 units
-816,535,Stock Options,93 units
-817,535,Gym Membership,$1154
-818,537,Health Insurance,$1326
-819,541,Stock Options,7 units
-820,542,Transport Allowance,$1873
-821,543,Gym Membership,$704
-822,543,Paid Vacation,$1795
-823,544,Stock Options,32 units
-824,545,Health Insurance,$1887
-825,545,Transport Allowance,$647
-826,547,Paid Vacation,$1939
-827,547,Paid Vacation,$1171
-828,547,Stock Options,55 units
-829,548,Paid Vacation,$1741
-830,548,Health Insurance,$964
-831,549,Health Insurance,$852
-832,549,Gym Membership,$288
-833,549,Gym Membership,$658
-834,550,Gym Membership,$1208
-835,550,Health Insurance,$1508
-836,550,Paid Vacation,$806
-837,551,Paid Vacation,$1994
-838,551,Stock Options,73 units
-839,552,Paid Vacation,$1761
-840,552,Gym Membership,$655
-841,552,Paid Vacation,$1049
-842,553,Health Insurance,$1124
-843,554,Transport Allowance,$1179
-844,554,Gym Membership,$1215
-845,554,Stock Options,59 units
-846,555,Health Insurance,$1104
-847,555,Paid Vacation,$1351
-848,556,Stock Options,70 units
-849,556,Health Insurance,$1013
-850,556,Transport Allowance,$1273
-851,559,Gym Membership,$1888
-852,561,Transport Allowance,$1308
-853,561,Transport Allowance,$1406
-854,562,Paid Vacation,$681
-855,562,Paid Vacation,$668
-856,562,Transport Allowance,$1141
-857,563,Transport Allowance,$1225
-858,563,Gym Membership,$1611
-859,563,Gym Membership,$1708
-860,565,Transport Allowance,$926
-861,565,Transport Allowance,$439
-862,566,Transport Allowance,$747
-863,566,Transport Allowance,$1338
-864,566,Gym Membership,$1038
-865,567,Health Insurance,$813
-866,567,Stock Options,39 units
-867,567,Transport Allowance,$1883
-868,568,Transport Allowance,$762
-869,568,Gym Membership,$476
-870,568,Paid Vacation,$1239
-871,569,Paid Vacation,$1192
-872,570,Gym Membership,$1461
-873,571,Stock Options,37 units
-874,571,Health Insurance,$545
-875,573,Stock Options,95 units
-876,573,Transport Allowance,$512
-877,574,Gym Membership,$1375
-878,575,Health Insurance,$1188
-879,575,Transport Allowance,$106
-880,575,Gym Membership,$1173
-881,577,Stock Options,54 units
-882,577,Paid Vacation,$1433
-883,577,Health Insurance,$1018
-884,578,Transport Allowance,$1073
-885,578,Transport Allowance,$911
-886,579,Health Insurance,$1569
-887,581,Paid Vacation,$1613
-888,582,Stock Options,74 units
-889,583,Gym Membership,$1803
-890,583,Gym Membership,$241
-891,583,Gym Membership,$1764
-892,584,Gym Membership,$707
-893,584,Health Insurance,$589
-894,584,Health Insurance,$1681
-895,586,Stock Options,71 units
-896,587,Gym Membership,$854
-897,588,Paid Vacation,$1164
-898,588,Stock Options,53 units
-899,588,Health Insurance,$1026
-900,590,Gym Membership,$1103
-901,591,Transport Allowance,$336
-902,592,Gym Membership,$593
-903,592,Gym Membership,$1404
-904,594,Paid Vacation,$1688
-905,594,Health Insurance,$744
-906,595,Transport Allowance,$1575
-907,595,Transport Allowance,$1023
-908,598,Stock Options,12 units
-909,599,Paid Vacation,$954
-910,599,Transport Allowance,$736
-911,600,Gym Membership,$170
-912,600,Paid Vacation,$404
-913,600,Gym Membership,$1829
-914,601,Paid Vacation,$606
-915,601,Stock Options,41 units
-916,601,Stock Options,56 units
-917,604,Stock Options,70 units
-918,605,Paid Vacation,$622
-919,605,Transport Allowance,$1474
-920,605,Paid Vacation,$1983
-921,608,Stock Options,18 units
-922,608,Transport Allowance,$716
-923,608,Health Insurance,$661
-924,609,Paid Vacation,$608
-925,609,Transport Allowance,$1677
-926,609,Paid Vacation,$228
-927,610,Gym Membership,$752
-928,610,Transport Allowance,$441
-929,610,Transport Allowance,$130
-930,612,Transport Allowance,$350
-931,612,Transport Allowance,$1936
-932,612,Health Insurance,$812
-933,613,Paid Vacation,$1497
-934,613,Health Insurance,$1764
-935,614,Gym Membership,$922
-936,615,Paid Vacation,$1408
-937,615,Gym Membership,$1884
-938,615,Stock Options,18 units
-939,616,Gym Membership,$207
-940,616,Paid Vacation,$1464
-941,616,Stock Options,35 units
-942,617,Health Insurance,$331
-943,617,Stock Options,61 units
-944,618,Gym Membership,$713
-945,618,Transport Allowance,$892
-946,619,Gym Membership,$184
-947,621,Paid Vacation,$454
-948,621,Stock Options,36 units
-949,624,Stock Options,63 units
-950,624,Health Insurance,$1008
-951,625,Paid Vacation,$263
-952,625,Paid Vacation,$1606
-953,625,Stock Options,12 units
-954,626,Stock Options,1 units
-955,626,Health Insurance,$1680
-956,626,Gym Membership,$636
-957,627,Stock Options,69 units
-958,627,Transport Allowance,$451
-959,627,Paid Vacation,$1332
-960,630,Transport Allowance,$1632
-961,630,Stock Options,68 units
-962,631,Transport Allowance,$1962
-963,633,Transport Allowance,$1966
-964,636,Health Insurance,$1649
-965,636,Transport Allowance,$982
-966,637,Stock Options,60 units
-967,638,Transport Allowance,$665
-968,638,Transport Allowance,$232
-969,638,Stock Options,91 units
-970,640,Transport Allowance,$126
-971,642,Stock Options,62 units
-972,643,Transport Allowance,$451
-973,643,Stock Options,78 units
-974,644,Gym Membership,$1972
-975,644,Transport Allowance,$1458
-976,645,Stock Options,55 units
-977,645,Paid Vacation,$266
-978,645,Health Insurance,$1972
-979,646,Paid Vacation,$1811
-980,646,Stock Options,65 units
-981,646,Stock Options,69 units
-982,648,Health Insurance,$1466
-983,648,Paid Vacation,$1901
-984,648,Transport Allowance,$985
-985,651,Stock Options,22 units
-986,652,Paid Vacation,$1591
-987,653,Health Insurance,$997
-988,653,Health Insurance,$962
-989,654,Paid Vacation,$1682
-990,656,Stock Options,59 units
-991,656,Transport Allowance,$998
-992,656,Gym Membership,$1131
-993,657,Health Insurance,$1001
-994,659,Stock Options,23 units
-995,659,Gym Membership,$781
-996,661,Paid Vacation,$1592
-997,661,Paid Vacation,$596
-998,662,Gym Membership,$1746
-999,662,Stock Options,11 units
-1000,664,Transport Allowance,$429
-1001,664,Transport Allowance,$1689
-1002,665,Stock Options,50 units
-1003,665,Health Insurance,$1046
-1004,666,Health Insurance,$1089
-1005,666,Paid Vacation,$594
-1006,667,Gym Membership,$643
-1007,668,Stock Options,23 units
-1008,668,Paid Vacation,$516
-1009,669,Gym Membership,$1595
-1010,670,Transport Allowance,$1144
-1011,670,Health Insurance,$104
-1012,671,Transport Allowance,$1199
-1013,673,Stock Options,6 units
-1014,673,Paid Vacation,$1289
-1015,674,Paid Vacation,$646
-1016,675,Stock Options,86 units
-1017,676,Paid Vacation,$205
-1018,676,Paid Vacation,$1871
-1019,677,Gym Membership,$1527
-1020,679,Stock Options,62 units
-1021,680,Health Insurance,$442
-1022,680,Paid Vacation,$101
-1023,681,Transport Allowance,$294
-1024,681,Health Insurance,$1063
-1025,682,Health Insurance,$1143
-1026,683,Transport Allowance,$1763
-1027,683,Paid Vacation,$377
-1028,683,Paid Vacation,$1678
-1029,684,Stock Options,1 units
-1030,685,Gym Membership,$1951
-1031,685,Stock Options,52 units
-1032,685,Stock Options,38 units
-1033,687,Health Insurance,$486
-1034,687,Paid Vacation,$1289
-1035,689,Gym Membership,$1836
-1036,691,Gym Membership,$347
-1037,691,Health Insurance,$1122
-1038,692,Transport Allowance,$1763
-1039,693,Stock Options,95 units
-1040,693,Paid Vacation,$1104
-1041,693,Transport Allowance,$1625
-1042,694,Gym Membership,$1807
-1043,695,Stock Options,41 units
-1044,695,Paid Vacation,$1780
-1045,695,Paid Vacation,$370
-1046,696,Paid Vacation,$1916
-1047,696,Paid Vacation,$603
-1048,696,Gym Membership,$647
-1049,697,Gym Membership,$1801
-1050,699,Health Insurance,$783
-1051,700,Gym Membership,$625
-1052,700,Transport Allowance,$205
-1053,701,Health Insurance,$796
-1054,702,Gym Membership,$1041
-1055,702,Gym Membership,$1962
-1056,703,Health Insurance,$582
-1057,703,Health Insurance,$154
-1058,704,Paid Vacation,$1401
-1059,704,Gym Membership,$1529
-1060,704,Gym Membership,$983
-1061,705,Transport Allowance,$1649
-1062,705,Paid Vacation,$224
-1063,707,Gym Membership,$1806
-1064,707,Paid Vacation,$675
-1065,707,Stock Options,61 units
-1066,708,Gym Membership,$1950
-1067,708,Transport Allowance,$1838
-1068,709,Health Insurance,$1538
-1069,709,Stock Options,68 units
-1070,710,Paid Vacation,$1041
-1071,711,Health Insurance,$1710
-1072,711,Gym Membership,$1977
-1073,713,Paid Vacation,$1813
-1074,716,Paid Vacation,$1988
-1075,716,Gym Membership,$1585
-1076,716,Health Insurance,$1654
-1077,717,Health Insurance,$114
-1078,717,Gym Membership,$1389
-1079,718,Gym Membership,$1297
-1080,718,Paid Vacation,$716
-1081,718,Transport Allowance,$633
-1082,720,Gym Membership,$1380
-1083,721,Gym Membership,$1468
-1084,721,Paid Vacation,$1621
-1085,722,Gym Membership,$120
-1086,725,Health Insurance,$890
-1087,725,Gym Membership,$810
-1088,726,Paid Vacation,$123
-1089,726,Health Insurance,$1888
-1090,726,Stock Options,73 units
-1091,727,Paid Vacation,$722
-1092,727,Paid Vacation,$1117
-1093,730,Health Insurance,$759
-1094,731,Gym Membership,$1113
-1095,731,Health Insurance,$409
-1096,731,Health Insurance,$732
-1097,732,Transport Allowance,$995
-1098,733,Gym Membership,$1195
-1099,733,Transport Allowance,$1208
-1100,733,Health Insurance,$1875
-1101,734,Health Insurance,$1035
-1102,734,Transport Allowance,$1164
-1103,734,Paid Vacation,$837
-1104,735,Paid Vacation,$729
-1105,735,Transport Allowance,$1822
-1106,735,Transport Allowance,$809
-1107,738,Paid Vacation,$858
-1108,739,Gym Membership,$483
-1109,739,Gym Membership,$1725
-1110,740,Stock Options,76 units
-1111,740,Stock Options,64 units
-1112,740,Transport Allowance,$304
-1113,741,Health Insurance,$1172
-1114,741,Health Insurance,$402
-1115,741,Paid Vacation,$1660
-1116,743,Paid Vacation,$1169
-1117,743,Transport Allowance,$589
-1118,745,Paid Vacation,$1951
-1119,745,Stock Options,70 units
-1120,746,Gym Membership,$503
-1121,746,Paid Vacation,$502
-1122,747,Health Insurance,$1888
-1123,747,Transport Allowance,$411
-1124,747,Gym Membership,$479
-1125,748,Health Insurance,$1492
-1126,749,Stock Options,90 units
-1127,749,Stock Options,30 units
-1128,750,Stock Options,77 units
-1129,750,Transport Allowance,$708
-1130,750,Health Insurance,$1393
-1131,752,Health Insurance,$574
-1132,752,Paid Vacation,$971
-1133,752,Stock Options,98 units
-1134,754,Stock Options,70 units
-1135,754,Transport Allowance,$1367
-1136,756,Paid Vacation,$1705
-1137,757,Gym Membership,$748
-1138,757,Paid Vacation,$1117
-1139,758,Health Insurance,$356
-1140,758,Health Insurance,$1603
-1141,758,Health Insurance,$391
-1142,760,Stock Options,7 units
-1143,761,Gym Membership,$1242
-1144,761,Paid Vacation,$812
-1145,761,Paid Vacation,$1087
-1146,762,Paid Vacation,$1849
-1147,764,Paid Vacation,$1056
-1148,765,Paid Vacation,$739
-1149,766,Health Insurance,$1622
-1150,766,Stock Options,91 units
-1151,766,Stock Options,61 units
-1152,768,Health Insurance,$274
-1153,769,Stock Options,39 units
-1154,770,Health Insurance,$1567
-1155,770,Health Insurance,$101
-1156,770,Paid Vacation,$1110
-1157,771,Transport Allowance,$373
-1158,774,Health Insurance,$496
-1159,775,Gym Membership,$201
-1160,775,Health Insurance,$248
-1161,776,Transport Allowance,$512
-1162,776,Gym Membership,$542
-1163,777,Gym Membership,$1517
-1164,777,Transport Allowance,$1933
-1165,777,Transport Allowance,$900
-1166,778,Paid Vacation,$782
-1167,778,Transport Allowance,$769
-1168,778,Health Insurance,$751
-1169,780,Gym Membership,$1862
-1170,780,Gym Membership,$1290
-1171,782,Paid Vacation,$1426
-1172,782,Transport Allowance,$466
-1173,783,Stock Options,9 units
-1174,784,Stock Options,71 units
-1175,784,Transport Allowance,$553
-1176,786,Stock Options,38 units
-1177,786,Gym Membership,$915
-1178,786,Stock Options,67 units
-1179,787,Gym Membership,$233
-1180,789,Stock Options,59 units
-1181,790,Gym Membership,$437
-1182,792,Stock Options,19 units
-1183,792,Transport Allowance,$1525
-1184,792,Paid Vacation,$1951
-1185,793,Stock Options,12 units
-1186,793,Health Insurance,$207
-1187,793,Paid Vacation,$1300
-1188,794,Transport Allowance,$1021
-1189,794,Stock Options,10 units
-1190,795,Health Insurance,$1507
-1191,797,Transport Allowance,$932
-1192,797,Stock Options,68 units
-1193,797,Transport Allowance,$1422
-1194,798,Transport Allowance,$1997
-1195,798,Gym Membership,$1317
-1196,801,Gym Membership,$1950
-1197,801,Stock Options,96 units
-1198,801,Paid Vacation,$1303
-1199,802,Health Insurance,$1554
-1200,802,Health Insurance,$641
-1201,803,Stock Options,57 units
-1202,804,Paid Vacation,$320
-1203,804,Health Insurance,$1565
-1204,805,Paid Vacation,$208
-1205,805,Paid Vacation,$1397
-1206,805,Transport Allowance,$1652
-1207,806,Paid Vacation,$1393
-1208,806,Health Insurance,$804
-1209,806,Health Insurance,$306
-1210,807,Health Insurance,$1517
-1211,807,Paid Vacation,$1251
-1212,808,Health Insurance,$1816
-1213,808,Gym Membership,$240
-1214,809,Gym Membership,$497
-1215,810,Stock Options,65 units
-1216,810,Gym Membership,$1204
-1217,814,Gym Membership,$472
-1218,814,Paid Vacation,$1188
-1219,814,Transport Allowance,$723
-1220,817,Transport Allowance,$1346
-1221,819,Paid Vacation,$1317
-1222,820,Stock Options,81 units
-1223,820,Paid Vacation,$1705
-1224,820,Gym Membership,$142
-1225,821,Gym Membership,$1365
-1226,821,Gym Membership,$1175
-1227,822,Gym Membership,$100
-1228,824,Health Insurance,$947
-1229,825,Gym Membership,$1786
-1230,825,Health Insurance,$914
-1231,826,Paid Vacation,$1277
-1232,826,Stock Options,32 units
-1233,827,Health Insurance,$903
-1234,827,Transport Allowance,$1992
-1235,827,Transport Allowance,$1782
-1236,828,Gym Membership,$1356
-1237,830,Stock Options,49 units
-1238,830,Health Insurance,$1629
-1239,830,Health Insurance,$982
-1240,831,Gym Membership,$415
-1241,832,Health Insurance,$188
-1242,832,Transport Allowance,$1912
-1243,832,Gym Membership,$1640
-1244,833,Stock Options,18 units
-1245,833,Paid Vacation,$637
-1246,833,Stock Options,26 units
-1247,834,Stock Options,97 units
-1248,834,Paid Vacation,$601
-1249,834,Stock Options,74 units
-1250,835,Paid Vacation,$272
-1251,835,Stock Options,57 units
-1252,836,Transport Allowance,$1260
-1253,837,Paid Vacation,$539
-1254,837,Stock Options,41 units
-1255,839,Transport Allowance,$1400
-1256,839,Transport Allowance,$873
-1257,839,Gym Membership,$143
-1258,840,Paid Vacation,$1143
-1259,842,Gym Membership,$254
-1260,844,Transport Allowance,$221
-1261,845,Health Insurance,$1903
-1262,845,Gym Membership,$716
-1263,847,Health Insurance,$885
-1264,850,Health Insurance,$696
-1265,850,Health Insurance,$1647
-1266,851,Health Insurance,$612
-1267,851,Health Insurance,$1500
-1268,852,Stock Options,35 units
-1269,852,Transport Allowance,$1585
-1270,852,Health Insurance,$1309
-1271,853,Stock Options,75 units
-1272,853,Gym Membership,$668
-1273,855,Health Insurance,$1994
-1274,857,Transport Allowance,$586
-1275,858,Gym Membership,$1896
-1276,858,Transport Allowance,$1797
-1277,858,Gym Membership,$1384
-1278,859,Paid Vacation,$1607
-1279,859,Stock Options,77 units
-1280,859,Stock Options,38 units
-1281,860,Gym Membership,$1681
-1282,860,Health Insurance,$135
-1283,862,Transport Allowance,$1126
-1284,862,Paid Vacation,$1008
-1285,863,Transport Allowance,$1461
-1286,864,Stock Options,89 units
-1287,864,Gym Membership,$1228
-1288,864,Paid Vacation,$1090
-1289,865,Stock Options,78 units
-1290,865,Transport Allowance,$271
-1291,865,Gym Membership,$1527
-1292,866,Stock Options,90 units
-1293,866,Gym Membership,$212
-1294,867,Gym Membership,$611
-1295,867,Health Insurance,$1651
-1296,868,Stock Options,65 units
-1297,868,Transport Allowance,$1616
-1298,868,Paid Vacation,$520
-1299,869,Paid Vacation,$630
-1300,869,Paid Vacation,$161
-1301,870,Transport Allowance,$1095
-1302,870,Health Insurance,$205
-1303,870,Stock Options,5 units
-1304,871,Stock Options,51 units
-1305,872,Health Insurance,$350
-1306,873,Gym Membership,$642
-1307,873,Stock Options,90 units
-1308,874,Health Insurance,$151
-1309,875,Stock Options,9 units
-1310,875,Health Insurance,$1264
-1311,877,Health Insurance,$469
-1312,880,Gym Membership,$693
-1313,880,Stock Options,46 units
-1314,881,Health Insurance,$1787
-1315,881,Gym Membership,$948
-1316,881,Gym Membership,$371
-1317,883,Stock Options,84 units
-1318,884,Stock Options,11 units
-1319,885,Paid Vacation,$435
-1320,885,Paid Vacation,$187
-1321,885,Stock Options,16 units
-1322,886,Transport Allowance,$836
-1323,886,Transport Allowance,$1296
-1324,886,Health Insurance,$556
-1325,887,Health Insurance,$1654
-1326,888,Paid Vacation,$1704
-1327,888,Stock Options,14 units
-1328,888,Paid Vacation,$936
-1329,889,Stock Options,54 units
-1330,889,Paid Vacation,$322
-1331,889,Health Insurance,$1769
-1332,891,Transport Allowance,$1071
-1333,891,Health Insurance,$1768
-1334,892,Transport Allowance,$173
-1335,892,Health Insurance,$214
-1336,892,Stock Options,82 units
-1337,894,Transport Allowance,$122
-1338,894,Gym Membership,$978
-1339,894,Stock Options,24 units
-1340,896,Stock Options,27 units
-1341,896,Stock Options,53 units
-1342,896,Stock Options,98 units
-1343,898,Stock Options,74 units
-1344,898,Transport Allowance,$1367
-1345,898,Gym Membership,$769
-1346,899,Stock Options,60 units
-1347,900,Gym Membership,$1889
-1348,900,Stock Options,45 units
-1349,900,Health Insurance,$130
-1350,901,Health Insurance,$572
-1351,902,Paid Vacation,$1311
-1352,906,Health Insurance,$938
-1353,907,Health Insurance,$1973
-1354,908,Stock Options,41 units
-1355,908,Paid Vacation,$158
-1356,910,Transport Allowance,$1585
-1357,910,Transport Allowance,$1627
-1358,912,Health Insurance,$1545
-1359,912,Paid Vacation,$364
-1360,912,Stock Options,67 units
-1361,913,Health Insurance,$1807
-1362,914,Health Insurance,$158
-1363,914,Health Insurance,$853
-1364,914,Stock Options,83 units
-1365,915,Transport Allowance,$847
-1366,916,Gym Membership,$1259
-1367,916,Transport Allowance,$1763
-1368,917,Health Insurance,$1216
-1369,917,Health Insurance,$678
-1370,917,Health Insurance,$1855
-1371,920,Paid Vacation,$300
-1372,920,Gym Membership,$1317
-1373,920,Health Insurance,$150
-1374,921,Health Insurance,$458
-1375,922,Paid Vacation,$1507
-1376,922,Transport Allowance,$1104
-1377,923,Paid Vacation,$1632
-1378,923,Stock Options,74 units
-1379,923,Gym Membership,$1015
-1380,924,Health Insurance,$1059
-1381,924,Health Insurance,$967
-1382,925,Transport Allowance,$947
-1383,927,Gym Membership,$1542
-1384,927,Stock Options,56 units
-1385,928,Health Insurance,$1726
-1386,928,Paid Vacation,$1208
-1387,929,Transport Allowance,$1367
-1388,930,Paid Vacation,$1737
-1389,930,Paid Vacation,$638
-1390,930,Gym Membership,$627
-1391,931,Health Insurance,$356
-1392,931,Transport Allowance,$655
-1393,933,Transport Allowance,$1894
-1394,934,Gym Membership,$823
-1395,936,Gym Membership,$738
-1396,936,Transport Allowance,$1042
-1397,936,Stock Options,1 units
-1398,937,Paid Vacation,$1765
-1399,937,Gym Membership,$1157
-1400,938,Transport Allowance,$1408
-1401,939,Paid Vacation,$1536
-1402,939,Health Insurance,$591
-1403,940,Transport Allowance,$231
-1404,941,Transport Allowance,$240
-1405,941,Stock Options,76 units
-1406,941,Gym Membership,$754
-1407,942,Gym Membership,$521
-1408,944,Gym Membership,$722
-1409,947,Stock Options,19 units
-1410,947,Gym Membership,$1886
-1411,949,Paid Vacation,$449
-1412,950,Stock Options,94 units
-1413,950,Stock Options,19 units
-1414,951,Stock Options,68 units
-1415,952,Paid Vacation,$1985
-1416,952,Gym Membership,$1768
-1417,953,Transport Allowance,$520
-1418,953,Transport Allowance,$1749
-1419,953,Gym Membership,$1629
-1420,954,Paid Vacation,$1895
-1421,954,Paid Vacation,$959
-1422,954,Health Insurance,$1955
-1423,955,Stock Options,49 units
-1424,955,Gym Membership,$1578
-1425,956,Stock Options,95 units
-1426,959,Transport Allowance,$1632
-1427,961,Gym Membership,$1305
-1428,964,Gym Membership,$1846
-1429,964,Transport Allowance,$675
-1430,964,Gym Membership,$163
-1431,965,Health Insurance,$1941
-1432,965,Health Insurance,$1975
-1433,966,Paid Vacation,$592
-1434,966,Transport Allowance,$774
-1435,967,Gym Membership,$1215
-1436,967,Health Insurance,$808
-1437,967,Gym Membership,$1291
-1438,969,Health Insurance,$1432
-1439,971,Transport Allowance,$867
-1440,971,Transport Allowance,$180
-1441,971,Gym Membership,$891
-1442,972,Transport Allowance,$1508
-1443,972,Gym Membership,$1490
-1444,973,Health Insurance,$1044
-1445,974,Stock Options,6 units
-1446,975,Health Insurance,$385
-1447,976,Transport Allowance,$597
-1448,976,Gym Membership,$1057
-1449,977,Paid Vacation,$716
-1450,977,Health Insurance,$1626
-1451,977,Stock Options,16 units
-1452,978,Gym Membership,$658
-1453,979,Health Insurance,$238
-1454,981,Paid Vacation,$1818
-1455,981,Paid Vacation,$1926
-1456,981,Health Insurance,$1063
-1457,983,Gym Membership,$1376
-1458,984,Gym Membership,$1966
-1459,985,Transport Allowance,$816
-1460,988,Paid Vacation,$1601
-1461,988,Health Insurance,$1872
-1462,989,Stock Options,40 units
-1463,991,Stock Options,60 units
-1464,991,Transport Allowance,$877
-1465,991,Paid Vacation,$1068
-1466,993,Stock Options,58 units
-1467,993,Health Insurance,$1101
-1468,997,Health Insurance,$1609
-1469,997,Transport Allowance,$1356
-1470,1000,Gym Membership,$911
+1,1,Health Insurance,$144
+2,2,Gym Membership,$549
+3,2,Stock Options,70 units
+4,2,Gym Membership,$1824
+5,3,Gym Membership,$643
+6,5,Paid Vacation,$387
+7,6,Transport Allowance,$1992
+8,6,Health Insurance,$1727
+9,6,Gym Membership,$1867
+10,8,Transport Allowance,$1334
+11,8,Health Insurance,$301
+12,9,Paid Vacation,$269
+13,10,Stock Options,77 units
+14,10,Stock Options,96 units
+15,10,Stock Options,62 units
+16,12,Stock Options,10 units
+17,13,Paid Vacation,$948
+18,13,Paid Vacation,$853
+19,15,Transport Allowance,$120
+20,17,Stock Options,32 units
+21,17,Health Insurance,$1023
+22,17,Health Insurance,$246
+23,18,Gym Membership,$1359
+24,20,Transport Allowance,$1030
+25,20,Transport Allowance,$1769
+26,20,Paid Vacation,$740
+27,21,Transport Allowance,$1617
+28,21,Transport Allowance,$1818
+29,21,Gym Membership,$880
+30,22,Transport Allowance,$1022
+31,22,Paid Vacation,$1283
+32,22,Transport Allowance,$185
+33,24,Gym Membership,$850
+34,24,Gym Membership,$978
+35,24,Gym Membership,$1217
+36,25,Transport Allowance,$1556
+37,25,Gym Membership,$1224
+38,25,Health Insurance,$1267
+39,26,Transport Allowance,$455
+40,26,Transport Allowance,$881
+41,27,Health Insurance,$1223
+42,27,Transport Allowance,$1705
+43,28,Gym Membership,$1597
+44,28,Stock Options,40 units
+45,28,Transport Allowance,$1744
+46,30,Paid Vacation,$1931
+47,31,Paid Vacation,$452
+48,31,Health Insurance,$633
+49,32,Health Insurance,$1555
+50,32,Health Insurance,$1982
+51,32,Paid Vacation,$340
+52,33,Health Insurance,$735
+53,33,Health Insurance,$1835
+54,34,Stock Options,15 units
+55,35,Gym Membership,$1122
+56,35,Health Insurance,$387
+57,35,Transport Allowance,$1668
+58,38,Gym Membership,$120
+59,41,Transport Allowance,$1111
+60,43,Health Insurance,$1241
+61,43,Stock Options,78 units
+62,43,Stock Options,1 units
+63,44,Gym Membership,$439
+64,44,Transport Allowance,$1156
+65,44,Paid Vacation,$180
+66,45,Gym Membership,$122
+67,45,Paid Vacation,$129
+68,45,Transport Allowance,$1579
+69,46,Transport Allowance,$716
+70,46,Transport Allowance,$544
+71,48,Health Insurance,$1359
+72,48,Gym Membership,$1556
+73,53,Health Insurance,$1658
+74,53,Health Insurance,$102
+75,55,Health Insurance,$354
+76,55,Paid Vacation,$1439
+77,56,Health Insurance,$374
+78,56,Stock Options,44 units
+79,56,Health Insurance,$326
+80,58,Gym Membership,$153
+81,58,Gym Membership,$1288
+82,60,Stock Options,70 units
+83,61,Transport Allowance,$536
+84,61,Paid Vacation,$692
+85,62,Health Insurance,$1720
+86,62,Health Insurance,$878
+87,63,Health Insurance,$1603
+88,64,Health Insurance,$1511
+89,64,Transport Allowance,$1574
+90,64,Gym Membership,$1212
+91,65,Paid Vacation,$760
+92,65,Paid Vacation,$287
+93,67,Paid Vacation,$1123
+94,67,Health Insurance,$713
+95,68,Stock Options,91 units
+96,69,Gym Membership,$1014
+97,69,Paid Vacation,$1904
+98,69,Health Insurance,$1142
+99,70,Transport Allowance,$1452
+100,70,Paid Vacation,$1129
+101,70,Health Insurance,$1081
+102,71,Stock Options,93 units
+103,72,Paid Vacation,$1383
+104,72,Stock Options,14 units
+105,73,Transport Allowance,$1068
+106,74,Gym Membership,$1987
+107,74,Transport Allowance,$305
+108,74,Transport Allowance,$1571
+109,76,Gym Membership,$1220
+110,76,Stock Options,19 units
+111,76,Gym Membership,$1406
+112,77,Paid Vacation,$308
+113,77,Health Insurance,$1738
+114,79,Stock Options,72 units
+115,79,Stock Options,4 units
+116,79,Health Insurance,$1546
+117,80,Gym Membership,$1799
+118,81,Health Insurance,$1193
+119,81,Health Insurance,$489
+120,81,Paid Vacation,$741
+121,82,Gym Membership,$1495
+122,82,Health Insurance,$1603
+123,83,Transport Allowance,$668
+124,85,Stock Options,39 units
+125,85,Health Insurance,$1045
+126,85,Paid Vacation,$130
+127,86,Gym Membership,$122
+128,86,Paid Vacation,$488
+129,86,Paid Vacation,$714
+130,87,Paid Vacation,$713
+131,87,Health Insurance,$1430
+132,87,Transport Allowance,$481
+133,89,Stock Options,1 units
+134,89,Gym Membership,$1225
+135,89,Stock Options,50 units
+136,90,Transport Allowance,$1801
+137,91,Health Insurance,$312
+138,91,Health Insurance,$1701
+139,91,Paid Vacation,$1122
+140,92,Health Insurance,$841
+141,92,Gym Membership,$1749
+142,92,Health Insurance,$1068
+143,93,Stock Options,14 units
+144,95,Stock Options,39 units
+145,95,Gym Membership,$197
+146,95,Health Insurance,$673
+147,97,Transport Allowance,$1082
+148,98,Transport Allowance,$1445
+149,98,Paid Vacation,$872
+150,99,Gym Membership,$675
+151,99,Transport Allowance,$862
+152,99,Health Insurance,$1358
+153,100,Stock Options,8 units
+154,102,Paid Vacation,$1263
+155,102,Stock Options,52 units
+156,102,Health Insurance,$1306
+157,104,Paid Vacation,$1021
+158,105,Health Insurance,$1314
+159,105,Stock Options,19 units
+160,106,Gym Membership,$1535
+161,106,Gym Membership,$808
+162,106,Stock Options,70 units
+163,107,Stock Options,85 units
+164,111,Gym Membership,$1982
+165,111,Gym Membership,$203
+166,112,Gym Membership,$1278
+167,114,Gym Membership,$204
+168,116,Stock Options,34 units
+169,118,Transport Allowance,$1506
+170,119,Health Insurance,$485
+171,119,Transport Allowance,$1681
+172,120,Transport Allowance,$970
+173,120,Paid Vacation,$1866
+174,120,Stock Options,42 units
+175,121,Health Insurance,$703
+176,122,Transport Allowance,$1153
+177,122,Health Insurance,$1506
+178,122,Gym Membership,$1978
+179,123,Stock Options,96 units
+180,124,Stock Options,93 units
+181,125,Gym Membership,$986
+182,126,Stock Options,97 units
+183,126,Health Insurance,$679
+184,127,Gym Membership,$1078
+185,127,Transport Allowance,$406
+186,128,Paid Vacation,$995
+187,129,Stock Options,60 units
+188,129,Paid Vacation,$1783
+189,129,Transport Allowance,$1171
+190,130,Paid Vacation,$802
+191,130,Gym Membership,$935
+192,130,Health Insurance,$114
+193,131,Transport Allowance,$1191
+194,132,Stock Options,85 units
+195,132,Health Insurance,$1173
+196,132,Gym Membership,$1491
+197,133,Health Insurance,$193
+198,135,Stock Options,95 units
+199,135,Transport Allowance,$1394
+200,135,Gym Membership,$643
+201,136,Stock Options,99 units
+202,136,Transport Allowance,$490
+203,136,Stock Options,63 units
+204,137,Transport Allowance,$1544
+205,137,Stock Options,73 units
+206,137,Paid Vacation,$914
+207,139,Transport Allowance,$1663
+208,140,Paid Vacation,$1113
+209,140,Transport Allowance,$928
+210,141,Paid Vacation,$1921
+211,142,Stock Options,6 units
+212,142,Gym Membership,$1310
+213,144,Gym Membership,$1866
+214,144,Stock Options,79 units
+215,147,Paid Vacation,$1428
+216,147,Paid Vacation,$1738
+217,148,Stock Options,70 units
+218,148,Stock Options,84 units
+219,149,Stock Options,48 units
+220,149,Gym Membership,$1549
+221,151,Health Insurance,$1688
+222,151,Paid Vacation,$349
+223,152,Transport Allowance,$1199
+224,152,Stock Options,43 units
+225,152,Stock Options,85 units
+226,154,Stock Options,87 units
+227,156,Gym Membership,$318
+228,156,Health Insurance,$1829
+229,157,Gym Membership,$577
+230,157,Transport Allowance,$1701
+231,157,Health Insurance,$622
+232,158,Gym Membership,$674
+233,158,Paid Vacation,$774
+234,161,Paid Vacation,$346
+235,161,Transport Allowance,$367
+236,161,Stock Options,43 units
+237,162,Stock Options,55 units
+238,162,Paid Vacation,$986
+239,164,Gym Membership,$818
+240,164,Paid Vacation,$236
+241,164,Stock Options,40 units
+242,165,Gym Membership,$332
+243,165,Paid Vacation,$310
+244,165,Health Insurance,$1762
+245,166,Gym Membership,$1811
+246,167,Transport Allowance,$690
+247,167,Transport Allowance,$1088
+248,169,Paid Vacation,$1658
+249,171,Health Insurance,$1860
+250,173,Health Insurance,$139
+251,173,Stock Options,58 units
+252,174,Stock Options,50 units
+253,174,Transport Allowance,$1520
+254,175,Gym Membership,$336
+255,175,Paid Vacation,$1879
+256,175,Health Insurance,$1177
+257,181,Transport Allowance,$340
+258,181,Health Insurance,$733
+259,181,Paid Vacation,$1372
+260,185,Stock Options,34 units
+261,185,Health Insurance,$144
+262,186,Stock Options,5 units
+263,186,Paid Vacation,$373
+264,186,Stock Options,22 units
+265,187,Health Insurance,$1381
+266,187,Transport Allowance,$1568
+267,188,Health Insurance,$1066
+268,188,Transport Allowance,$1641
+269,188,Health Insurance,$1314
+270,189,Gym Membership,$589
+271,189,Gym Membership,$1709
+272,191,Health Insurance,$1004
+273,192,Paid Vacation,$1802
+274,192,Transport Allowance,$1116
+275,192,Stock Options,94 units
+276,194,Transport Allowance,$1215
+277,194,Health Insurance,$182
+278,194,Stock Options,1 units
+279,195,Paid Vacation,$1283
+280,195,Gym Membership,$1123
+281,196,Gym Membership,$460
+282,196,Health Insurance,$1214
+283,197,Stock Options,77 units
+284,197,Paid Vacation,$1004
+285,197,Stock Options,30 units
+286,198,Health Insurance,$1514
+287,198,Transport Allowance,$1640
+288,198,Gym Membership,$1964
+289,199,Stock Options,9 units
+290,200,Transport Allowance,$513
+291,201,Gym Membership,$420
+292,204,Paid Vacation,$1225
+293,204,Health Insurance,$547
+294,206,Stock Options,30 units
+295,207,Stock Options,61 units
+296,207,Paid Vacation,$1356
+297,208,Stock Options,28 units
+298,208,Stock Options,57 units
+299,209,Paid Vacation,$780
+300,209,Gym Membership,$1378
+301,209,Health Insurance,$1506
+302,210,Gym Membership,$1127
+303,210,Transport Allowance,$1939
+304,212,Gym Membership,$907
+305,215,Stock Options,5 units
+306,215,Gym Membership,$716
+307,216,Gym Membership,$1461
+308,216,Health Insurance,$1388
+309,216,Paid Vacation,$815
+310,217,Gym Membership,$1460
+311,218,Gym Membership,$1661
+312,218,Health Insurance,$1280
+313,219,Transport Allowance,$1914
+314,219,Stock Options,72 units
+315,220,Gym Membership,$450
+316,220,Gym Membership,$739
+317,221,Transport Allowance,$1556
+318,221,Paid Vacation,$493
+319,223,Health Insurance,$688
+320,223,Transport Allowance,$179
+321,223,Health Insurance,$1667
+322,224,Paid Vacation,$1335
+323,224,Health Insurance,$1913
+324,224,Health Insurance,$1697
+325,225,Gym Membership,$1474
+326,225,Health Insurance,$902
+327,226,Paid Vacation,$1712
+328,226,Stock Options,91 units
+329,227,Paid Vacation,$1336
+330,227,Transport Allowance,$928
+331,228,Transport Allowance,$360
+332,228,Gym Membership,$963
+333,228,Stock Options,22 units
+334,229,Transport Allowance,$1517
+335,229,Paid Vacation,$1898
+336,230,Stock Options,29 units
+337,231,Health Insurance,$1844
+338,231,Gym Membership,$1500
+339,232,Gym Membership,$316
+340,233,Transport Allowance,$1368
+341,233,Paid Vacation,$1375
+342,233,Gym Membership,$1068
+343,235,Transport Allowance,$530
+344,236,Paid Vacation,$415
+345,237,Paid Vacation,$1086
+346,239,Paid Vacation,$1630
+347,239,Gym Membership,$788
+348,240,Gym Membership,$990
+349,241,Paid Vacation,$1892
+350,241,Paid Vacation,$360
+351,241,Paid Vacation,$1692
+352,242,Gym Membership,$579
+353,243,Transport Allowance,$1045
+354,243,Transport Allowance,$868
+355,245,Gym Membership,$1369
+356,246,Paid Vacation,$914
+357,247,Health Insurance,$1612
+358,247,Health Insurance,$1172
+359,247,Stock Options,23 units
+360,248,Paid Vacation,$980
+361,248,Transport Allowance,$1374
+362,249,Stock Options,46 units
+363,249,Health Insurance,$1866
+364,250,Transport Allowance,$858
+365,250,Stock Options,9 units
+366,250,Stock Options,15 units
+367,251,Health Insurance,$631
+368,251,Stock Options,97 units
+369,252,Health Insurance,$1062
+370,252,Stock Options,24 units
+371,252,Stock Options,73 units
+372,253,Health Insurance,$140
+373,253,Stock Options,94 units
+374,253,Gym Membership,$1426
+375,255,Health Insurance,$631
+376,255,Stock Options,36 units
+377,255,Gym Membership,$1806
+378,256,Health Insurance,$472
+379,256,Stock Options,52 units
+380,257,Health Insurance,$516
+381,257,Paid Vacation,$1522
+382,258,Stock Options,61 units
+383,258,Gym Membership,$1488
+384,259,Stock Options,12 units
+385,259,Transport Allowance,$1487
+386,260,Transport Allowance,$1064
+387,260,Paid Vacation,$238
+388,260,Gym Membership,$1541
+389,265,Gym Membership,$938
+390,265,Gym Membership,$405
+391,265,Transport Allowance,$824
+392,267,Gym Membership,$1049
+393,267,Paid Vacation,$474
+394,267,Paid Vacation,$1229
+395,269,Gym Membership,$796
+396,271,Stock Options,55 units
+397,272,Gym Membership,$439
+398,273,Stock Options,87 units
+399,273,Stock Options,8 units
+400,274,Health Insurance,$1581
+401,274,Paid Vacation,$1175
+402,275,Stock Options,86 units
+403,275,Paid Vacation,$976
+404,276,Paid Vacation,$349
+405,278,Transport Allowance,$1026
+406,278,Gym Membership,$1287
+407,278,Health Insurance,$1480
+408,279,Transport Allowance,$1639
+409,279,Transport Allowance,$526
+410,279,Stock Options,26 units
+411,280,Health Insurance,$794
+412,280,Gym Membership,$1700
+413,280,Paid Vacation,$744
+414,282,Health Insurance,$375
+415,282,Gym Membership,$274
+416,284,Paid Vacation,$477
+417,284,Transport Allowance,$709
+418,286,Health Insurance,$258
+419,286,Gym Membership,$1997
+420,287,Paid Vacation,$1358
+421,289,Gym Membership,$1287
+422,289,Health Insurance,$536
+423,290,Stock Options,34 units
+424,292,Paid Vacation,$237
+425,292,Stock Options,85 units
+426,292,Paid Vacation,$713
+427,294,Stock Options,87 units
+428,294,Gym Membership,$1593
+429,294,Gym Membership,$1972
+430,295,Paid Vacation,$979
+431,295,Gym Membership,$1310
+432,295,Stock Options,26 units
+433,296,Health Insurance,$1953
+434,299,Health Insurance,$1670
+435,300,Health Insurance,$589
+436,301,Transport Allowance,$533
+437,301,Health Insurance,$1357
+438,302,Gym Membership,$1643
+439,303,Transport Allowance,$1165
+440,305,Gym Membership,$653
+441,305,Paid Vacation,$1566
+442,305,Health Insurance,$1369
+443,306,Paid Vacation,$1729
+444,306,Transport Allowance,$1330
+445,308,Health Insurance,$1470
+446,308,Gym Membership,$260
+447,309,Health Insurance,$1640
+448,309,Stock Options,40 units
+449,309,Transport Allowance,$1242
+450,310,Gym Membership,$1848
+451,310,Stock Options,14 units
+452,312,Stock Options,58 units
+453,312,Gym Membership,$1631
+454,312,Paid Vacation,$1146
+455,313,Paid Vacation,$961
+456,313,Stock Options,73 units
+457,314,Paid Vacation,$359
+458,314,Paid Vacation,$886
+459,314,Gym Membership,$167
+460,316,Stock Options,32 units
+461,316,Health Insurance,$689
+462,316,Gym Membership,$1833
+463,317,Transport Allowance,$291
+464,320,Stock Options,44 units
+465,320,Transport Allowance,$1746
+466,320,Paid Vacation,$1428
+467,321,Stock Options,6 units
+468,322,Paid Vacation,$824
+469,322,Stock Options,4 units
+470,322,Transport Allowance,$918
+471,323,Health Insurance,$1111
+472,323,Gym Membership,$1307
+473,325,Paid Vacation,$798
+474,326,Health Insurance,$867
+475,326,Stock Options,96 units
+476,326,Health Insurance,$1905
+477,328,Stock Options,18 units
+478,329,Transport Allowance,$1919
+479,329,Paid Vacation,$791
+480,329,Paid Vacation,$1030
+481,330,Stock Options,93 units
+482,330,Gym Membership,$906
+483,330,Transport Allowance,$884
+484,333,Stock Options,10 units
+485,333,Paid Vacation,$1708
+486,335,Transport Allowance,$1574
+487,337,Health Insurance,$1121
+488,337,Paid Vacation,$1015
+489,338,Transport Allowance,$1553
+490,340,Transport Allowance,$335
+491,340,Stock Options,57 units
+492,340,Transport Allowance,$450
+493,343,Paid Vacation,$1769
+494,343,Health Insurance,$829
+495,343,Gym Membership,$1149
+496,345,Gym Membership,$830
+497,345,Gym Membership,$1662
+498,346,Paid Vacation,$1728
+499,347,Health Insurance,$1033
+500,347,Transport Allowance,$1787
+501,347,Gym Membership,$1849
+502,349,Health Insurance,$530
+503,350,Stock Options,56 units
+504,351,Paid Vacation,$1270
+505,351,Paid Vacation,$916
+506,352,Health Insurance,$1359
+507,352,Paid Vacation,$275
+508,352,Stock Options,41 units
+509,353,Transport Allowance,$1115
+510,353,Stock Options,65 units
+511,353,Health Insurance,$1639
+512,354,Transport Allowance,$792
+513,354,Health Insurance,$1058
+514,354,Gym Membership,$1570
+515,355,Transport Allowance,$938
+516,355,Paid Vacation,$343
+517,355,Gym Membership,$827
+518,356,Health Insurance,$1134
+519,356,Transport Allowance,$872
+520,358,Paid Vacation,$738
+521,358,Transport Allowance,$311
+522,358,Gym Membership,$1897
+523,361,Transport Allowance,$170
+524,361,Stock Options,35 units
+525,363,Health Insurance,$1069
+526,363,Transport Allowance,$189
+527,363,Health Insurance,$491
+528,366,Gym Membership,$512
+529,366,Transport Allowance,$1530
+530,367,Gym Membership,$1425
+531,368,Gym Membership,$523
+532,369,Paid Vacation,$1012
+533,369,Health Insurance,$115
+534,370,Transport Allowance,$201
+535,370,Paid Vacation,$1019
+536,370,Gym Membership,$335
+537,371,Paid Vacation,$792
+538,371,Health Insurance,$1147
+539,372,Transport Allowance,$914
+540,372,Health Insurance,$1043
+541,372,Gym Membership,$1443
+542,373,Stock Options,8 units
+543,375,Transport Allowance,$1234
+544,376,Transport Allowance,$592
+545,376,Gym Membership,$1198
+546,376,Transport Allowance,$282
+547,377,Paid Vacation,$331
+548,377,Stock Options,39 units
+549,377,Stock Options,97 units
+550,378,Health Insurance,$1903
+551,379,Transport Allowance,$1613
+552,379,Stock Options,76 units
+553,379,Health Insurance,$1176
+554,380,Health Insurance,$1984
+555,380,Gym Membership,$996
+556,381,Transport Allowance,$510
+557,381,Health Insurance,$131
+558,382,Paid Vacation,$214
+559,382,Transport Allowance,$785
+560,383,Transport Allowance,$1203
+561,383,Paid Vacation,$1698
+562,386,Gym Membership,$1749
+563,387,Transport Allowance,$417
+564,387,Gym Membership,$194
+565,387,Transport Allowance,$1066
+566,388,Paid Vacation,$109
+567,388,Stock Options,93 units
+568,388,Transport Allowance,$1578
+569,389,Transport Allowance,$1874
+570,390,Health Insurance,$1174
+571,392,Stock Options,16 units
+572,392,Stock Options,5 units
+573,393,Paid Vacation,$295
+574,394,Transport Allowance,$610
+575,394,Health Insurance,$302
+576,397,Stock Options,19 units
+577,397,Paid Vacation,$772
+578,397,Stock Options,27 units
+579,399,Transport Allowance,$1470
+580,399,Transport Allowance,$1846
+581,405,Paid Vacation,$904
+582,406,Transport Allowance,$1733
+583,406,Paid Vacation,$1209
+584,407,Health Insurance,$1530
+585,407,Health Insurance,$757
+586,408,Stock Options,13 units
+587,408,Gym Membership,$530
+588,408,Health Insurance,$1050
+589,409,Stock Options,69 units
+590,409,Stock Options,61 units
+591,410,Paid Vacation,$1765
+592,410,Transport Allowance,$1481
+593,412,Transport Allowance,$1203
+594,412,Stock Options,47 units
+595,413,Paid Vacation,$378
+596,413,Transport Allowance,$939
+597,413,Transport Allowance,$1385
+598,414,Gym Membership,$1598
+599,414,Transport Allowance,$1630
+600,415,Paid Vacation,$726
+601,415,Health Insurance,$770
+602,415,Gym Membership,$1174
+603,416,Health Insurance,$600
+604,417,Paid Vacation,$1428
+605,417,Gym Membership,$311
+606,417,Stock Options,28 units
+607,420,Paid Vacation,$858
+608,421,Gym Membership,$1190
+609,423,Health Insurance,$317
+610,427,Gym Membership,$1556
+611,427,Paid Vacation,$380
+612,428,Health Insurance,$1215
+613,429,Gym Membership,$1833
+614,429,Transport Allowance,$779
+615,429,Health Insurance,$777
+616,430,Transport Allowance,$1592
+617,430,Gym Membership,$1826
+618,432,Transport Allowance,$339
+619,432,Stock Options,66 units
+620,433,Health Insurance,$971
+621,433,Transport Allowance,$1907
+622,433,Gym Membership,$1685
+623,434,Transport Allowance,$1264
+624,434,Stock Options,28 units
+625,436,Paid Vacation,$319
+626,437,Gym Membership,$401
+627,439,Paid Vacation,$484
+628,439,Gym Membership,$1600
+629,441,Health Insurance,$907
+630,441,Stock Options,41 units
+631,441,Health Insurance,$1044
+632,442,Health Insurance,$1188
+633,442,Stock Options,11 units
+634,442,Stock Options,36 units
+635,443,Transport Allowance,$125
+636,443,Transport Allowance,$1816
+637,443,Stock Options,81 units
+638,444,Gym Membership,$877
+639,445,Health Insurance,$972
+640,447,Transport Allowance,$1871
+641,447,Paid Vacation,$1610
+642,447,Transport Allowance,$312
+643,450,Health Insurance,$203
+644,450,Stock Options,33 units
+645,451,Gym Membership,$101
+646,453,Paid Vacation,$819
+647,454,Paid Vacation,$1231
+648,454,Health Insurance,$463
+649,455,Health Insurance,$1634
+650,456,Paid Vacation,$1510
+651,457,Transport Allowance,$1907
+652,458,Stock Options,66 units
+653,459,Stock Options,86 units
+654,460,Gym Membership,$1113
+655,460,Health Insurance,$184
+656,461,Stock Options,79 units
+657,461,Gym Membership,$1263
+658,461,Gym Membership,$903
+659,462,Health Insurance,$1881
+660,463,Paid Vacation,$416
+661,464,Stock Options,90 units
+662,464,Stock Options,32 units
+663,464,Gym Membership,$1249
+664,465,Paid Vacation,$1509
+665,465,Health Insurance,$586
+666,465,Paid Vacation,$1424
+667,468,Transport Allowance,$310
+668,468,Health Insurance,$1612
+669,469,Stock Options,27 units
+670,469,Stock Options,59 units
+671,469,Transport Allowance,$1706
+672,470,Transport Allowance,$146
+673,470,Paid Vacation,$1033
+674,470,Health Insurance,$1360
+675,471,Gym Membership,$609
+676,471,Gym Membership,$1842
+677,472,Gym Membership,$714
+678,473,Stock Options,33 units
+679,474,Gym Membership,$158
+680,474,Gym Membership,$370
+681,475,Health Insurance,$387
+682,476,Gym Membership,$513
+683,476,Stock Options,97 units
+684,476,Gym Membership,$178
+685,477,Transport Allowance,$1995
+686,477,Stock Options,65 units
+687,478,Transport Allowance,$1553
+688,478,Gym Membership,$1902
+689,478,Gym Membership,$1232
+690,479,Paid Vacation,$1326
+691,481,Health Insurance,$1788
+692,481,Health Insurance,$1073
+693,481,Health Insurance,$1892
+694,482,Gym Membership,$635
+695,482,Gym Membership,$853
+696,483,Stock Options,92 units
+697,483,Paid Vacation,$1637
+698,483,Gym Membership,$1787
+699,484,Transport Allowance,$1091
+700,485,Transport Allowance,$1802
+701,485,Transport Allowance,$921
+702,487,Transport Allowance,$701
+703,487,Transport Allowance,$715
+704,489,Health Insurance,$1231
+705,489,Stock Options,12 units
+706,489,Paid Vacation,$1194
+707,490,Health Insurance,$475
+708,490,Transport Allowance,$1694
+709,490,Paid Vacation,$1502
+710,493,Gym Membership,$942
+711,493,Health Insurance,$1595
+712,495,Gym Membership,$1007
+713,498,Transport Allowance,$1223
+714,499,Transport Allowance,$391
+715,499,Health Insurance,$1908
+716,500,Stock Options,5 units
+717,500,Transport Allowance,$440
+718,500,Health Insurance,$1852
+719,502,Stock Options,75 units
+720,502,Stock Options,45 units
+721,502,Stock Options,14 units
+722,503,Stock Options,89 units
+723,507,Transport Allowance,$303
+724,508,Stock Options,33 units
+725,508,Gym Membership,$767
+726,509,Stock Options,52 units
+727,509,Health Insurance,$295
+728,510,Stock Options,50 units
+729,513,Transport Allowance,$810
+730,513,Health Insurance,$1591
+731,513,Health Insurance,$638
+732,514,Transport Allowance,$228
+733,514,Paid Vacation,$1815
+734,516,Health Insurance,$503
+735,517,Gym Membership,$152
+736,517,Transport Allowance,$1775
+737,519,Paid Vacation,$1544
+738,519,Transport Allowance,$1606
+739,520,Stock Options,74 units
+740,520,Health Insurance,$706
+741,520,Gym Membership,$1878
+742,521,Paid Vacation,$921
+743,521,Paid Vacation,$1004
+744,521,Gym Membership,$556
+745,522,Stock Options,20 units
+746,524,Gym Membership,$1532
+747,525,Gym Membership,$143
+748,525,Stock Options,18 units
+749,526,Transport Allowance,$1227
+750,529,Transport Allowance,$317
+751,529,Gym Membership,$523
+752,530,Health Insurance,$1068
+753,533,Health Insurance,$1302
+754,533,Health Insurance,$534
+755,534,Paid Vacation,$1659
+756,534,Health Insurance,$216
+757,535,Gym Membership,$1709
+758,535,Paid Vacation,$727
+759,536,Stock Options,31 units
+760,536,Transport Allowance,$129
+761,536,Transport Allowance,$376
+762,537,Health Insurance,$1281
+763,537,Health Insurance,$773
+764,538,Stock Options,21 units
+765,538,Stock Options,37 units
+766,538,Gym Membership,$568
+767,539,Stock Options,81 units
+768,539,Paid Vacation,$428
+769,540,Health Insurance,$421
+770,540,Health Insurance,$1875
+771,540,Stock Options,76 units
+772,543,Transport Allowance,$660
+773,545,Paid Vacation,$1059
+774,547,Gym Membership,$1352
+775,547,Stock Options,77 units
+776,548,Health Insurance,$1067
+777,550,Paid Vacation,$1060
+778,550,Health Insurance,$1844
+779,550,Gym Membership,$930
+780,551,Paid Vacation,$250
+781,551,Health Insurance,$1042
+782,551,Transport Allowance,$859
+783,553,Health Insurance,$1427
+784,553,Paid Vacation,$1391
+785,554,Gym Membership,$1377
+786,554,Gym Membership,$361
+787,556,Health Insurance,$1015
+788,556,Paid Vacation,$803
+789,556,Paid Vacation,$698
+790,557,Health Insurance,$872
+791,557,Stock Options,19 units
+792,557,Transport Allowance,$1560
+793,559,Stock Options,93 units
+794,559,Stock Options,16 units
+795,561,Transport Allowance,$1986
+796,561,Transport Allowance,$1926
+797,562,Transport Allowance,$224
+798,562,Stock Options,26 units
+799,562,Paid Vacation,$730
+800,563,Transport Allowance,$1799
+801,563,Stock Options,62 units
+802,563,Gym Membership,$906
+803,564,Health Insurance,$787
+804,564,Health Insurance,$1410
+805,565,Paid Vacation,$1559
+806,565,Paid Vacation,$1961
+807,566,Paid Vacation,$1989
+808,568,Gym Membership,$367
+809,568,Stock Options,99 units
+810,570,Transport Allowance,$804
+811,570,Stock Options,75 units
+812,570,Stock Options,38 units
+813,571,Stock Options,50 units
+814,573,Paid Vacation,$642
+815,573,Paid Vacation,$1357
+816,574,Gym Membership,$872
+817,574,Transport Allowance,$1357
+818,575,Paid Vacation,$1882
+819,575,Gym Membership,$1130
+820,575,Transport Allowance,$423
+821,578,Health Insurance,$1785
+822,578,Health Insurance,$1058
+823,578,Transport Allowance,$821
+824,579,Gym Membership,$997
+825,579,Health Insurance,$1712
+826,579,Paid Vacation,$729
+827,581,Paid Vacation,$432
+828,581,Transport Allowance,$1145
+829,581,Stock Options,72 units
+830,582,Paid Vacation,$1143
+831,583,Transport Allowance,$1390
+832,583,Stock Options,32 units
+833,584,Gym Membership,$533
+834,584,Health Insurance,$626
+835,585,Paid Vacation,$1298
+836,585,Stock Options,38 units
+837,590,Paid Vacation,$867
+838,591,Transport Allowance,$979
+839,591,Health Insurance,$667
+840,591,Transport Allowance,$1620
+841,592,Transport Allowance,$1084
+842,592,Health Insurance,$1362
+843,592,Health Insurance,$926
+844,593,Stock Options,41 units
+845,593,Gym Membership,$900
+846,594,Health Insurance,$1991
+847,594,Stock Options,97 units
+848,594,Health Insurance,$1299
+849,595,Transport Allowance,$857
+850,595,Health Insurance,$434
+851,598,Health Insurance,$617
+852,598,Health Insurance,$1452
+853,598,Transport Allowance,$561
+854,599,Stock Options,76 units
+855,599,Health Insurance,$471
+856,601,Paid Vacation,$1170
+857,601,Paid Vacation,$1528
+858,603,Transport Allowance,$471
+859,603,Paid Vacation,$758
+860,604,Paid Vacation,$1933
+861,604,Transport Allowance,$621
+862,605,Transport Allowance,$1329
+863,606,Paid Vacation,$1109
+864,606,Health Insurance,$836
+865,606,Health Insurance,$571
+866,608,Transport Allowance,$1388
+867,608,Paid Vacation,$999
+868,610,Paid Vacation,$1427
+869,610,Stock Options,77 units
+870,613,Paid Vacation,$433
+871,613,Transport Allowance,$793
+872,614,Health Insurance,$563
+873,614,Transport Allowance,$1425
+874,615,Paid Vacation,$1148
+875,615,Paid Vacation,$1511
+876,617,Gym Membership,$108
+877,617,Health Insurance,$1607
+878,618,Stock Options,6 units
+879,619,Stock Options,91 units
+880,619,Transport Allowance,$903
+881,620,Paid Vacation,$1470
+882,620,Health Insurance,$1148
+883,620,Transport Allowance,$528
+884,621,Health Insurance,$195
+885,621,Paid Vacation,$1574
+886,622,Gym Membership,$1754
+887,623,Paid Vacation,$1949
+888,623,Health Insurance,$1644
+889,623,Transport Allowance,$1436
+890,625,Stock Options,33 units
+891,626,Transport Allowance,$1248
+892,626,Stock Options,14 units
+893,626,Paid Vacation,$463
+894,627,Health Insurance,$1886
+895,627,Transport Allowance,$829
+896,628,Gym Membership,$438
+897,628,Health Insurance,$1285
+898,628,Paid Vacation,$1053
+899,629,Stock Options,93 units
+900,631,Transport Allowance,$647
+901,632,Paid Vacation,$721
+902,632,Transport Allowance,$1350
+903,632,Health Insurance,$209
+904,633,Paid Vacation,$161
+905,633,Gym Membership,$1974
+906,634,Health Insurance,$227
+907,634,Transport Allowance,$1280
+908,637,Gym Membership,$297
+909,637,Transport Allowance,$1831
+910,637,Transport Allowance,$1737
+911,638,Stock Options,38 units
+912,639,Gym Membership,$1746
+913,639,Transport Allowance,$1189
+914,640,Health Insurance,$1088
+915,640,Stock Options,79 units
+916,640,Gym Membership,$180
+917,641,Transport Allowance,$696
+918,641,Stock Options,91 units
+919,641,Health Insurance,$911
+920,642,Stock Options,18 units
+921,642,Health Insurance,$1207
+922,643,Health Insurance,$1332
+923,644,Gym Membership,$378
+924,645,Paid Vacation,$378
+925,645,Gym Membership,$115
+926,646,Health Insurance,$1402
+927,646,Health Insurance,$152
+928,646,Transport Allowance,$425
+929,649,Paid Vacation,$1108
+930,649,Stock Options,4 units
+931,649,Transport Allowance,$1042
+932,650,Stock Options,93 units
+933,650,Health Insurance,$1349
+934,651,Stock Options,25 units
+935,653,Stock Options,21 units
+936,653,Stock Options,94 units
+937,653,Transport Allowance,$1718
+938,654,Stock Options,13 units
+939,656,Gym Membership,$953
+940,656,Health Insurance,$1134
+941,656,Health Insurance,$620
+942,657,Paid Vacation,$656
+943,657,Health Insurance,$371
+944,658,Health Insurance,$596
+945,659,Transport Allowance,$545
+946,659,Paid Vacation,$101
+947,660,Gym Membership,$906
+948,660,Gym Membership,$827
+949,661,Gym Membership,$578
+950,661,Gym Membership,$503
+951,661,Stock Options,48 units
+952,662,Health Insurance,$857
+953,663,Gym Membership,$1495
+954,663,Paid Vacation,$1042
+955,664,Health Insurance,$1600
+956,664,Stock Options,65 units
+957,665,Paid Vacation,$783
+958,667,Stock Options,6 units
+959,667,Health Insurance,$809
+960,668,Stock Options,57 units
+961,669,Paid Vacation,$1135
+962,670,Gym Membership,$1957
+963,670,Paid Vacation,$863
+964,670,Stock Options,5 units
+965,671,Gym Membership,$832
+966,672,Stock Options,71 units
+967,672,Stock Options,65 units
+968,675,Transport Allowance,$759
+969,676,Transport Allowance,$387
+970,677,Gym Membership,$847
+971,677,Gym Membership,$1327
+972,679,Gym Membership,$1992
+973,680,Stock Options,99 units
+974,680,Health Insurance,$1114
+975,681,Health Insurance,$898
+976,681,Paid Vacation,$228
+977,681,Transport Allowance,$1130
+978,682,Stock Options,3 units
+979,683,Transport Allowance,$102
+980,683,Paid Vacation,$975
+981,683,Paid Vacation,$1309
+982,684,Health Insurance,$597
+983,684,Gym Membership,$1082
+984,685,Transport Allowance,$1186
+985,685,Health Insurance,$860
+986,686,Transport Allowance,$981
+987,687,Health Insurance,$725
+988,688,Health Insurance,$755
+989,689,Transport Allowance,$272
+990,690,Gym Membership,$1429
+991,690,Stock Options,19 units
+992,693,Paid Vacation,$1592
+993,694,Transport Allowance,$228
+994,694,Gym Membership,$164
+995,694,Gym Membership,$331
+996,695,Transport Allowance,$1176
+997,695,Transport Allowance,$206
+998,695,Gym Membership,$1051
+999,697,Gym Membership,$873
+1000,698,Gym Membership,$1499
+1001,698,Gym Membership,$844
+1002,698,Transport Allowance,$934
+1003,699,Paid Vacation,$1873
+1004,699,Transport Allowance,$681
+1005,699,Paid Vacation,$917
+1006,700,Transport Allowance,$1112
+1007,700,Gym Membership,$1244
+1008,700,Gym Membership,$1425
+1009,701,Paid Vacation,$1779
+1010,702,Health Insurance,$1823
+1011,703,Gym Membership,$1864
+1012,703,Transport Allowance,$1529
+1013,704,Stock Options,97 units
+1014,706,Transport Allowance,$561
+1015,706,Health Insurance,$1289
+1016,708,Transport Allowance,$770
+1017,710,Stock Options,56 units
+1018,711,Health Insurance,$503
+1019,711,Transport Allowance,$311
+1020,711,Health Insurance,$846
+1021,712,Gym Membership,$1885
+1022,712,Transport Allowance,$529
+1023,712,Health Insurance,$776
+1024,713,Stock Options,92 units
+1025,713,Transport Allowance,$515
+1026,713,Stock Options,91 units
+1027,714,Gym Membership,$1498
+1028,714,Gym Membership,$1771
+1029,714,Gym Membership,$1659
+1030,715,Transport Allowance,$599
+1031,716,Paid Vacation,$901
+1032,716,Stock Options,17 units
+1033,716,Paid Vacation,$1325
+1034,718,Health Insurance,$895
+1035,720,Transport Allowance,$475
+1036,720,Gym Membership,$1905
+1037,721,Paid Vacation,$175
+1038,722,Transport Allowance,$1741
+1039,722,Paid Vacation,$1505
+1040,722,Paid Vacation,$1153
+1041,723,Stock Options,73 units
+1042,724,Transport Allowance,$1898
+1043,724,Stock Options,74 units
+1044,725,Transport Allowance,$737
+1045,726,Stock Options,90 units
+1046,727,Stock Options,21 units
+1047,728,Health Insurance,$1104
+1048,729,Transport Allowance,$1627
+1049,731,Stock Options,19 units
+1050,731,Transport Allowance,$660
+1051,731,Paid Vacation,$756
+1052,732,Gym Membership,$319
+1053,732,Stock Options,94 units
+1054,733,Paid Vacation,$1806
+1055,735,Gym Membership,$1034
+1056,735,Paid Vacation,$1155
+1057,736,Stock Options,93 units
+1058,737,Paid Vacation,$1351
+1059,738,Gym Membership,$1214
+1060,738,Stock Options,1 units
+1061,739,Health Insurance,$902
+1062,740,Paid Vacation,$1649
+1063,740,Health Insurance,$1371
+1064,740,Gym Membership,$653
+1065,741,Paid Vacation,$1674
+1066,741,Gym Membership,$996
+1067,742,Paid Vacation,$1477
+1068,742,Gym Membership,$1586
+1069,742,Transport Allowance,$1697
+1070,743,Paid Vacation,$486
+1071,744,Transport Allowance,$1203
+1072,744,Stock Options,49 units
+1073,745,Paid Vacation,$171
+1074,746,Health Insurance,$796
+1075,746,Paid Vacation,$277
+1076,746,Health Insurance,$678
+1077,747,Stock Options,29 units
+1078,748,Stock Options,64 units
+1079,748,Gym Membership,$952
+1080,748,Gym Membership,$267
+1081,749,Transport Allowance,$887
+1082,749,Stock Options,47 units
+1083,749,Stock Options,2 units
+1084,751,Stock Options,18 units
+1085,751,Stock Options,53 units
+1086,751,Health Insurance,$1485
+1087,752,Health Insurance,$1913
+1088,752,Gym Membership,$336
+1089,754,Transport Allowance,$667
+1090,755,Health Insurance,$1410
+1091,755,Paid Vacation,$453
+1092,756,Stock Options,28 units
+1093,756,Health Insurance,$1241
+1094,757,Stock Options,43 units
+1095,757,Transport Allowance,$416
+1096,757,Gym Membership,$1353
+1097,758,Gym Membership,$1354
+1098,759,Gym Membership,$105
+1099,761,Gym Membership,$1108
+1100,761,Transport Allowance,$1273
+1101,761,Paid Vacation,$1278
+1102,762,Stock Options,83 units
+1103,762,Stock Options,78 units
+1104,762,Stock Options,15 units
+1105,763,Paid Vacation,$1294
+1106,763,Paid Vacation,$311
+1107,763,Transport Allowance,$1209
+1108,764,Gym Membership,$1038
+1109,764,Gym Membership,$569
+1110,764,Stock Options,69 units
+1111,767,Transport Allowance,$138
+1112,767,Health Insurance,$832
+1113,769,Stock Options,95 units
+1114,769,Gym Membership,$1444
+1115,769,Health Insurance,$1382
+1116,770,Health Insurance,$1442
+1117,770,Stock Options,21 units
+1118,770,Health Insurance,$1257
+1119,771,Transport Allowance,$541
+1120,771,Stock Options,69 units
+1121,772,Health Insurance,$1553
+1122,772,Gym Membership,$926
+1123,772,Gym Membership,$1169
+1124,773,Paid Vacation,$1797
+1125,773,Health Insurance,$714
+1126,774,Transport Allowance,$686
+1127,775,Stock Options,19 units
+1128,775,Stock Options,73 units
+1129,776,Paid Vacation,$598
+1130,777,Paid Vacation,$1560
+1131,778,Paid Vacation,$1311
+1132,778,Transport Allowance,$338
+1133,779,Stock Options,86 units
+1134,780,Gym Membership,$1826
+1135,780,Gym Membership,$1127
+1136,780,Health Insurance,$558
+1137,782,Stock Options,50 units
+1138,782,Stock Options,17 units
+1139,784,Paid Vacation,$1405
+1140,784,Health Insurance,$1657
+1141,785,Paid Vacation,$1542
+1142,785,Gym Membership,$1072
+1143,786,Transport Allowance,$639
+1144,786,Stock Options,61 units
+1145,787,Gym Membership,$547
+1146,788,Transport Allowance,$1679
+1147,790,Transport Allowance,$1460
+1148,790,Stock Options,69 units
+1149,790,Transport Allowance,$120
+1150,791,Health Insurance,$1814
+1151,791,Gym Membership,$791
+1152,791,Paid Vacation,$344
+1153,792,Transport Allowance,$1079
+1154,793,Gym Membership,$1337
+1155,793,Health Insurance,$1109
+1156,794,Health Insurance,$932
+1157,795,Health Insurance,$1806
+1158,795,Transport Allowance,$246
+1159,795,Gym Membership,$564
+1160,796,Stock Options,6 units
+1161,796,Paid Vacation,$475
+1162,797,Health Insurance,$1322
+1163,797,Stock Options,33 units
+1164,798,Stock Options,57 units
+1165,798,Transport Allowance,$1295
+1166,798,Gym Membership,$1548
+1167,799,Health Insurance,$553
+1168,799,Health Insurance,$197
+1169,800,Paid Vacation,$826
+1170,801,Health Insurance,$1016
+1171,802,Gym Membership,$684
+1172,802,Paid Vacation,$631
+1173,802,Transport Allowance,$301
+1174,803,Gym Membership,$1229
+1175,803,Paid Vacation,$1414
+1176,803,Transport Allowance,$836
+1177,804,Gym Membership,$271
+1178,804,Transport Allowance,$1715
+1179,804,Gym Membership,$1505
+1180,805,Health Insurance,$1423
+1181,805,Gym Membership,$155
+1182,806,Paid Vacation,$1334
+1183,807,Health Insurance,$373
+1184,807,Paid Vacation,$1860
+1185,807,Gym Membership,$110
+1186,809,Stock Options,55 units
+1187,809,Transport Allowance,$1294
+1188,810,Paid Vacation,$320
+1189,810,Health Insurance,$1769
+1190,811,Transport Allowance,$354
+1191,811,Stock Options,62 units
+1192,816,Paid Vacation,$837
+1193,816,Health Insurance,$293
+1194,816,Health Insurance,$1779
+1195,818,Transport Allowance,$1575
+1196,818,Transport Allowance,$595
+1197,818,Health Insurance,$244
+1198,820,Transport Allowance,$1696
+1199,821,Gym Membership,$1305
+1200,821,Health Insurance,$1477
+1201,823,Transport Allowance,$108
+1202,823,Gym Membership,$1143
+1203,824,Health Insurance,$106
+1204,824,Health Insurance,$1007
+1205,824,Stock Options,49 units
+1206,825,Health Insurance,$1555
+1207,825,Transport Allowance,$203
+1208,826,Paid Vacation,$1004
+1209,827,Paid Vacation,$185
+1210,827,Transport Allowance,$1286
+1211,828,Paid Vacation,$243
+1212,828,Health Insurance,$1416
+1213,828,Paid Vacation,$1767
+1214,829,Gym Membership,$752
+1215,829,Health Insurance,$283
+1216,829,Transport Allowance,$929
+1217,832,Paid Vacation,$1528
+1218,832,Health Insurance,$839
+1219,832,Transport Allowance,$224
+1220,833,Stock Options,5 units
+1221,840,Health Insurance,$857
+1222,842,Paid Vacation,$433
+1223,843,Paid Vacation,$1170
+1224,845,Stock Options,24 units
+1225,845,Stock Options,95 units
+1226,846,Gym Membership,$1470
+1227,846,Paid Vacation,$1435
+1228,850,Health Insurance,$980
+1229,851,Health Insurance,$1451
+1230,851,Health Insurance,$1168
+1231,852,Gym Membership,$344
+1232,852,Health Insurance,$1965
+1233,852,Transport Allowance,$146
+1234,853,Stock Options,89 units
+1235,854,Health Insurance,$1647
+1236,854,Stock Options,40 units
+1237,854,Gym Membership,$1345
+1238,855,Health Insurance,$968
+1239,856,Paid Vacation,$1637
+1240,857,Gym Membership,$664
+1241,857,Health Insurance,$713
+1242,858,Stock Options,87 units
+1243,858,Gym Membership,$633
+1244,859,Gym Membership,$659
+1245,861,Stock Options,46 units
+1246,861,Health Insurance,$1990
+1247,862,Transport Allowance,$586
+1248,862,Health Insurance,$1318
+1249,863,Gym Membership,$1193
+1250,863,Paid Vacation,$858
+1251,863,Paid Vacation,$345
+1252,864,Transport Allowance,$1115
+1253,864,Health Insurance,$683
+1254,864,Paid Vacation,$1126
+1255,865,Health Insurance,$910
+1256,865,Health Insurance,$1983
+1257,865,Stock Options,49 units
+1258,866,Stock Options,18 units
+1259,866,Transport Allowance,$1984
+1260,867,Gym Membership,$1432
+1261,867,Health Insurance,$593
+1262,869,Transport Allowance,$505
+1263,870,Health Insurance,$926
+1264,871,Gym Membership,$1650
+1265,872,Gym Membership,$655
+1266,872,Stock Options,35 units
+1267,875,Gym Membership,$1075
+1268,876,Stock Options,79 units
+1269,877,Transport Allowance,$843
+1270,878,Transport Allowance,$114
+1271,878,Health Insurance,$1445
+1272,879,Gym Membership,$102
+1273,879,Stock Options,15 units
+1274,881,Health Insurance,$599
+1275,882,Health Insurance,$612
+1276,882,Stock Options,27 units
+1277,882,Gym Membership,$1279
+1278,883,Gym Membership,$1901
+1279,884,Stock Options,58 units
+1280,884,Paid Vacation,$1681
+1281,884,Health Insurance,$1422
+1282,886,Transport Allowance,$1165
+1283,886,Paid Vacation,$1593
+1284,886,Stock Options,76 units
+1285,889,Gym Membership,$1796
+1286,889,Health Insurance,$1388
+1287,889,Paid Vacation,$1919
+1288,890,Stock Options,53 units
+1289,892,Stock Options,85 units
+1290,892,Gym Membership,$353
+1291,893,Stock Options,23 units
+1292,893,Paid Vacation,$1639
+1293,894,Gym Membership,$1709
+1294,894,Paid Vacation,$278
+1295,895,Stock Options,65 units
+1296,895,Paid Vacation,$1181
+1297,895,Transport Allowance,$213
+1298,898,Stock Options,18 units
+1299,899,Health Insurance,$1155
+1300,899,Gym Membership,$1774
+1301,900,Gym Membership,$1777
+1302,901,Transport Allowance,$1793
+1303,903,Gym Membership,$1265
+1304,904,Stock Options,41 units
+1305,904,Transport Allowance,$1990
+1306,906,Transport Allowance,$1975
+1307,907,Stock Options,9 units
+1308,909,Paid Vacation,$1700
+1309,909,Stock Options,93 units
+1310,910,Stock Options,97 units
+1311,910,Transport Allowance,$1243
+1312,911,Stock Options,30 units
+1313,911,Health Insurance,$1957
+1314,911,Health Insurance,$1979
+1315,912,Paid Vacation,$1811
+1316,912,Paid Vacation,$1178
+1317,912,Stock Options,9 units
+1318,914,Stock Options,26 units
+1319,914,Transport Allowance,$1109
+1320,914,Paid Vacation,$833
+1321,915,Gym Membership,$647
+1322,915,Transport Allowance,$434
+1323,916,Transport Allowance,$752
+1324,917,Paid Vacation,$635
+1325,918,Health Insurance,$338
+1326,919,Stock Options,31 units
+1327,919,Gym Membership,$1232
+1328,920,Health Insurance,$109
+1329,920,Stock Options,97 units
+1330,920,Transport Allowance,$1691
+1331,921,Paid Vacation,$548
+1332,921,Transport Allowance,$927
+1333,923,Transport Allowance,$913
+1334,923,Stock Options,87 units
+1335,924,Stock Options,42 units
+1336,924,Stock Options,27 units
+1337,927,Stock Options,15 units
+1338,928,Gym Membership,$1189
+1339,928,Gym Membership,$295
+1340,928,Transport Allowance,$242
+1341,929,Transport Allowance,$1954
+1342,929,Health Insurance,$1564
+1343,929,Stock Options,55 units
+1344,930,Stock Options,62 units
+1345,930,Paid Vacation,$126
+1346,931,Gym Membership,$1271
+1347,931,Transport Allowance,$1997
+1348,931,Gym Membership,$1579
+1349,932,Health Insurance,$1462
+1350,932,Health Insurance,$1207
+1351,933,Health Insurance,$1601
+1352,934,Stock Options,9 units
+1353,934,Stock Options,61 units
+1354,934,Health Insurance,$1177
+1355,935,Stock Options,35 units
+1356,935,Stock Options,75 units
+1357,938,Transport Allowance,$485
+1358,938,Paid Vacation,$1131
+1359,938,Gym Membership,$1468
+1360,939,Transport Allowance,$296
+1361,939,Transport Allowance,$663
+1362,939,Gym Membership,$1377
+1363,940,Transport Allowance,$396
+1364,940,Transport Allowance,$1762
+1365,940,Stock Options,17 units
+1366,941,Transport Allowance,$1460
+1367,941,Transport Allowance,$1638
+1368,941,Health Insurance,$1903
+1369,942,Stock Options,49 units
+1370,942,Health Insurance,$1434
+1371,945,Gym Membership,$1306
+1372,945,Health Insurance,$622
+1373,945,Stock Options,1 units
+1374,946,Gym Membership,$1563
+1375,947,Paid Vacation,$1191
+1376,949,Transport Allowance,$362
+1377,949,Transport Allowance,$1698
+1378,950,Health Insurance,$838
+1379,950,Stock Options,73 units
+1380,951,Gym Membership,$1689
+1381,952,Health Insurance,$1505
+1382,952,Paid Vacation,$679
+1383,952,Transport Allowance,$257
+1384,953,Stock Options,62 units
+1385,953,Paid Vacation,$1265
+1386,955,Transport Allowance,$1751
+1387,956,Transport Allowance,$755
+1388,956,Health Insurance,$713
+1389,957,Transport Allowance,$1516
+1390,957,Stock Options,81 units
+1391,958,Paid Vacation,$1269
+1392,958,Paid Vacation,$911
+1393,958,Stock Options,57 units
+1394,959,Transport Allowance,$1119
+1395,960,Health Insurance,$199
+1396,960,Gym Membership,$1428
+1397,961,Gym Membership,$681
+1398,963,Paid Vacation,$869
+1399,963,Gym Membership,$1730
+1400,963,Transport Allowance,$841
+1401,965,Gym Membership,$1758
+1402,965,Transport Allowance,$1416
+1403,965,Stock Options,21 units
+1404,967,Paid Vacation,$164
+1405,968,Health Insurance,$782
+1406,968,Paid Vacation,$726
+1407,968,Paid Vacation,$301
+1408,969,Transport Allowance,$442
+1409,969,Paid Vacation,$1340
+1410,969,Gym Membership,$1743
+1411,970,Stock Options,97 units
+1412,970,Transport Allowance,$366
+1413,970,Paid Vacation,$1655
+1414,971,Transport Allowance,$789
+1415,971,Gym Membership,$1882
+1416,971,Gym Membership,$344
+1417,973,Paid Vacation,$1774
+1418,973,Transport Allowance,$1494
+1419,974,Stock Options,5 units
+1420,976,Gym Membership,$1139
+1421,976,Health Insurance,$877
+1422,976,Stock Options,7 units
+1423,978,Stock Options,45 units
+1424,978,Paid Vacation,$1293
+1425,979,Gym Membership,$751
+1426,980,Gym Membership,$1652
+1427,980,Paid Vacation,$484
+1428,980,Health Insurance,$1949
+1429,981,Gym Membership,$1951
+1430,981,Stock Options,56 units
+1431,981,Paid Vacation,$1210
+1432,982,Paid Vacation,$628
+1433,983,Gym Membership,$1351
+1434,983,Stock Options,39 units
+1435,983,Transport Allowance,$290
+1436,984,Stock Options,1 units
+1437,985,Health Insurance,$1072
+1438,986,Gym Membership,$686
+1439,986,Transport Allowance,$1220
+1440,986,Transport Allowance,$1748
+1441,987,Transport Allowance,$1014
+1442,987,Transport Allowance,$1683
+1443,987,Health Insurance,$1537
+1444,988,Stock Options,91 units
+1445,988,Transport Allowance,$560
+1446,989,Transport Allowance,$1898
+1447,989,Transport Allowance,$1294
+1448,989,Transport Allowance,$1524
+1449,990,Stock Options,89 units
+1450,990,Stock Options,54 units
+1451,991,Gym Membership,$1625
+1452,991,Health Insurance,$719
+1453,991,Stock Options,53 units
+1454,992,Gym Membership,$994
+1455,993,Paid Vacation,$1172
+1456,993,Paid Vacation,$744
+1457,994,Stock Options,100 units
+1458,994,Health Insurance,$1711
+1459,996,Transport Allowance,$1021
+1460,996,Stock Options,98 units
+1461,997,Gym Membership,$254
+1462,1000,Transport Allowance,$1637
+1463,1000,Health Insurance,$1445
